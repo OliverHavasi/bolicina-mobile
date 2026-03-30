@@ -9,10 +9,14 @@ export default {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        "2xl": "1280px",
       },
     },
     extend: {
+      fontFamily: {
+        heading: ['"Cormorant Garamond"', '"Playfair Display"', 'Georgia', 'serif'],
+        body: ['Inter', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -47,6 +51,36 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Bolicina tokens
+        parchment: "hsl(var(--color-parchment))",
+        cream: {
+          DEFAULT: "hsl(var(--color-cream))",
+          deep: "hsl(var(--color-cream-deep))",
+        },
+        stone: {
+          DEFAULT: "hsl(var(--color-stone))",
+          mid: "hsl(var(--color-stone-mid))",
+        },
+        gold: {
+          DEFAULT: "hsl(var(--color-gold))",
+          light: "hsl(var(--color-gold-light))",
+          deep: "hsl(var(--color-gold-deep))",
+          tint: "hsl(var(--color-gold-tint))",
+        },
+        forest: {
+          DEFAULT: "hsl(var(--color-forest))",
+          mid: "hsl(var(--color-forest-mid))",
+          light: "hsl(var(--color-forest-light))",
+        },
+        blush: {
+          DEFAULT: "hsl(var(--color-blush))",
+          deep: "hsl(var(--color-blush-deep))",
+        },
+        ink: {
+          DEFAULT: "hsl(var(--color-ink))",
+          secondary: "hsl(var(--color-ink-secondary))",
+          tertiary: "hsl(var(--color-ink-tertiary))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -65,25 +99,27 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+        "fade-in": {
+          "0%": { opacity: "0", transform: "translateY(10px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "bounce-gentle": {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(6px)" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-in": "fade-in 0.5s ease-out forwards",
+        "bounce-gentle": "bounce-gentle 2s ease-in-out infinite",
       },
     },
   },
