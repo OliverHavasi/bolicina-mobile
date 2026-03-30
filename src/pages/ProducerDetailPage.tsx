@@ -30,7 +30,7 @@ const ProducerDetailPage = () => {
           </p>
         </div>
 
-        <SectionHeader eyebrow="Kolekcia" title="Prosecco od {0}".replace('{0}', producer.name) />
+        <SectionHeader eyebrow="Kolekcia" title={`Prosecco od ${producer.name}`} />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7">
           {proseccos.slice(0, 4).map(p => (
             <ProseccoCard key={p.id} prosecco={p} />
