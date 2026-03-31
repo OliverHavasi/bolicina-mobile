@@ -64,12 +64,12 @@ const HomePage = () => {
       </header>
 
       {/* Hero Card */}
-      <section className="relative h-[260px] overflow-hidden">
-        <img src={heroImage} alt="Prosecco" className="absolute inset-0 w-full h-full object-cover" />
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(160deg, rgba(44,24,16,0.5) 0%, rgba(44,24,16,0.15) 50%, rgba(44,24,16,0.65) 100%)' }} />
-        <div className="absolute bottom-0 left-0 right-0 p-5 z-10">
-          <p className="text-micro text-[11px]" style={{ color: 'rgba(200,168,76,0.95)' }}>Objavte · Hodnoťte · Zdieľajte</p>
-          <h1 className="heading-h1 text-white mt-1">Nájdite Svoje Prosecco</h1>
+      <section className="relative overflow-hidden" style={{ height: 280 }}>
+        <img src={heroImage} alt="Prosecco" className="absolute inset-0 w-full h-full object-cover" style={{ objectPosition: 'center top' }} />
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(44,24,16,.15) 0%, rgba(44,24,16,.2) 40%, rgba(44,24,16,.75) 100%)' }} />
+        <div className="absolute bottom-0 left-0 right-0 z-[2]" style={{ padding: '20px 16px 24px' }}>
+          <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 500, fontSize: 10, letterSpacing: '.14em', textTransform: 'uppercase', color: 'rgba(200,168,76,0.95)', display: 'block', marginBottom: 6 }}>Objavte · Hodnoťte · Zdieľajte</span>
+          <h1 style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 700, fontSize: 28, color: 'white', lineHeight: 1.1, margin: 0 }}>Nájdite Svoje Prosecco</h1>
         </div>
       </section>
 
