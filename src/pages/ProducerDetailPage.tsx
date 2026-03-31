@@ -5,8 +5,10 @@ import StarRating from '@/components/StarRating';
 import ProseccoCard from '@/components/ProseccoCard';
 import SectionHeader from '@/components/SectionHeader';
 import { producers, proseccos } from '@/data/proseccoData';
+import { useLanguage } from '@/i18n/LanguageContext';
 
 const ProducerDetailPage = () => {
+  const { t } = useLanguage();
   const { slug } = useParams();
   const producer = producers.find(p => p.slug === slug) || producers[0];
 
@@ -25,15 +27,12 @@ const ProducerDetailPage = () => {
             <span className="body-small">{producer.region}, Veneto</span>
           </div>
           <div className="flex items-center gap-3 mt-2">
-            <span className="font-body font-medium text-[13px] text-oro">{producer.proseccoCount} prosecco</span>
-            <StarRating rating={producer.avgRating} size={12} showScore />
+            <span className="font-body font-medium text-[13px] text-oro">{producer.proseccoCount} {t('proseccoCount')}</span>
+            {producer.avgRating > 0 && <StarRating rating={producer.avgRating} size={12} showScore />}
           </div>
-          <p className="font-body text-[14px] text-ink-2 mt-3 leading-[1.6]">
-            Jedno z najuznávanejších vinárskych domov v oblasti {producer.region}.
-          </p>
         </div>
 
-        <SectionHeader title={`Prosecco`} eyebrow="Kolekcia" />
+        <SectionHeader title="Prosecco" eyebrow={t('collection')} />
         <div className="grid grid-cols-2 gap-3">
           {proseccos.slice(0, 4).map(p => (
             <ProseccoCard key={p.id} prosecco={p} />

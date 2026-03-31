@@ -1,22 +1,24 @@
 import { Link } from 'react-router-dom';
 import TopAppBar from '@/components/TopAppBar';
 import magazineFeatured from '@/assets/magazine-featured.jpg';
-
-const articles = [
-  { slug: 'sprievodca-valdobbiadene', title: 'Kompletný Sprievodca Valdobbiadene DOCG', cat: 'Sprievodca', time: '8 min', author: 'Elena Rossi' },
-  { slug: 'cartizze-najdrahsia', title: 'Cartizze: Najdrahšia Vinica Prosecca', cat: 'Región', time: '5 min', author: 'Luca Bianchi' },
-  { slug: 'interview-bisol', title: 'Interview s Vinárstvom Bisol 1542', cat: 'Interview', time: '12 min', author: 'Anna Moretti' },
-  { slug: 'rose-trend', title: 'Rosé Prosecco: Trend alebo Tradícia?', cat: 'Analýza', time: '6 min', author: 'Paolo Verdi' },
-  { slug: 'charmat-metoda', title: 'Charmat Metóda: Tajomstvo Prosecca', cat: 'Vzdelávanie', time: '7 min', author: 'Elena Rossi' },
-];
+import { useLanguage } from '@/i18n/LanguageContext';
 
 const MagazinePage = () => {
+  const { t } = useLanguage();
+
+  const articles = [
+    { slug: 'sprievodca-valdobbiadene', title: 'Guida Completa a Valdobbiadene DOCG', cat: 'Guida', time: '8 min', author: 'Elena Rossi' },
+    { slug: 'cartizze-najdrahsia', title: 'Cartizze: Il Vigneto Più Costoso', cat: 'Regione', time: '5 min', author: 'Luca Bianchi' },
+    { slug: 'interview-hamsik', title: 'Intervista con HAMSIK Winery', cat: 'Interview', time: '12 min', author: 'Anna Moretti' },
+    { slug: 'rose-trend', title: 'Rosé Prosecco: Trend o Tradizione?', cat: 'Analisi', time: '6 min', author: 'Paolo Verdi' },
+    { slug: 'charmat-metoda', title: 'Il Metodo Charmat: Il Segreto del Prosecco', cat: 'Educazione', time: '7 min', author: 'Elena Rossi' },
+  ];
+
   return (
     <div style={{ paddingTop: 'calc(52px + env(safe-area-inset-top, 0px))' }}>
-      <TopAppBar title="Magazín" />
+      <TopAppBar title={t('magazine')} />
 
       <div className="px-4 pt-3">
-        {/* Featured */}
         <Link to={`/magazin/${articles[0].slug}`} className="block relative h-[200px] rounded-xl overflow-hidden press mb-4">
           <img src={magazineFeatured} alt="" className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
           <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(44,24,16,0.85) 0%, rgba(44,24,16,0.1) 50%)' }} />
@@ -27,7 +29,6 @@ const MagazinePage = () => {
           </div>
         </Link>
 
-        {/* Article list */}
         {articles.slice(1).map((a, i) => (
           <Link
             key={a.slug}
