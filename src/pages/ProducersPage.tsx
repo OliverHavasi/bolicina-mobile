@@ -1,38 +1,33 @@
 import { Link } from 'react-router-dom';
+import TopAppBar from '@/components/TopAppBar';
 import StarRating from '@/components/StarRating';
-import SectionHeader from '@/components/SectionHeader';
 import { producers } from '@/data/proseccoData';
 
 const ProducersPage = () => {
   return (
-    <div className="pt-[68px]">
-      <div className="max-w-[1280px] mx-auto px-6 section-padding">
-        <SectionHeader
-          eyebrow="Talianske Vinárstva"
-          title="Producenti Prosecca"
-          subtitle="Objavte najlepšie vinárstva z regiónov DOCG a DOC"
-        />
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
-          {producers.map((p) => (
-            <Link
-              key={p.id}
-              to={`/producenti/${p.slug}`}
-              className="bg-cream hairline border-stone rounded-lg p-8 flex flex-col items-center text-center interactive hover:border-gold hover:-translate-y-1 cursor-pointer"
-              style={{ boxShadow: 'var(--shadow-card)' }}
-            >
-              <div className="w-20 h-20 rounded-full bg-parchment hairline border-stone flex items-center justify-center font-heading font-semibold text-[28px] text-forest">
-                {p.initials}
+    <div style={{ paddingTop: 'calc(52px + env(safe-area-inset-top, 0px))' }}>
+      <TopAppBar title="Producenti" />
+      <div className="px-4 pt-3 space-y-3">
+        {producers.map(p => (
+          <Link
+            key={p.id}
+            to={`/producenti/${p.slug}`}
+            className="flex items-center gap-3 bg-cream rounded-lg p-3 press"
+            style={{ border: '0.5px solid hsl(var(--c-stone))', boxShadow: 'var(--shadow-card)' }}
+          >
+            <div className="w-12 h-12 rounded-full bg-parchment flex items-center justify-center font-heading font-semibold text-[18px] text-selce shrink-0" style={{ border: '0.5px solid hsl(var(--c-stone))' }}>
+              {p.initials}
+            </div>
+            <div className="flex-1 min-w-0">
+              <h3 className="font-heading font-semibold text-[16px] text-selce">{p.name}</h3>
+              <span className="font-body text-[12px] text-ink-3">{p.region}</span>
+              <div className="flex items-center gap-2 mt-0.5">
+                <span className="font-body font-medium text-[12px] text-oro">{p.proseccoCount} prosecco</span>
+                <StarRating rating={p.avgRating} size={10} showScore />
               </div>
-              <h3 className="font-heading font-semibold text-[20px] text-forest mt-4">{p.name}</h3>
-              <span className="body-small text-ink-tertiary mt-1">{p.region}</span>
-              <div className="flex items-center gap-3 mt-3">
-                <span className="font-body font-medium text-[13px] text-gold">{p.proseccoCount} prosecco</span>
-                <StarRating rating={p.avgRating} size={12} showScore />
-              </div>
-            </Link>
-          ))}
-        </div>
+            </div>
+          </Link>
+        ))}
       </div>
     </div>
   );
