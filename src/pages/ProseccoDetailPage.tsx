@@ -223,7 +223,7 @@ const ProseccoDetailPage = () => {
 
       {/* Floating Action Bar */}
       <div
-        className="fixed left-0 right-0 z-[90] flex items-center"
+        className="fixed z-[90] flex items-center"
         style={{
           bottom: `calc(49px + env(safe-area-inset-bottom, 0px))`,
           height: '64px',
@@ -231,6 +231,10 @@ const ProseccoDetailPage = () => {
           backdropFilter: 'blur(20px)',
           WebkitBackdropFilter: 'blur(20px)',
           borderTop: '0.5px solid hsl(var(--c-stone))',
+          maxWidth: '390px',
+          width: '100%',
+          left: '50%',
+          transform: 'translateX(-50%)',
         }}
       >
         <button className="flex-1 flex flex-col items-center justify-center gap-0.5 press">
