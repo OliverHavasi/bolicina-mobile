@@ -71,7 +71,7 @@ const ExplorePage = () => {
         )}
 
         {/* 2-column grid */}
-        <div className="grid grid-cols-2 gap-3">
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 12 }}>
           {allProseccos.map((p, i) => (
             <ProseccoCard key={`${p.id}-${i}`} prosecco={p} />
           ))}
