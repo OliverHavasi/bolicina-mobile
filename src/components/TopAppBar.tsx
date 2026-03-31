@@ -24,7 +24,7 @@ const TopAppBar = ({ title, showBack = false, leftContent, rightContent, transpa
 
   return (
     <header
-      className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4"
+      className="fixed top-0 z-50 flex items-center justify-between px-4"
       style={{
         height: `calc(52px + env(safe-area-inset-top, 0px))`,
         paddingTop: 'env(safe-area-inset-top, 0px)',
@@ -33,6 +33,10 @@ const TopAppBar = ({ title, showBack = false, leftContent, rightContent, transpa
         WebkitBackdropFilter: showFrost ? 'blur(20px)' : 'none',
         borderBottom: showFrost ? '0.5px solid hsl(var(--c-stone))' : 'none',
         transition: 'background 0.25s, backdrop-filter 0.25s, border-bottom 0.25s',
+        maxWidth: '390px',
+        width: '100%',
+        left: '50%',
+        transform: 'translateX(-50%)',
       }}
     >
       <div className="w-10 flex items-center justify-start">

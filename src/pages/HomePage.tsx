@@ -39,10 +39,14 @@ const HomePage = () => {
     <div>
       {/* Top App Bar - Home specific */}
       <header
-        className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4"
+        className="fixed top-0 z-50 flex items-center justify-between px-4"
         style={{
           height: `calc(52px + env(safe-area-inset-top, 0px))`,
           paddingTop: 'env(safe-area-inset-top, 0px)',
+          maxWidth: '390px',
+          width: '100%',
+          left: '50%',
+          transform: 'translateX(-50%)',
         }}
       >
         <div className="flex items-center gap-1.5">

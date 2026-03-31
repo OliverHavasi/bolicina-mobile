@@ -16,7 +16,7 @@ const BottomTabBar = () => {
 
   return (
     <nav
-      className="fixed bottom-0 left-0 right-0 z-[100] flex items-end justify-around"
+      className="fixed bottom-0 z-[100] flex items-end justify-around"
       style={{
         height: `calc(49px + env(safe-area-inset-bottom, 0px))`,
         paddingBottom: 'env(safe-area-inset-bottom, 0px)',
@@ -24,6 +24,10 @@ const BottomTabBar = () => {
         backdropFilter: 'blur(20px) saturate(180%)',
         WebkitBackdropFilter: 'blur(20px) saturate(180%)',
         borderTop: '0.5px solid hsl(var(--c-stone))',
+        maxWidth: '390px',
+        width: '100%',
+        left: '50%',
+        transform: 'translateX(-50%)',
       }}
     >
       {tabs.map((tab) => {

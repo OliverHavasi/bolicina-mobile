@@ -80,7 +80,7 @@ const ExplorePage = () => {
 
       {/* Filter Bottom Sheet */}
       {filtersOpen && (
-        <div className="fixed inset-0 z-[200]" onClick={() => setFiltersOpen(false)}>
+        <div className="fixed z-[200]" style={{ top: 0, bottom: 0, maxWidth: '390px', width: '100%', left: '50%', transform: 'translateX(-50%)' }} onClick={() => setFiltersOpen(false)}>
           <div className="absolute inset-0" style={{ background: 'rgba(44,24,16,0.4)' }} />
           <div className="absolute bottom-0 left-0 right-0 bg-parchment rounded-t-[20px] max-h-[80vh] overflow-y-auto animate-slide-up" onClick={e => e.stopPropagation()}>
             {/* Handle */}

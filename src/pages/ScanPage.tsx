@@ -13,7 +13,7 @@ const ScanPage = () => {
   }, []);
 
   return (
-    <div className="fixed inset-0 z-[200] bg-[#0A0A0A] flex flex-col items-center">
+    <div className="fixed z-[200] bg-[#0A0A0A] flex flex-col items-center" style={{ top: 0, bottom: 0, maxWidth: '390px', width: '100%', left: '50%', transform: 'translateX(-50%)' }}>
       {/* Close */}
       <div className="absolute top-0 left-0 right-0 flex items-center justify-start px-4" style={{ paddingTop: 'calc(12px + env(safe-area-inset-top, 0px))' }}>
         <Link to="/" className="press tap-target flex items-center justify-center">
