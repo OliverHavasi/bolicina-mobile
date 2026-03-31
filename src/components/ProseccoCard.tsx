@@ -9,23 +9,57 @@ interface ProseccoCardProps {
   variant?: 'grid' | 'list';
 }
 
+const formatCount = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '\u00A0');
+
 const ProseccoCard = memo(({ prosecco, variant = 'grid' }: ProseccoCardProps) => {
+  const badges: { label: string; key: string }[] = [];
+  if (prosecco.isNew) badges.push({ label: 'NOVÉ', key: 'new' });
+  if (prosecco.appellation === 'DOCG') badges.push({ label: 'DOCG', key: 'docg' });
+  if (prosecco.appellation === 'DOC') badges.push({ label: 'DOC', key: 'doc' });
+  if (prosecco.isBio) badges.push({ label: 'BIO', key: 'bio' });
+  if (prosecco.isRose) badges.push({ label: 'ROSÉ', key: 'rose' });
+  const visibleBadges = badges.slice(0, 2);
+
+  const badgeStyles: Record<string, { bg: string; color: string }> = {
+    new: { bg: 'hsl(var(--c-oro))', color: 'hsl(var(--c-selce))' },
+    docg: { bg: 'hsl(var(--c-selce))', color: '#F5EDE3' },
+    doc: { bg: 'hsl(var(--c-cotto))', color: '#F5EDE3' },
+    bio: { bg: 'hsl(var(--c-salvia))', color: 'hsl(var(--c-salvia-light))' },
+    rose: { bg: 'hsl(var(--c-blush))', color: 'hsl(var(--c-blush-deep))' },
+  };
+
   if (variant === 'list') {
     return (
       <Link
         to={`/prosecco/${prosecco.id}`}
-        className="flex items-center gap-3 py-3 press"
+        className="flex items-center gap-3 press"
+        style={{ padding: '12px 0', minHeight: '72px' }}
       >
-        <div className="w-[52px] h-[68px] bg-cream rounded flex items-center justify-center shrink-0">
-          <img src={prosecco.image} alt={prosecco.name} className="max-h-[60px] object-contain" loading="lazy" />
+        <div
+          className="shrink-0 flex items-center justify-center overflow-hidden"
+          style={{ width: 48, height: 64, background: 'hsl(var(--c-cream))', borderRadius: 4 }}
+        >
+          <img
+            src={prosecco.image}
+            alt={prosecco.name}
+            loading="lazy"
+            style={{ maxWidth: 36, maxHeight: 56, objectFit: 'contain', display: 'block', margin: '0 auto' }}
+          />
         </div>
         <div className="flex-1 min-w-0">
-          <span className="text-micro text-[11px] tracking-[0.08em] text-oro">{prosecco.producer.toUpperCase()}</span>
-          <h3 className="font-heading font-semibold text-[16px] text-selce leading-tight truncate">{prosecco.name}</h3>
-          <StarRating rating={prosecco.rating} size={12} showScore />
+          <p style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: 10, letterSpacing: '.1em', textTransform: 'uppercase', color: 'hsl(var(--c-oro))', marginBottom: 2 }}>
+            {prosecco.producer}
+          </p>
+          <h3 style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 600, fontSize: 14, color: 'hsl(var(--c-selce))', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', margin: 0 }}>
+            {prosecco.name}
+          </h3>
+          <div className="flex items-center gap-1 mt-[3px]">
+            <StarRating rating={prosecco.rating} size={12} />
+            <span style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 600, fontSize: 13, color: 'hsl(var(--c-selce))', whiteSpace: 'nowrap' }}>{prosecco.rating.toFixed(1)}</span>
+          </div>
         </div>
-        <div className="shrink-0 text-right">
-          <span className="font-body font-medium text-[14px] text-ink-2">{prosecco.price}</span>
+        <div className="shrink-0">
+          <span style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 600, fontSize: 14, color: 'hsl(var(--c-selce))', whiteSpace: 'nowrap' }}>{prosecco.price}</span>
         </div>
       </Link>
     );
@@ -34,47 +68,153 @@ const ProseccoCard = memo(({ prosecco, variant = 'grid' }: ProseccoCardProps) =>
   return (
     <Link
       to={`/prosecco/${prosecco.id}`}
-      className="block bg-cream hairline border-stone rounded-lg overflow-hidden press"
-      style={{ boxShadow: 'var(--shadow-card)' }}
+      className="press"
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        background: 'hsl(var(--c-cream))',
+        border: '0.5px solid hsl(var(--c-stone))',
+        borderRadius: 8,
+        overflow: 'hidden',
+        width: '100%',
+        minWidth: 0,
+        boxShadow: 'var(--shadow-card)',
+      }}
     >
       {/* Bottle area */}
-      <div className="relative aspect-[2/3] max-h-[180px] bg-parchment flex items-center justify-center"
-        style={{ background: 'radial-gradient(circle, rgba(200,168,76,0.06) 0%, transparent 70%) hsl(var(--c-parchment))' }}>
-        <img src={prosecco.image} alt={prosecco.name} className="max-h-[150px] object-contain drop-shadow-md" loading="lazy" />
+      <div
+        className="relative"
+        style={{
+          width: '100%',
+          height: 180,
+          background: 'hsl(var(--c-parchment))',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          overflow: 'hidden',
+          padding: '16px 24px',
+          boxSizing: 'border-box',
+        }}
+      >
+        <img
+          src={prosecco.image}
+          alt={prosecco.name}
+          loading="lazy"
+          style={{
+            maxHeight: 148,
+            maxWidth: 80,
+            width: 'auto',
+            height: 'auto',
+            objectFit: 'contain',
+            display: 'block',
+            margin: '0 auto',
+            filter: 'drop-shadow(0 6px 14px rgba(44,24,16,.13))',
+          }}
+        />
         {/* Badges */}
-        <div className="absolute top-2 right-2 flex flex-col gap-1">
-          {prosecco.appellation === 'DOCG' && (
-            <span className="text-label text-[10px] tracking-[0.08em] bg-selce text-parchment px-[7px] py-[3px] rounded-sm">DOCG</span>
-          )}
-          {prosecco.isBio && (
-            <span className="text-label text-[10px] tracking-[0.08em] bg-salvia text-salvia-light px-[7px] py-[3px] rounded-sm">BIO</span>
-          )}
-          {prosecco.isRose && (
-            <span className="text-label text-[10px] tracking-[0.08em] bg-blush text-blush-deep px-[7px] py-[3px] rounded-sm">ROSÉ</span>
-          )}
-        </div>
-        {prosecco.isNew && (
-          <span className="absolute top-2 left-2 text-label text-[10px] tracking-[0.08em] bg-oro text-selce px-[7px] py-[3px] rounded-sm">NOVÉ</span>
+        {visibleBadges.length > 0 && (
+          <div style={{ position: 'absolute', top: 8, left: 8, display: 'flex', flexDirection: 'row', gap: 4, flexWrap: 'nowrap', maxWidth: 'calc(100% - 40px)' }}>
+            {visibleBadges.map((b) => (
+              <span
+                key={b.key}
+                style={{
+                  fontFamily: "'DM Sans', sans-serif",
+                  fontWeight: 700,
+                  fontSize: 9,
+                  textTransform: 'uppercase',
+                  letterSpacing: '.08em',
+                  padding: '3px 6px',
+                  borderRadius: 2,
+                  whiteSpace: 'nowrap',
+                  lineHeight: 1.3,
+                  background: badgeStyles[b.key]?.bg,
+                  color: badgeStyles[b.key]?.color,
+                }}
+              >
+                {b.label}
+              </span>
+            ))}
+          </div>
         )}
-        <button className="absolute bottom-2 right-2 text-stone-mid press" onClick={(e) => e.preventDefault()}>
+        <button className="absolute bottom-2 right-2 press" style={{ color: 'hsl(var(--c-stone-mid))' }} onClick={(e) => e.preventDefault()}>
           <Heart size={20} strokeWidth={1.5} />
         </button>
       </div>
 
       {/* Content */}
-      <div className="p-3 pb-2.5">
-        <span className="text-label text-[11px] tracking-[0.08em] text-oro">{prosecco.producer.toUpperCase()}</span>
-        <h3 className="font-heading font-semibold text-[16px] text-selce leading-tight mt-0.5 line-clamp-2">{prosecco.name}</h3>
-        <div className="flex items-center gap-1 mt-1 text-ink-3">
-          <MapPin size={11} strokeWidth={1.5} />
-          <span className="body-small text-[12px]">{prosecco.region}</span>
+      <div style={{ padding: 12, display: 'flex', flexDirection: 'column', flex: 1 }}>
+        {/* Producer */}
+        <p style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: 10, letterSpacing: '.12em', textTransform: 'uppercase', color: 'hsl(var(--c-oro))', marginBottom: 3, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', margin: '0 0 3px 0' }}>
+          {prosecco.producer}
+        </p>
+        {/* Name */}
+        <h3
+          style={{
+            fontFamily: "'Outfit', sans-serif",
+            fontWeight: 600,
+            fontSize: 15,
+            color: 'hsl(var(--c-selce))',
+            lineHeight: 1.25,
+            display: '-webkit-box',
+            WebkitLineClamp: 2,
+            WebkitBoxOrient: 'vertical',
+            overflow: 'hidden',
+            marginBottom: 4,
+            minHeight: 38,
+            margin: '0 0 4px 0',
+          }}
+        >
+          {prosecco.name}
+        </h3>
+        {/* Region */}
+        <div className="flex items-center gap-[3px]" style={{ marginBottom: 6, overflow: 'hidden' }}>
+          <MapPin size={11} strokeWidth={1.5} style={{ color: 'hsl(var(--c-ink-3))', flexShrink: 0 }} />
+          <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 400, fontSize: 12, color: 'hsl(var(--c-ink-3))', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+            {prosecco.region}
+          </span>
         </div>
-        <span className="inline-block mt-1.5 bg-oro-tint text-oro-deep hairline border-oro/30 rounded-sm px-2 py-[2px] font-body font-medium text-[11px] tracking-[0.05em]">
+        {/* Style chip */}
+        <span
+          style={{
+            display: 'inline-block',
+            background: 'hsl(var(--c-oro-tint))',
+            border: '0.5px solid rgba(200,168,76,.3)',
+            color: 'hsl(var(--c-oro-deep))',
+            padding: '3px 9px',
+            borderRadius: 100,
+            fontFamily: "'DM Sans', sans-serif",
+            fontWeight: 500,
+            fontSize: 11,
+            marginBottom: 8,
+            alignSelf: 'flex-start',
+          }}
+        >
           {prosecco.style}
         </span>
-        <div className="mt-2 pt-2 hairline border-t border-stone flex items-center justify-between">
-          <StarRating rating={prosecco.rating} showScore showCount count={prosecco.reviewCount} size={11} />
-          <span className="font-body font-medium text-[13px] text-ink-2">{prosecco.price}</span>
+        {/* Rating + Price */}
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            borderTop: '0.5px solid hsl(var(--c-stone))',
+            paddingTop: 8,
+            marginTop: 'auto',
+            gap: 8,
+          }}
+        >
+          <div className="flex items-center gap-1" style={{ minWidth: 0, flex: 1 }}>
+            <StarRating rating={prosecco.rating} size={12} />
+            <span style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 600, fontSize: 14, color: 'hsl(var(--c-selce))', whiteSpace: 'nowrap' }}>
+              {prosecco.rating.toFixed(1)}
+            </span>
+            <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 400, fontSize: 11, color: 'hsl(var(--c-ink-3))', whiteSpace: 'nowrap' }}>
+              ({formatCount(prosecco.reviewCount)})
+            </span>
+          </div>
+          <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: 14, color: 'hsl(var(--c-selce))', whiteSpace: 'nowrap', flexShrink: 0 }}>
+            {prosecco.price}
+          </span>
         </div>
       </div>
     </Link>

@@ -9,6 +9,8 @@ interface StarRatingProps {
   className?: string;
 }
 
+const formatCount = (n: number) => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '\u00A0');
+
 const StarRating = ({ rating, size = 12, showScore = false, showCount = false, count = 0, className = '' }: StarRatingProps) => {
   return (
     <div className={`flex items-center gap-0.5 ${className}`}>
@@ -26,10 +28,10 @@ const StarRating = ({ rating, size = 12, showScore = false, showCount = false, c
         })}
       </div>
       {showScore && (
-        <span className="font-heading font-semibold text-[15px] text-selce ml-1">{rating.toFixed(1)}</span>
+        <span className="font-heading font-semibold text-selce ml-1" style={{ fontSize: Math.max(size + 2, 13) }}>{rating.toFixed(1)}</span>
       )}
       {showCount && (
-        <span className="body-small text-ink-3 text-[11px]">({count.toLocaleString()})</span>
+        <span className="text-ink-3" style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 11 }}>({formatCount(count)})</span>
       )}
     </div>
   );

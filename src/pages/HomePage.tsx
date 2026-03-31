@@ -143,7 +143,7 @@ const HomePage = () => {
 
         {/* Najlepšie Hodnotené - 2-column grid */}
         <SectionHeader title="Najlepšie Hodnotené" viewAllLink="/rebriciky" />
-        <div className="grid grid-cols-2 gap-3">
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 12 }}>
           {proseccos.slice(0, 8).map((p) => (
             <ProseccoCard key={p.id} prosecco={p} />
           ))}
