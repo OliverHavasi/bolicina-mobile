@@ -204,13 +204,19 @@ const ProseccoCard = memo(({ prosecco, variant = 'grid' }: ProseccoCardProps) =>
           }}
         >
           <div className="flex items-center gap-1" style={{ minWidth: 0, flex: 1 }}>
-            <StarRating rating={prosecco.rating} size={12} />
-            <span style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 600, fontSize: 14, color: 'hsl(var(--c-selce))', whiteSpace: 'nowrap' }}>
-              {prosecco.rating.toFixed(1)}
-            </span>
-            <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 400, fontSize: 11, color: 'hsl(var(--c-ink-3))', whiteSpace: 'nowrap' }}>
-              ({formatCount(prosecco.reviewCount)})
-            </span>
+            {prosecco.rating > 0 ? (
+              <>
+                <StarRating rating={prosecco.rating} size={12} />
+                <span style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 600, fontSize: 14, color: 'hsl(var(--c-selce))', whiteSpace: 'nowrap' }}>
+                  {prosecco.rating.toFixed(1)}
+                </span>
+                <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 400, fontSize: 11, color: 'hsl(var(--c-ink-3))', whiteSpace: 'nowrap' }}>
+                  ({formatCount(prosecco.reviewCount)})
+                </span>
+              </>
+            ) : (
+              <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 400, fontSize: 11, color: 'hsl(var(--c-ink-3))', whiteSpace: 'nowrap' }}>—</span>
+            )}
           </div>
           <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: 14, color: 'hsl(var(--c-selce))', whiteSpace: 'nowrap', flexShrink: 0 }}>
             {prosecco.price}
