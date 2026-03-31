@@ -53,10 +53,12 @@ const ProseccoCard = memo(({ prosecco, variant = 'grid' }: ProseccoCardProps) =>
           <h3 style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 600, fontSize: 14, color: 'hsl(var(--c-selce))', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', margin: 0 }}>
             {prosecco.name}
           </h3>
-          <div className="flex items-center gap-1 mt-[3px]">
-            <StarRating rating={prosecco.rating} size={12} />
-            <span style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 600, fontSize: 13, color: 'hsl(var(--c-selce))', whiteSpace: 'nowrap' }}>{prosecco.rating.toFixed(1)}</span>
-          </div>
+          {prosecco.rating > 0 && (
+            <div className="flex items-center gap-1 mt-[3px]">
+              <StarRating rating={prosecco.rating} size={12} />
+              <span style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 600, fontSize: 13, color: 'hsl(var(--c-selce))', whiteSpace: 'nowrap' }}>{prosecco.rating.toFixed(1)}</span>
+            </div>
+          )}
         </div>
         <div className="shrink-0">
           <span style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 600, fontSize: 14, color: 'hsl(var(--c-selce))', whiteSpace: 'nowrap' }}>{prosecco.price}</span>
