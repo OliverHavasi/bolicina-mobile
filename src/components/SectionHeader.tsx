@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { useLanguage } from '@/i18n/LanguageContext';
 
 interface SectionHeaderProps {
   eyebrow?: string;
@@ -15,10 +16,13 @@ const SectionHeader = ({
   title,
   subtitle,
   viewAllLink,
-  viewAllLabel = 'Všetky →',
+  viewAllLabel,
   dark = false,
   className = '',
 }: SectionHeaderProps) => {
+  const { t } = useLanguage();
+  const label = viewAllLabel || t('seeAll');
+
   return (
     <div className={`flex items-baseline justify-between mt-7 mb-3 ${className}`}>
       <div>
@@ -29,7 +33,7 @@ const SectionHeader = ({
       </div>
       {viewAllLink && (
         <Link to={viewAllLink} className="font-body font-medium text-[13px] text-oro shrink-0 press">
-          {viewAllLabel}
+          {label}
         </Link>
       )}
     </div>

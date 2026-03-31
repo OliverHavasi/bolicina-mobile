@@ -5,42 +5,41 @@ import StarRating from '@/components/StarRating';
 import ProseccoCard from '@/components/ProseccoCard';
 import SectionHeader from '@/components/SectionHeader';
 import { proseccos } from '@/data/proseccoData';
-
-const ratingDist = [
-  { stars: 5, pct: 42 },
-  { stars: 4, pct: 34 },
-  { stars: 3, pct: 16 },
-  { stars: 2, pct: 6 },
-  { stars: 1, pct: 2 },
-];
-
-const flavorTags = ['Broskyňa', 'Zelené Jablko', 'Med', 'Kvetinový', 'Citrus', 'Grapefruit', 'Toast', 'Mandľa'];
-const radarAxes = ['Sladkosť', 'Acidita', 'Ovocitosť', 'Komplexnosť', 'Perláž', 'Záver'];
-const radarValues = [0.3, 0.7, 0.8, 0.65, 0.85, 0.6];
-
-const details = [
-  ['Vinárstvo', 'Bisol 1542'],
-  ['Appellation', 'Valdobbiadene DOCG'],
-  ['Región', 'Veneto, Taliansko'],
-  ['Hrozno', 'Glera 100%'],
-  ['Alkohol', '11.5%'],
-  ['Teplota', '6-8°C'],
-  ['Štýl', 'Brut'],
-  ['Perláž', 'Jemná a vytrvalá'],
-  ['Objem', '750ml'],
-];
+import { useLanguage } from '@/i18n/LanguageContext';
 
 const ProseccoDetailPage = () => {
+  const { t } = useLanguage();
   const { id } = useParams();
   const prosecco = proseccos.find(p => p.id === id) || proseccos[0];
 
+  const ratingDist = [
+    { stars: 5, pct: 42 },
+    { stars: 4, pct: 34 },
+    { stars: 3, pct: 16 },
+    { stars: 2, pct: 6 },
+    { stars: 1, pct: 2 },
+  ];
+
+  const radarAxes = ['Sladkosť', 'Acidita', 'Ovocitosť', 'Komplexnosť', 'Perláž', 'Záver'];
+  const radarValues = [0.3, 0.7, 0.8, 0.65, 0.85, 0.6];
   const centerX = 120, centerY = 120, radius = 90;
   const getPoint = (index: number, value: number) => {
     const angle = (Math.PI * 2 * index) / 6 - Math.PI / 2;
     return { x: centerX + radius * value * Math.cos(angle), y: centerY + radius * value * Math.sin(angle) };
   };
   const radarPoints = radarValues.map((v, i) => getPoint(i, v));
-  const radarPath = radarPoints.map((p, i) => `${i === 0 ? 'M' : 'L'} ${p.x} ${p.y}`).join(' ') + ' Z';
+
+  const details = [
+    [t('winery'), prosecco.producer],
+    [t('appellation'), `${prosecco.region} ${prosecco.appellation}`],
+    [t('regionDetail'), 'Veneto, Italia'],
+    [t('grape'), prosecco.grapes.join(', ')],
+    [t('alcohol'), prosecco.alcohol],
+    [t('temperature'), prosecco.servingTemp],
+    [t('styleDetail'), prosecco.style],
+    [t('perlage'), t('perlageDesc')],
+    [t('volume'), '750ml'],
+  ];
 
   return (
     <div>
@@ -55,9 +54,7 @@ const ProseccoDetailPage = () => {
         }
       />
 
-      {/* Bottle Hero */}
       <div className="h-[280px] bg-cream flex items-center justify-center relative overflow-hidden">
-        {/* Perlage */}
         {[...Array(6)].map((_, i) => (
           <div
             key={i}
@@ -74,7 +71,6 @@ const ProseccoDetailPage = () => {
           />
         ))}
         <img src={prosecco.image} alt={prosecco.name} className="max-h-[230px] object-contain relative z-10" style={{ filter: 'drop-shadow(0 10px 28px rgba(44,24,16,0.14))' }} />
-        {/* Dots */}
         <div className="absolute bottom-3 flex gap-1.5 z-10">
           <div className="w-5 h-[6px] rounded-full bg-oro" />
           <div className="w-[6px] h-[6px] rounded-full bg-stone" />
@@ -82,9 +78,7 @@ const ProseccoDetailPage = () => {
         </div>
       </div>
 
-      {/* Content */}
       <div className="px-4">
-        {/* Identity */}
         <div className="pt-4 pb-4" style={{ borderBottom: '0.5px solid hsl(var(--c-stone))' }}>
           <div className="flex gap-1.5 mb-1">
             {prosecco.appellation === 'DOCG' && <span className="text-label text-[10px] bg-selce text-parchment px-[7px] py-[3px] rounded-sm">DOCG</span>}
@@ -101,33 +95,35 @@ const ProseccoDetailPage = () => {
         {/* Rating */}
         <div className="py-4" style={{ borderBottom: '0.5px solid hsl(var(--c-stone))' }}>
           <div className="flex items-start gap-4">
-            <span className="font-heading font-bold text-[56px] text-selce leading-none">{prosecco.rating.toFixed(1)}</span>
+            <span className="font-heading font-bold text-[56px] text-selce leading-none">{prosecco.rating > 0 ? prosecco.rating.toFixed(1) : '—'}</span>
             <div className="pt-1 flex-1">
-              <StarRating rating={prosecco.rating} size={18} />
-              <p className="body-small text-ink-3 mt-1">{prosecco.reviewCount.toLocaleString()} hodnotení</p>
-              <div className="mt-2 space-y-1">
-                {ratingDist.map(d => (
-                  <div key={d.stars} className="flex items-center gap-1.5">
-                    <span className="font-body font-medium text-[12px] text-ink-2 w-5">{d.stars}★</span>
-                    <div className="flex-1 h-[5px] bg-stone rounded-full overflow-hidden">
-                      <div className="h-full bg-oro rounded-full" style={{ width: `${d.pct}%` }} />
+              {prosecco.rating > 0 && <StarRating rating={prosecco.rating} size={18} />}
+              <p className="body-small text-ink-3 mt-1">{prosecco.reviewCount} {t('ratings')}</p>
+              {prosecco.rating > 0 && (
+                <div className="mt-2 space-y-1">
+                  {ratingDist.map(d => (
+                    <div key={d.stars} className="flex items-center gap-1.5">
+                      <span className="font-body font-medium text-[12px] text-ink-2 w-5">{d.stars}★</span>
+                      <div className="flex-1 h-[5px] bg-stone rounded-full overflow-hidden">
+                        <div className="h-full bg-oro rounded-full" style={{ width: `${d.pct}%` }} />
+                      </div>
+                      <span className="font-body text-[11px] text-ink-3 w-7 text-right">{d.pct}%</span>
                     </div>
-                    <span className="font-body text-[11px] text-ink-3 w-7 text-right">{d.pct}%</span>
-                  </div>
-                ))}
-              </div>
+                  ))}
+                </div>
+              )}
             </div>
           </div>
           <button className="w-full mt-3 h-11 bg-selce text-white rounded-lg font-heading font-semibold text-[15px] press">
-            Ohodnotiť toto Prosecco
+            {t('rateProsecco')}
           </button>
         </div>
 
         {/* Flavor profile */}
         <div className="py-4" style={{ borderBottom: '0.5px solid hsl(var(--c-stone))' }}>
-          <h3 className="heading-h4 text-selce">Chuťový Profil</h3>
+          <h3 className="heading-h4 text-selce">{t('flavorProfile')}</h3>
           <div className="flex flex-wrap gap-2 mt-2">
-            {flavorTags.map(tag => (
+            {prosecco.flavorTags.map(tag => (
               <span key={tag} className="px-3 py-1 bg-oro-tint text-oro-deep rounded-full font-body text-[12px]" style={{ border: '0.5px solid rgba(200,168,76,0.3)' }}>
                 {tag}
               </span>
@@ -147,8 +143,8 @@ const ProseccoDetailPage = () => {
 
         {/* Where to buy */}
         <div className="py-4" style={{ borderBottom: '0.5px solid hsl(var(--c-stone))' }}>
-          <h3 className="heading-h4 text-selce">Kde Kúpiť</h3>
-          <p className="body-small text-ink-3 mt-0.5">€12 – €22</p>
+          <h3 className="heading-h4 text-selce">{t('whereToBuy')}</h3>
+          <p className="body-small text-ink-3 mt-0.5">{prosecco.price}</p>
           {['Wine & More', 'Prosecco Shop IT', 'Vivino Market'].map((r, i) => (
             <div key={r} className="flex items-center justify-between py-2.5" style={i < 2 ? { borderBottom: '0.5px solid hsl(var(--c-stone))' } : undefined}>
               <div className="flex items-center gap-2">
@@ -156,8 +152,8 @@ const ProseccoDetailPage = () => {
                 <span className="font-body text-[14px] text-ink">{r}</span>
               </div>
               <div className="flex items-center gap-3">
-                <span className="font-heading font-semibold text-[16px] text-selce">€{14 + i * 3}</span>
-                <span className="font-body font-semibold text-[13px] text-oro press">Kúpiť →</span>
+                <span className="font-heading font-semibold text-[16px] text-selce">{prosecco.price}</span>
+                <span className="font-body font-semibold text-[13px] text-oro press">{t('buy')}</span>
               </div>
             </div>
           ))}
@@ -165,7 +161,7 @@ const ProseccoDetailPage = () => {
 
         {/* Details table */}
         <div className="py-4 grid grid-cols-2 gap-x-4 gap-y-2" style={{ borderBottom: '0.5px solid hsl(var(--c-stone))' }}>
-          <h3 className="heading-h4 text-selce col-span-2 mb-1">Detaily</h3>
+          <h3 className="heading-h4 text-selce col-span-2 mb-1">{t('details')}</h3>
           {details.map(([label, value]) => (
             <div key={label}>
               <span className="text-label text-[11px] text-ink-3">{label}</span>
@@ -176,42 +172,15 @@ const ProseccoDetailPage = () => {
 
         {/* Reviews */}
         <div className="py-4">
-          <h3 className="heading-h4 text-selce mb-3">Recenzie</h3>
-          {[
-            { user: 'MarcoVino', badge: 'Expert', rating: 5, text: 'Výnimočné perlage a nádherná chuťová komplexnosť.', helpful: 24, date: '15.3.2025' },
-            { user: 'SilviaBubbles', badge: 'Connoisseur', rating: 4, text: 'Spoľahlivá klasika s citrusovou sviežosťou.', helpful: 18, date: '12.3.2025' },
-          ].map((review, i) => (
-            <div key={i} className="py-3" style={i < 1 ? { borderBottom: '0.5px solid hsl(var(--c-stone))' } : undefined}>
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <div className="w-9 h-9 rounded-full bg-cream-deep flex items-center justify-center font-heading font-semibold text-[14px] text-selce">{review.user[0]}</div>
-                  <div>
-                    <div className="flex items-center gap-1">
-                      <span className="font-body font-semibold text-[13px] text-ink">{review.user}</span>
-                      <BadgeCheck size={12} strokeWidth={1.5} className="text-oro" />
-                    </div>
-                    <span className="text-micro text-[10px] text-oro-deep bg-oro-tint px-1.5 py-0.5 rounded-sm">{review.badge}</span>
-                  </div>
-                </div>
-                <div className="text-right">
-                  <StarRating rating={review.rating} size={11} />
-                  <span className="font-body text-[11px] text-ink-3">{review.date}</span>
-                </div>
-              </div>
-              <p className="font-body text-[14px] text-ink-2 mt-2 leading-[1.6]">{review.text}</p>
-              <button className="flex items-center gap-1 mt-1.5 text-ink-3 press">
-                <ThumbsUp size={12} strokeWidth={1.5} />
-                <span className="font-body text-[12px]">Pomohlo ({review.helpful})</span>
-              </button>
-            </div>
-          ))}
+          <h3 className="heading-h4 text-selce mb-3">{t('reviews')}</h3>
+          <p className="font-body text-[14px] text-ink-3">{t('noResults')}</p>
           <button className="w-full mt-2 py-2.5 rounded-lg font-body font-semibold text-[14px] text-selce press" style={{ border: '0.5px solid hsl(var(--c-selce))' }}>
-            Napísať recenziu
+            {t('writeReview')}
           </button>
         </div>
 
         {/* Similar */}
-        <SectionHeader title="Mohlo by sa vám páčiť" />
+        <SectionHeader title={t('youMayLike')} />
         <div className="flex gap-3 overflow-x-auto no-scrollbar pb-6" style={{ touchAction: 'pan-x' }}>
           {proseccos.slice(2, 8).map(p => (
             <div key={p.id} className="w-[155px] shrink-0">
@@ -239,16 +208,16 @@ const ProseccoDetailPage = () => {
       >
         <button className="flex-1 flex flex-col items-center justify-center gap-0.5 press">
           <Heart size={18} strokeWidth={1.5} className="text-selce" />
-          <span className="font-body text-[11px] text-ink-2">Zoznam</span>
+          <span className="font-body text-[11px] text-ink-2">{t('wishlist')}</span>
         </button>
         <div className="w-[0.5px] h-8 bg-stone" />
         <button className="flex-[1.5] h-10 mx-3 bg-selce text-white rounded-lg font-heading font-semibold text-[14px] press">
-          Ohodnotiť
+          {t('rate')}
         </button>
         <div className="w-[0.5px] h-8 bg-stone" />
         <button className="flex-1 flex flex-col items-center justify-center gap-0.5 press">
           <Share2 size={18} strokeWidth={1.5} className="text-selce" />
-          <span className="font-body text-[11px] text-ink-2">Zdieľať</span>
+          <span className="font-body text-[11px] text-ink-2">{t('share')}</span>
         </button>
       </div>
     </div>

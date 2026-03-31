@@ -3,14 +3,16 @@ import { ChevronDown, Search, X, SlidersHorizontal } from 'lucide-react';
 import TopAppBar from '@/components/TopAppBar';
 import ProseccoCard from '@/components/ProseccoCard';
 import { proseccos, styles } from '@/data/proseccoData';
-
-const sortOptions = ['Najpopulárnejšie', 'Najlepšie hodnotené', 'Cena ↑', 'Cena ↓', 'Najnovšie'];
-const regions = ['Valdobbiadene DOCG', 'Conegliano DOCG', 'Cartizze DOCG', 'Asolo DOCG', 'DOC Rosé', 'DOC Treviso'];
+import { useLanguage } from '@/i18n/LanguageContext';
 
 const ExplorePage = () => {
+  const { t } = useLanguage();
   const [selectedStyles, setSelectedStyles] = useState<string[]>([]);
   const [filtersOpen, setFiltersOpen] = useState(false);
+
+  const sortOptions = [t('mostPopular'), t('bestRated'), t('priceUp'), t('priceDown'), t('newest')];
   const [sortBy, setSortBy] = useState(sortOptions[0]);
+  const regions = ['Valdobbiadene DOCG', 'Conegliano DOCG', 'Cartizze DOCG', 'Asolo DOCG', 'DOC Rosé', 'DOC Treviso'];
 
   const toggleStyle = (s: string) => {
     setSelectedStyles(prev => prev.includes(s) ? prev.filter(x => x !== s) : [...prev, s]);
@@ -20,13 +22,13 @@ const ExplorePage = () => {
 
   return (
     <div style={{ paddingTop: 'calc(52px + env(safe-area-inset-top, 0px))' }}>
-      <TopAppBar title="Objaviť" />
+      <TopAppBar title={t('navDiscover')} />
 
       <div className="px-4 pt-3">
         {/* Search bar */}
         <div className="relative flex items-center h-11 bg-cream rounded-lg px-3 gap-2" style={{ border: '0.5px solid hsl(var(--c-stone))' }}>
           <Search size={18} strokeWidth={1.5} className="text-ink-3 shrink-0" />
-          <input type="text" placeholder="Hľadajte prosecco..." className="flex-1 bg-transparent font-body text-[16px] text-ink placeholder:text-ink-3 outline-none" />
+          <input type="text" placeholder={t('searchPlaceholder')} className="flex-1 bg-transparent font-body text-[16px] text-ink placeholder:text-ink-3 outline-none" />
         </div>
 
         {/* Quick filter chips */}
@@ -47,7 +49,7 @@ const ExplorePage = () => {
 
         {/* Results header */}
         <div className="flex items-center justify-between mt-4 mb-3">
-          <span className="font-body text-[13px] text-ink-3">4 820 prosecco</span>
+          <span className="font-body text-[13px] text-ink-3">8 {t('proseccoCount')}</span>
           <div className="flex items-center gap-2">
             <button className="font-heading font-semibold text-[13px] text-selce press flex items-center gap-1">
               {sortBy} <ChevronDown size={14} strokeWidth={1.5} />
@@ -83,15 +85,13 @@ const ExplorePage = () => {
         <div className="fixed z-[200]" style={{ top: 0, bottom: 0, maxWidth: '390px', width: '100%', left: '50%', transform: 'translateX(-50%)' }} onClick={() => setFiltersOpen(false)}>
           <div className="absolute inset-0" style={{ background: 'rgba(44,24,16,0.4)' }} />
           <div className="absolute bottom-0 left-0 right-0 bg-parchment rounded-t-[20px] max-h-[80vh] overflow-y-auto animate-slide-up" onClick={e => e.stopPropagation()}>
-            {/* Handle */}
             <div className="flex justify-center pt-3 pb-2">
               <div className="w-9 h-1 rounded-full bg-stone" />
             </div>
             <div className="px-4 pb-4">
-              <h3 className="heading-h3 text-selce mb-4">Filtre</h3>
+              <h3 className="heading-h3 text-selce mb-4">{t('filters')}</h3>
 
-              {/* Štýl */}
-              <FilterGroup title="Štýl">
+              <FilterGroup title={t('style')}>
                 <div className="flex flex-wrap gap-2">
                   {styles.map(s => (
                     <button
@@ -108,8 +108,7 @@ const ExplorePage = () => {
                 </div>
               </FilterGroup>
 
-              {/* Región */}
-              <FilterGroup title="Región">
+              <FilterGroup title={t('regionLabel')}>
                 {regions.map(r => (
                   <label key={r} className="flex items-center gap-2 py-2 press">
                     <input type="checkbox" className="w-4 h-4 rounded accent-selce" />
@@ -118,8 +117,7 @@ const ExplorePage = () => {
                 ))}
               </FilterGroup>
 
-              {/* Certifikácia */}
-              <FilterGroup title="Certifikácia">
+              <FilterGroup title={t('certification')}>
                 <div className="flex flex-wrap gap-2">
                   {['DOCG', 'DOC', 'BIO', 'Vegán'].map(c => (
                     <button key={c} className="px-3 py-1.5 rounded-full font-body text-[12px] text-ink-2 press" style={{ border: '0.5px solid hsl(var(--c-stone))' }}>
@@ -129,8 +127,7 @@ const ExplorePage = () => {
                 </div>
               </FilterGroup>
 
-              {/* Veľkosť */}
-              <FilterGroup title="Veľkosť fľaše">
+              <FilterGroup title={t('bottleSize')}>
                 <div className="flex flex-wrap gap-2">
                   {['375ml', '750ml', '1.5L'].map(s => (
                     <button key={s} className="px-3 py-1.5 rounded-full font-body text-[12px] text-ink-2 press" style={{ border: '0.5px solid hsl(var(--c-stone))' }}>
@@ -141,10 +138,9 @@ const ExplorePage = () => {
               </FilterGroup>
             </div>
 
-            {/* Sticky bottom */}
             <div className="sticky bottom-0 bg-parchment px-4 pb-4" style={{ paddingBottom: 'calc(16px + env(safe-area-inset-bottom, 0px))' }}>
               <button onClick={() => setFiltersOpen(false)} className="w-full h-[52px] bg-selce text-white rounded-lg font-heading font-semibold text-[16px] press">
-                Zobraziť výsledky
+                {t('showResults')}
               </button>
             </div>
           </div>

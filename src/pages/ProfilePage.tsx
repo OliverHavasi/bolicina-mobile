@@ -4,19 +4,19 @@ import profileCover from '@/assets/profile-cover.jpg';
 import StarRating from '@/components/StarRating';
 import ProseccoCard from '@/components/ProseccoCard';
 import { proseccos } from '@/data/proseccoData';
-
-const tabs = ['Hodnotenia', 'Recenzie', 'Wishlist', 'Kolekcie'];
+import { useLanguage } from '@/i18n/LanguageContext';
 
 const ProfilePage = () => {
+  const { t } = useLanguage();
+  const tabs = [t('tabRatings'), t('tabReviews'), t('tabWishlist'), t('tabCollections')];
+
   return (
     <div>
-      {/* Cover */}
       <div className="relative h-[140px] overflow-hidden">
         <img src={profileCover} alt="Cover" className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, transparent 40%, hsl(var(--c-parchment)) 100%)' }} />
       </div>
 
-      {/* Avatar + info */}
       <div className="px-4 -mt-8 relative z-10">
         <div className="w-16 h-16 rounded-full bg-cream-deep flex items-center justify-center font-heading font-bold text-[24px] text-selce" style={{ border: '3px solid hsl(var(--c-parchment))' }}>
           M
@@ -31,14 +31,13 @@ const ProfilePage = () => {
           Prosecco Expert
         </span>
 
-        {/* Stats row */}
         <div className="flex gap-4 mt-4 overflow-x-auto no-scrollbar" style={{ touchAction: 'pan-x' }}>
           {[
-            { num: '348', label: 'Hodnotení' },
-            { num: '52', label: 'Recenzií' },
-            { num: '18', label: 'Zoznamov' },
-            { num: '124', label: 'Sleduje' },
-            { num: '89', label: 'Sledovateľov' },
+            { num: '348', label: t('profileRatings') },
+            { num: '52', label: t('profileReviews') },
+            { num: '18', label: t('profileLists') },
+            { num: '124', label: t('following') },
+            { num: '89', label: t('followers') },
           ].map(stat => (
             <div key={stat.label} className="text-center shrink-0">
               <span className="font-heading font-bold text-[18px] text-selce">{stat.num}</span>
@@ -47,7 +46,6 @@ const ProfilePage = () => {
           ))}
         </div>
 
-        {/* Tabs - sticky */}
         <div className="flex gap-4 mt-4 overflow-x-auto no-scrollbar" style={{ borderBottom: '0.5px solid hsl(var(--c-stone))' }}>
           {tabs.map((tab, i) => (
             <button
@@ -61,7 +59,6 @@ const ProfilePage = () => {
           ))}
         </div>
 
-        {/* Content grid */}
         <div className="grid grid-cols-2 gap-3 mt-4">
           {proseccos.slice(0, 6).map(p => (
             <ProseccoCard key={p.id} prosecco={p} />

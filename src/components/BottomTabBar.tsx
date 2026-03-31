@@ -1,18 +1,19 @@
-import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Home, Compass, ScanLine, Trophy, User } from 'lucide-react';
-
-const tabs = [
-  { label: 'Domov', href: '/', icon: Home },
-  { label: 'Objaviť', href: '/explore', icon: Compass },
-  { label: 'Skenovať', href: '/skenovat', icon: ScanLine, center: true },
-  { label: 'Rebríčky', href: '/rebriciky', icon: Trophy },
-  { label: 'Profil', href: '/profil/demo', icon: User },
-];
+import { useLanguage } from '@/i18n/LanguageContext';
 
 const BottomTabBar = () => {
   const location = useLocation();
   const navigate = useNavigate();
+  const { t } = useLanguage();
+
+  const tabs = [
+    { label: t('navHome'), href: '/', icon: Home },
+    { label: t('navDiscover'), href: '/explore', icon: Compass },
+    { label: t('navScan'), href: '/skenovat', icon: ScanLine, center: true },
+    { label: t('navRankings'), href: '/rebriciky', icon: Trophy },
+    { label: t('navProfile'), href: '/profil/demo', icon: User },
+  ];
 
   return (
     <nav
@@ -20,10 +21,7 @@ const BottomTabBar = () => {
       style={{
         height: `calc(49px + env(safe-area-inset-bottom, 0px))`,
         paddingBottom: 'env(safe-area-inset-bottom, 0px)',
-        background: 'rgba(247,242,235,0.97)',
-        backdropFilter: 'blur(20px) saturate(180%)',
-        WebkitBackdropFilter: 'blur(20px) saturate(180%)',
-        borderTop: '0.5px solid hsl(var(--c-stone))',
+        background: 'hsl(var(--c-selce))',
         maxWidth: '390px',
         width: '100%',
         left: '50%',
@@ -43,13 +41,13 @@ const BottomTabBar = () => {
               onClick={() => navigate(tab.href)}
               className="press flex items-center justify-center -mt-[14px]"
               style={{
-                background: 'hsl(var(--c-selce))',
+                background: 'hsl(var(--c-oro))',
                 borderRadius: '14px',
                 padding: '13px 20px',
-                boxShadow: '0 4px 16px rgba(44,24,16,0.35)',
+                boxShadow: '0 4px 16px rgba(200,168,76,0.4)',
               }}
             >
-              <Icon size={24} strokeWidth={1.5} className="text-white" />
+              <Icon size={24} strokeWidth={1.5} className="text-selce" />
             </button>
           );
         }
@@ -61,17 +59,16 @@ const BottomTabBar = () => {
             className="press flex flex-col items-center gap-[3px] py-[6px] px-3 relative"
           >
             {isActive && (
-              <div className="absolute top-0 w-1 h-1 rounded-full bg-oro" />
+              <div className="absolute top-0 w-1 h-1 rounded-full" style={{ background: 'hsl(var(--c-oro))' }} />
             )}
             <Icon
               size={22}
               strokeWidth={1.5}
-              className={isActive ? 'text-selce' : 'text-ink-3'}
+              style={{ color: isActive ? 'hsl(var(--c-oro))' : 'rgba(247,244,238,0.5)' }}
             />
             <span
-              className={`font-body font-medium text-[10px] tracking-[0.06em] uppercase ${
-                isActive ? 'text-selce' : 'text-ink-3'
-              }`}
+              className="font-body font-medium text-[10px] tracking-[0.06em] uppercase"
+              style={{ color: isActive ? 'hsl(var(--c-oro))' : 'rgba(247,244,238,0.5)' }}
             >
               {tab.label}
             </span>
