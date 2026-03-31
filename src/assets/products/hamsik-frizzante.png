@@ -1,0 +1,2018 @@
+<!DOCTYPE html>
+<html lang="sk-SK">
+<head>
+	<meta charset="UTF-8" />
+<style id="global-hamburger-styles-css">
+
+.mobile_nav .select_page {
+    display: none !important;
+}
+.et-db #et-boc .et-l.et-l--header .mobile_menu_bar:before,
+.et-l--header .mobile_menu_bar:before{
+    content: unset;
+}
+
+.et_header_style_centered #main-header .mobile_nav.mobile_nav,
+.et_header_style_split #main-header .mobile_nav.mobile_nav {
+    padding: 0;
+    border-radius: 0;
+    background-color: unset;
+    background: unset;
+}
+.et_header_style_centered #et_mobile_nav_menu#et_mobile_nav_menu,
+.et_header_style_split #et_mobile_nav_menu#et_mobile_nav_menu {
+    position: unset;
+}
+
+.et_header_style_centered.et_header_style_centered .mobile_menu_bar.mobile_menu_bar,
+.et_header_style_split.et_header_style_split .mobile_menu_bar.mobile_menu_bar {
+    position: relative;
+}
+
+
+.et_header_style_centered .et_mobile_menu.et_mobile_menu,
+.et_header_style_split .et_mobile_menu.et_mobile_menu {
+    top: 62px;
+}
+
+.et_header_style_left .et_mobile_menu.et_mobile_menu {
+    top: 90px;
+}
+
+.et_header_style_centered .et_menu_container .mobile_menu_bar.mobile_menu_bar,
+.et_header_style_split .et_menu_container .mobile_menu_bar.mobile_menu_bar,
+.et_header_style_split .et_menu_container #et-top-navigation .mobile_menu_bar.mobile_menu_bar {
+    top: unset;
+    left: unset;
+    right: unset;
+    bottom: unset;
+    padding: 0;
+    float:right;
+}
+
+.et_header_style_split #main-header div#et-top-navigation {
+    bottom: 0;
+}
+    
+#main-header .mobile_menu_bar:before{
+    content: unset;
+}
+
+
+@media all and (max-width: 980px) {
+    .et_header_style_centered #main-header#main-header div#et-top-navigation,
+    .et_header_style_split #main-header#main-header div#et-top-navigation {
+        position: absolute;
+    }
+
+    .et_header_style_fullscreen .dipi_hamburger,
+    .et_header_style_centered .dipi_hamburger,
+    .et_header_style_split .dipi_hamburger {
+        margin-bottom: 0 !important;
+    }
+
+    .et_header_style_centered .dipi_hamburger {
+        margin-top: 6px;
+    }
+
+    .et_header_style_fullscreen .et-fixed-header #et-top-navigation, .et_header_style_fullscreen #et-top-navigation {
+        padding-bottom: 0 !important;
+    }
+}
+
+/* FIXME: only if style is not fullscreen oder slidein */
+@media all and (min-width: 981px) {
+    .dipi_hamburger {
+        display: none;
+    }
+
+    .et_header_style_slide .dipi_hamburger,
+    .et_header_style_fullscreen .dipi_hamburger {
+        display: block;
+        margin-bottom: 0 !important;
+    }
+}
+</style>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://www.hamsikwinery.com/xmlrpc.php" />
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+	
+	<title>chyba 404, stránka sa nenašla | HAMSIK®</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<script type="text/javascript">
+			let jqueryParams=[],jQuery=function(r){return jqueryParams=[...jqueryParams,r],jQuery},$=function(r){return jqueryParams=[...jqueryParams,r],$};window.jQuery=jQuery,window.$=jQuery;let customHeadScripts=!1;jQuery.fn=jQuery.prototype={},$.fn=jQuery.prototype={},jQuery.noConflict=function(r){if(window.jQuery)return jQuery=window.jQuery,$=window.jQuery,customHeadScripts=!0,jQuery.noConflict},jQuery.ready=function(r){jqueryParams=[...jqueryParams,r]},$.ready=function(r){jqueryParams=[...jqueryParams,r]},jQuery.load=function(r){jqueryParams=[...jqueryParams,r]},$.load=function(r){jqueryParams=[...jqueryParams,r]},jQuery.fn.ready=function(r){jqueryParams=[...jqueryParams,r]},$.fn.ready=function(r){jqueryParams=[...jqueryParams,r]};</script><link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="RSS kanál: HAMSIK® &raquo;" href="https://www.hamsikwinery.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="RSS kanál komentárov webu HAMSIK® &raquo;" href="https://www.hamsikwinery.com/comments/feed/" />
+<meta content="Divi Child v.1.0.0" name="generator"/><link rel='stylesheet' id='dm-wcti-admin-css' href='https://www.hamsikwinery.com/wp-content/plugins/dm-woocommerce-custom-tag-image/css/dm-wcti.css?ver=6.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='xt-icons-css' href='https://www.hamsikwinery.com/wp-content/plugins/xt-woo-floating-cart/xt-framework/includes/customizer/controls/xt_icons/css/xt-icons.css?ver=2.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='xt_framework_add-to-cart-css' href='https://www.hamsikwinery.com/wp-content/plugins/xt-woo-floating-cart/xt-framework/includes/modules/add-to-cart/assets/css/add-to-cart.css?ver=2.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='sbi_styles-css' href='https://www.hamsikwinery.com/wp-content/plugins/instagram-feed-pro/css/sbi-styles.min.css?ver=6.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.hamsikwinery.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.5' type='text/css' media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 823px;--wp--style--global--wide-size: 1080px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wpml-blocks-css' href='https://www.hamsikwinery.com/wp-content/plugins/sitepress-multilingual-cms/dist/css/blocks/styles.css?ver=4.6.10' type='text/css' media='all' />
+<style id='age-gate-custom-inline-css' type='text/css'>
+:root{--ag-background-color: rgba(255,255,255,0.6);--ag-background-image-position: center center;--ag-background-image-opacity: 0.5;--ag-form-background: rgba(255,255,255,0.5);--ag-text-color: #000000;--ag-blur: 5px;}
+</style>
+<link rel='stylesheet' id='age-gate-css' href='https://www.hamsikwinery.com/wp-content/plugins/age-gate/dist/main.css?ver=3.7.2' type='text/css' media='all' />
+<style id='age-gate-options-inline-css' type='text/css'>
+:root{--ag-background-color: rgba(255,255,255,0.6);--ag-background-image-position: center center;--ag-background-image-opacity: 0.5;--ag-form-background: rgba(255,255,255,0.5);--ag-text-color: #000000;--ag-blur: 5px;}
+</style>
+<link rel='stylesheet' id='dipi-popup-maker-popup-effect-css' href='https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/dist/public/css/popup_effect.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='dipi_font-css' href='https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/dist/admin/css/dipi-font.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='dipi_general-css' href='https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/dist/public/css/general.min.css?ver=2.29.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dipi_hamburgers_css-css' href='https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/dist/vendor/css/hamburgers.min.css?ver=1.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='formcraft-common-css' href='https://www.hamsikwinery.com/wp-content/plugins/formcraft3/dist/formcraft-common.css?ver=3.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='formcraft-form-css' href='https://www.hamsikwinery.com/wp-content/plugins/formcraft3/dist/form.css?ver=3.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-css' href='https://www.hamsikwinery.com/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/css/cookie-law-info-public.css?ver=2.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-gdpr-css' href='https://www.hamsikwinery.com/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/css/cookie-law-info-gdpr.css?ver=2.5.3' type='text/css' media='all' />
+<style id='cookie-law-info-gdpr-inline-css' type='text/css'>
+.cli-modal-content, .cli-tab-content { background-color: #ffffff; }.cli-privacy-content-text, .cli-modal .cli-modal-dialog, .cli-tab-container p, a.cli-privacy-readmore { color: #000000; }.cli-tab-header { background-color: #f2f2f2; }.cli-tab-header, .cli-tab-header a.cli-nav-link,span.cli-necessary-caption,.cli-switch .cli-slider:after { color: #000000; }.cli-switch .cli-slider:before { background-color: #ffffff; }.cli-switch input:checked + .cli-slider:before { background-color: #ffffff; }.cli-switch .cli-slider { background-color: #e3e1e8; }.cli-switch input:checked + .cli-slider { background-color: #28a745; }.cli-modal-close svg { fill: #000000; }.cli-tab-footer .wt-cli-privacy-accept-all-btn { background-color: #00acad; color: #ffffff}.cli-tab-footer .wt-cli-privacy-accept-btn { background-color: #00acad; color: #ffffff}.cli-tab-header a:before{ border-right: 1px solid #000000; border-bottom: 1px solid #000000; }
+</style>
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://www.hamsikwinery.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=10.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://www.hamsikwinery.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=10.5.3' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='https://www.hamsikwinery.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=10.5.3' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='wpml-legacy-horizontal-list-0-css' href='https://www.hamsikwinery.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-menu-item-0-css' href='https://www.hamsikwinery.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='xtfw_notice-css' href='https://www.hamsikwinery.com/wp-content/plugins/xt-woo-floating-cart/xt-framework/includes/notices/assets/css/frontend-notices.css?ver=2.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='xt-woo-floating-cart-css' href='https://www.hamsikwinery.com/wp-content/plugins/xt-woo-floating-cart/public/assets/css/frontend.css?ver=2.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='xt-lightslider-css' href='https://www.hamsikwinery.com/wp-content/plugins/xt-woo-floating-cart/public/assets/vendors/lightslider/css/lightslider.css?ver=2.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='yith_wapo_front-css' href='https://www.hamsikwinery.com/wp-content/plugins/yith-woocommerce-advanced-product-options-premium/assets/css/front.css?ver=3.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='yith_wapo_jquery-ui-css' href='https://www.hamsikwinery.com/wp-content/plugins/yith-woocommerce-advanced-product-options-premium/assets/css/_new_jquery-ui-1.12.1.css?ver=3.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='yith_wapo_jquery-ui-timepicker-css' href='https://www.hamsikwinery.com/wp-content/plugins/yith-woocommerce-advanced-product-options-premium/assets/css/_new_jquery-ui-timepicker-addon.css?ver=3.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://www.hamsikwinery.com/wp-includes/css/dashicons.min.css?ver=6.8.5' type='text/css' media='all' />
+<style id='dashicons-inline-css' type='text/css'>
+[data-font="Dashicons"]:before {font-family: 'Dashicons' !important;content: attr(data-icon) !important;speak: none !important;font-weight: normal !important;font-variant: normal !important;text-transform: none !important;line-height: 1 !important;font-style: normal !important;-webkit-font-smoothing: antialiased !important;-moz-osx-font-smoothing: grayscale !important;}
+</style>
+<link rel='stylesheet' id='yith-plugin-fw-icon-font-css' href='https://www.hamsikwinery.com/wp-content/plugins/yith-woocommerce-advanced-product-options-premium/plugin-fw/assets/css/yith-icon.css?ver=3.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-color-picker-css' href='https://www.hamsikwinery.com/wp-admin/css/color-picker.min.css?ver=6.8.5' type='text/css' media='all' />
+<style id='divi-style-parent-inline-inline-css' type='text/css'>
+/*!
+Theme Name: Divi
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Version: 4.25.1
+Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+License: GNU General Public License v2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+a,abbr,acronym,address,applet,b,big,blockquote,body,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,tt,u,ul,var{margin:0;padding:0;border:0;outline:0;font-size:100%;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}blockquote{margin:20px 0 30px;border-left:5px solid;padding-left:20px}:focus{outline:0}del{text-decoration:line-through}pre{overflow:auto;padding:10px}figure{margin:0}table{border-collapse:collapse;border-spacing:0}article,aside,footer,header,hgroup,nav,section{display:block}body{font-family:Open Sans,Arial,sans-serif;font-size:14px;color:#666;background-color:#fff;line-height:1.7em;font-weight:500;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body.page-template-page-template-blank-php #page-container{padding-top:0!important}body.et_cover_background{background-size:cover!important;background-position:top!important;background-repeat:no-repeat!important;background-attachment:fixed}a{color:#2ea3f2}a,a:hover{text-decoration:none}p{padding-bottom:1em}p:not(.has-background):last-of-type{padding-bottom:0}p.et_normal_padding{padding-bottom:1em}strong{font-weight:700}cite,em,i{font-style:italic}code,pre{font-family:Courier New,monospace;margin-bottom:10px}ins{text-decoration:none}sub,sup{height:0;line-height:1;position:relative;vertical-align:baseline}sup{bottom:.8em}sub{top:.3em}dl{margin:0 0 1.5em}dl dt{font-weight:700}dd{margin-left:1.5em}blockquote p{padding-bottom:0}embed,iframe,object,video{max-width:100%}h1,h2,h3,h4,h5,h6{color:#333;padding-bottom:10px;line-height:1em;font-weight:500}h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:inherit}h1{font-size:30px}h2{font-size:26px}h3{font-size:22px}h4{font-size:18px}h5{font-size:16px}h6{font-size:14px}input{-webkit-appearance:none}input[type=checkbox]{-webkit-appearance:checkbox}input[type=radio]{-webkit-appearance:radio}input.text,input.title,input[type=email],input[type=password],input[type=tel],input[type=text],select,textarea{background-color:#fff;border:1px solid #bbb;padding:2px;color:#4e4e4e}input.text:focus,input.title:focus,input[type=text]:focus,select:focus,textarea:focus{border-color:#2d3940;color:#3e3e3e}input.text,input.title,input[type=text],select,textarea{margin:0}textarea{padding:4px}button,input,select,textarea{font-family:inherit}img{max-width:100%;height:auto}.clear{clear:both}br.clear{margin:0;padding:0}.pagination{clear:both}#et_search_icon:hover,.et-social-icon a:hover,.et_password_protected_form .et_submit_button,.form-submit .et_pb_buttontton.alt.disabled,.nav-single a,.posted_in a{color:#2ea3f2}.et-search-form,blockquote{border-color:#2ea3f2}#main-content{background-color:#fff}.container{width:80%;max-width:1080px;margin:auto;position:relative}body:not(.et-tb) #main-content .container,body:not(.et-tb-has-header) #main-content .container{padding-top:58px}.et_full_width_page #main-content .container:before{display:none}.main_title{margin-bottom:20px}.et_password_protected_form .et_submit_button:hover,.form-submit .et_pb_button:hover{background:rgba(0,0,0,.05)}.et_button_icon_visible .et_pb_button{padding-right:2em;padding-left:.7em}.et_button_icon_visible .et_pb_button:after{opacity:1;margin-left:0}.et_button_left .et_pb_button:hover:after{left:.15em}.et_button_left .et_pb_button:after{margin-left:0;left:1em}.et_button_icon_visible.et_button_left .et_pb_button,.et_button_left .et_pb_button:hover,.et_button_left .et_pb_module .et_pb_button:hover{padding-left:2em;padding-right:.7em}.et_button_icon_visible.et_button_left .et_pb_button:after,.et_button_left .et_pb_button:hover:after{left:.15em}.et_password_protected_form .et_submit_button:hover,.form-submit .et_pb_button:hover{padding:.3em 1em}.et_button_no_icon .et_pb_button:after{display:none}.et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button,.et_button_no_icon.et_button_left .et_pb_button:hover,.et_button_no_icon .et_pb_button,.et_button_no_icon .et_pb_button:hover{padding:.3em 1em!important}.et_button_custom_icon .et_pb_button:after{line-height:1.7em}.et_button_custom_icon.et_button_icon_visible .et_pb_button:after,.et_button_custom_icon .et_pb_button:hover:after{margin-left:.3em}#left-area .post_format-post-format-gallery .wp-block-gallery:first-of-type{padding:0;margin-bottom:-16px}.entry-content table:not(.variations){border:1px solid #eee;margin:0 0 15px;text-align:left;width:100%}.entry-content thead th,.entry-content tr th{color:#555;font-weight:700;padding:9px 24px}.entry-content tr td{border-top:1px solid #eee;padding:6px 24px}#left-area ul,.entry-content ul,.et-l--body ul,.et-l--footer ul,.et-l--header ul{list-style-type:disc;padding:0 0 23px 1em;line-height:26px}#left-area ol,.entry-content ol,.et-l--body ol,.et-l--footer ol,.et-l--header ol{list-style-type:decimal;list-style-position:inside;padding:0 0 23px;line-height:26px}#left-area ul li ul,.entry-content ul li ol{padding:2px 0 2px 20px}#left-area ol li ul,.entry-content ol li ol,.et-l--body ol li ol,.et-l--footer ol li ol,.et-l--header ol li ol{padding:2px 0 2px 35px}#left-area ul.wp-block-gallery{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;list-style-type:none;padding:0}#left-area ul.products{padding:0!important;line-height:1.7!important;list-style:none!important}.gallery-item a{display:block}.gallery-caption,.gallery-item a{width:90%}#wpadminbar{z-index:100001}#left-area .post-meta{font-size:14px;padding-bottom:15px}#left-area .post-meta a{text-decoration:none;color:#666}#left-area .et_featured_image{padding-bottom:7px}.single .post{padding-bottom:25px}body.single .et_audio_content{margin-bottom:-6px}.nav-single a{text-decoration:none;color:#2ea3f2;font-size:14px;font-weight:400}.nav-previous{float:left}.nav-next{float:right}.et_password_protected_form p input{background-color:#eee;border:none!important;width:100%!important;border-radius:0!important;font-size:14px;color:#999!important;padding:16px!important;-webkit-box-sizing:border-box;box-sizing:border-box}.et_password_protected_form label{display:none}.et_password_protected_form .et_submit_button{font-family:inherit;display:block;float:right;margin:8px auto 0;cursor:pointer}.post-password-required p.nocomments.container{max-width:100%}.post-password-required p.nocomments.container:before{display:none}.aligncenter,div.post .new-post .aligncenter{display:block;margin-left:auto;margin-right:auto}.wp-caption{border:1px solid #ddd;text-align:center;background-color:#f3f3f3;margin-bottom:10px;max-width:96%;padding:8px}.wp-caption.alignleft{margin:0 30px 20px 0}.wp-caption.alignright{margin:0 0 20px 30px}.wp-caption img{margin:0;padding:0;border:0}.wp-caption p.wp-caption-text{font-size:12px;padding:0 4px 5px;margin:0}.alignright{float:right}.alignleft{float:left}img.alignleft{display:inline;float:left;margin-right:15px}img.alignright{display:inline;float:right;margin-left:15px}.page.et_pb_pagebuilder_layout #main-content{background-color:transparent}body #main-content .et_builder_inner_content>h1,body #main-content .et_builder_inner_content>h2,body #main-content .et_builder_inner_content>h3,body #main-content .et_builder_inner_content>h4,body #main-content .et_builder_inner_content>h5,body #main-content .et_builder_inner_content>h6{line-height:1.4em}body #main-content .et_builder_inner_content>p{line-height:1.7em}.wp-block-pullquote{margin:20px 0 30px}.wp-block-pullquote.has-background blockquote{border-left:none}.wp-block-group.has-background{padding:1.5em 1.5em .5em}@media (min-width:981px){#left-area{width:79.125%;padding-bottom:23px}#main-content .container:before{content:"";position:absolute;top:0;height:100%;width:1px;background-color:#e2e2e2}.et_full_width_page #left-area,.et_no_sidebar #left-area{float:none;width:100%!important}.et_full_width_page #left-area{padding-bottom:0}.et_no_sidebar #main-content .container:before{display:none}}@media (max-width:980px){#page-container{padding-top:80px}.et-tb #page-container,.et-tb-has-header #page-container{padding-top:0!important}#left-area,#sidebar{width:100%!important}#main-content .container:before{display:none!important}.et_full_width_page .et_gallery_item:nth-child(4n+1){clear:none}}@media print{#page-container{padding-top:0!important}}#wp-admin-bar-et-use-visual-builder a:before{font-family:ETmodules!important;content:"\e625";font-size:30px!important;width:28px;margin-top:-3px;color:#974df3!important}#wp-admin-bar-et-use-visual-builder:hover a:before{color:#fff!important}#wp-admin-bar-et-use-visual-builder:hover a,#wp-admin-bar-et-use-visual-builder a:hover{transition:background-color .5s ease;-webkit-transition:background-color .5s ease;-moz-transition:background-color .5s ease;background-color:#7e3bd0!important;color:#fff!important}* html .clearfix,:first-child+html .clearfix{zoom:1}.iphone .et_pb_section_video_bg video::-webkit-media-controls-start-playback-button{display:none!important;-webkit-appearance:none}.et_mobile_device .et_pb_section_parallax .et_pb_parallax_css{background-attachment:scroll}.et-social-facebook a.icon:before{content:"\e093"}.et-social-twitter a.icon:before{content:"\e094"}.et-social-google-plus a.icon:before{content:"\e096"}.et-social-instagram a.icon:before{content:"\e09a"}.et-social-rss a.icon:before{content:"\e09e"}.ai1ec-single-event:after{content:" ";display:table;clear:both}.evcal_event_details .evcal_evdata_cell .eventon_details_shading_bot.eventon_details_shading_bot{z-index:3}.wp-block-divi-layout{margin-bottom:1em}*{-webkit-box-sizing:border-box;box-sizing:border-box}#et-info-email:before,#et-info-phone:before,#et_search_icon:before,.comment-reply-link:after,.et-cart-info span:before,.et-pb-arrow-next:before,.et-pb-arrow-prev:before,.et-social-icon a:before,.et_audio_container .mejs-playpause-button button:before,.et_audio_container .mejs-volume-button button:before,.et_overlay:before,.et_password_protected_form .et_submit_button:after,.et_pb_button:after,.et_pb_contact_reset:after,.et_pb_contact_submit:after,.et_pb_font_icon:before,.et_pb_newsletter_button:after,.et_pb_pricing_table_button:after,.et_pb_promo_button:after,.et_pb_testimonial:before,.et_pb_toggle_title:before,.form-submit .et_pb_button:after,.mobile_menu_bar:before,a.et_pb_more_button:after{font-family:ETmodules!important;speak:none;font-style:normal;font-weight:400;-webkit-font-feature-settings:normal;font-feature-settings:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-shadow:0 0;direction:ltr}.et-pb-icon,.et_pb_custom_button_icon.et_pb_button:after,.et_pb_login .et_pb_custom_button_icon.et_pb_button:after,.et_pb_woo_custom_button_icon .button.et_pb_custom_button_icon.et_pb_button:after,.et_pb_woo_custom_button_icon .button.et_pb_custom_button_icon.et_pb_button:hover:after{content:attr(data-icon)}.et-pb-icon{font-family:ETmodules;speak:none;font-weight:400;-webkit-font-feature-settings:normal;font-feature-settings:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;font-size:96px;font-style:normal;display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box;direction:ltr}#et-ajax-saving{display:none;-webkit-transition:background .3s,-webkit-box-shadow .3s;transition:background .3s,-webkit-box-shadow .3s;transition:background .3s,box-shadow .3s;transition:background .3s,box-shadow .3s,-webkit-box-shadow .3s;-webkit-box-shadow:rgba(0,139,219,.247059) 0 0 60px;box-shadow:0 0 60px rgba(0,139,219,.247059);position:fixed;top:50%;left:50%;width:50px;height:50px;background:#fff;border-radius:50px;margin:-25px 0 0 -25px;z-index:999999;text-align:center}#et-ajax-saving img{margin:9px}.et-safe-mode-indicator,.et-safe-mode-indicator:focus,.et-safe-mode-indicator:hover{-webkit-box-shadow:0 5px 10px rgba(41,196,169,.15);box-shadow:0 5px 10px rgba(41,196,169,.15);background:#29c4a9;color:#fff;font-size:14px;font-weight:600;padding:12px;line-height:16px;border-radius:3px;position:fixed;bottom:30px;right:30px;z-index:999999;text-decoration:none;font-family:Open Sans,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.et_pb_button{font-size:20px;font-weight:500;padding:.3em 1em;line-height:1.7em!important;background-color:transparent;background-size:cover;background-position:50%;background-repeat:no-repeat;border:2px solid;border-radius:3px;-webkit-transition-duration:.2s;transition-duration:.2s;-webkit-transition-property:all!important;transition-property:all!important}.et_pb_button,.et_pb_button_inner{position:relative}.et_pb_button:hover,.et_pb_module .et_pb_button:hover{border:2px solid transparent;padding:.3em 2em .3em .7em}.et_pb_button:hover{background-color:hsla(0,0%,100%,.2)}.et_pb_bg_layout_light.et_pb_button:hover,.et_pb_bg_layout_light .et_pb_button:hover{background-color:rgba(0,0,0,.05)}.et_pb_button:after,.et_pb_button:before{font-size:32px;line-height:1em;content:"\35";opacity:0;position:absolute;margin-left:-1em;-webkit-transition:all .2s;transition:all .2s;text-transform:none;-webkit-font-feature-settings:"kern" off;font-feature-settings:"kern" off;font-variant:none;font-style:normal;font-weight:400;text-shadow:none}.et_pb_button.et_hover_enabled:hover:after,.et_pb_button.et_pb_hovered:hover:after{-webkit-transition:none!important;transition:none!important}.et_pb_button:before{display:none}.et_pb_button:hover:after{opacity:1;margin-left:0}.et_pb_column_1_3 h1,.et_pb_column_1_4 h1,.et_pb_column_1_5 h1,.et_pb_column_1_6 h1,.et_pb_column_2_5 h1{font-size:26px}.et_pb_column_1_3 h2,.et_pb_column_1_4 h2,.et_pb_column_1_5 h2,.et_pb_column_1_6 h2,.et_pb_column_2_5 h2{font-size:23px}.et_pb_column_1_3 h3,.et_pb_column_1_4 h3,.et_pb_column_1_5 h3,.et_pb_column_1_6 h3,.et_pb_column_2_5 h3{font-size:20px}.et_pb_column_1_3 h4,.et_pb_column_1_4 h4,.et_pb_column_1_5 h4,.et_pb_column_1_6 h4,.et_pb_column_2_5 h4{font-size:18px}.et_pb_column_1_3 h5,.et_pb_column_1_4 h5,.et_pb_column_1_5 h5,.et_pb_column_1_6 h5,.et_pb_column_2_5 h5{font-size:16px}.et_pb_column_1_3 h6,.et_pb_column_1_4 h6,.et_pb_column_1_5 h6,.et_pb_column_1_6 h6,.et_pb_column_2_5 h6{font-size:15px}.et_pb_bg_layout_dark,.et_pb_bg_layout_dark h1,.et_pb_bg_layout_dark h2,.et_pb_bg_layout_dark h3,.et_pb_bg_layout_dark h4,.et_pb_bg_layout_dark h5,.et_pb_bg_layout_dark h6{color:#fff!important}.et_pb_module.et_pb_text_align_left{text-align:left}.et_pb_module.et_pb_text_align_center{text-align:center}.et_pb_module.et_pb_text_align_right{text-align:right}.et_pb_module.et_pb_text_align_justified{text-align:justify}.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}.et_pb_bg_layout_light .et_pb_more_button{color:#2ea3f2}.et_builder_inner_content{position:relative;z-index:1}header .et_builder_inner_content{z-index:2}.et_pb_css_mix_blend_mode_passthrough{mix-blend-mode:unset!important}.et_pb_image_container{margin:-20px -20px 29px}.et_pb_module_inner{position:relative}.et_hover_enabled_preview{z-index:2}.et_hover_enabled:hover{position:relative;z-index:2}.et_pb_all_tabs,.et_pb_module,.et_pb_posts_nav a,.et_pb_tab,.et_pb_with_background{position:relative;background-size:cover;background-position:50%;background-repeat:no-repeat}.et_pb_background_mask,.et_pb_background_pattern{bottom:0;left:0;position:absolute;right:0;top:0}.et_pb_background_mask{background-size:calc(100% + 2px) calc(100% + 2px);background-repeat:no-repeat;background-position:50%;overflow:hidden}.et_pb_background_pattern{background-position:0 0;background-repeat:repeat}.et_pb_with_border{position:relative;border:0 solid #333}.post-password-required .et_pb_row{padding:0;width:100%}.post-password-required .et_password_protected_form{min-height:0}body.et_pb_pagebuilder_layout.et_pb_show_title .post-password-required .et_password_protected_form h1,body:not(.et_pb_pagebuilder_layout) .post-password-required .et_password_protected_form h1{display:none}.et_pb_no_bg{padding:0!important}.et_overlay.et_pb_inline_icon:before,.et_pb_inline_icon:before{content:attr(data-icon)}.et_pb_more_button{color:inherit;text-shadow:none;text-decoration:none;display:inline-block;margin-top:20px}.et_parallax_bg_wrap{overflow:hidden;position:absolute;top:0;right:0;bottom:0;left:0}.et_parallax_bg{background-repeat:no-repeat;background-position:top;background-size:cover;position:absolute;bottom:0;left:0;width:100%;height:100%;display:block}.et_parallax_bg.et_parallax_bg__hover,.et_parallax_bg.et_parallax_bg_phone,.et_parallax_bg.et_parallax_bg_tablet,.et_parallax_gradient.et_parallax_gradient__hover,.et_parallax_gradient.et_parallax_gradient_phone,.et_parallax_gradient.et_parallax_gradient_tablet,.et_pb_section_parallax_hover:hover .et_parallax_bg:not(.et_parallax_bg__hover),.et_pb_section_parallax_hover:hover .et_parallax_gradient:not(.et_parallax_gradient__hover){display:none}.et_pb_section_parallax_hover:hover .et_parallax_bg.et_parallax_bg__hover,.et_pb_section_parallax_hover:hover .et_parallax_gradient.et_parallax_gradient__hover{display:block}.et_parallax_gradient{bottom:0;display:block;left:0;position:absolute;right:0;top:0}.et_pb_module.et_pb_section_parallax,.et_pb_posts_nav a.et_pb_section_parallax,.et_pb_tab.et_pb_section_parallax{position:relative}.et_pb_section_parallax .et_pb_parallax_css,.et_pb_slides .et_parallax_bg.et_pb_parallax_css{background-attachment:fixed}body.et-bfb .et_pb_section_parallax .et_pb_parallax_css,body.et-bfb .et_pb_slides .et_parallax_bg.et_pb_parallax_css{background-attachment:scroll;bottom:auto}.et_pb_section_parallax.et_pb_column .et_pb_module,.et_pb_section_parallax.et_pb_row .et_pb_column,.et_pb_section_parallax.et_pb_row .et_pb_module{z-index:9;position:relative}.et_pb_more_button:hover:after{opacity:1;margin-left:0}.et_pb_preload .et_pb_section_video_bg,.et_pb_preload>div{visibility:hidden}.et_pb_preload,.et_pb_section.et_pb_section_video.et_pb_preload{position:relative;background:#464646!important}.et_pb_preload:before{content:"";position:absolute;top:50%;left:50%;background:url(https://www.hamsikwinery.com/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif) no-repeat;border-radius:32px;width:32px;height:32px;margin:-16px 0 0 -16px}.box-shadow-overlay{position:absolute;top:0;left:0;width:100%;height:100%;z-index:10;pointer-events:none}.et_pb_section>.box-shadow-overlay~.et_pb_row{z-index:11}body.safari .section_has_divider{will-change:transform}.et_pb_row>.box-shadow-overlay{z-index:8}.has-box-shadow-overlay{position:relative}.et_clickable{cursor:pointer}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px;word-wrap:normal!important}.et_multi_view_hidden,.et_multi_view_hidden_image{display:none!important}@keyframes multi-view-image-fade{0%{opacity:0}10%{opacity:.1}20%{opacity:.2}30%{opacity:.3}40%{opacity:.4}50%{opacity:.5}60%{opacity:.6}70%{opacity:.7}80%{opacity:.8}90%{opacity:.9}to{opacity:1}}.et_multi_view_image__loading{visibility:hidden}.et_multi_view_image__loaded{-webkit-animation:multi-view-image-fade .5s;animation:multi-view-image-fade .5s}#et-pb-motion-effects-offset-tracker{visibility:hidden!important;opacity:0;position:absolute;top:0;left:0}.et-pb-before-scroll-animation{opacity:0}header.et-l.et-l--header:after{clear:both;display:block;content:""}.et_pb_module{-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-duration:.2s;animation-duration:.2s}@-webkit-keyframes fadeBottom{0%{opacity:0;-webkit-transform:translateY(10%);transform:translateY(10%)}to{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes fadeBottom{0%{opacity:0;-webkit-transform:translateY(10%);transform:translateY(10%)}to{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}@-webkit-keyframes fadeLeft{0%{opacity:0;-webkit-transform:translateX(-10%);transform:translateX(-10%)}to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes fadeLeft{0%{opacity:0;-webkit-transform:translateX(-10%);transform:translateX(-10%)}to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}@-webkit-keyframes fadeRight{0%{opacity:0;-webkit-transform:translateX(10%);transform:translateX(10%)}to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes fadeRight{0%{opacity:0;-webkit-transform:translateX(10%);transform:translateX(10%)}to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}@-webkit-keyframes fadeTop{0%{opacity:0;-webkit-transform:translateY(-10%);transform:translateY(-10%)}to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes fadeTop{0%{opacity:0;-webkit-transform:translateY(-10%);transform:translateY(-10%)}to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}@-webkit-keyframes fadeIn{0%{opacity:0}to{opacity:1}}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.et-waypoint:not(.et_pb_counters){opacity:0}@media (min-width:981px){.et_pb_section.et_section_specialty div.et_pb_row .et_pb_column .et_pb_column .et_pb_module.et-last-child,.et_pb_section.et_section_specialty div.et_pb_row .et_pb_column .et_pb_column .et_pb_module:last-child,.et_pb_section.et_section_specialty div.et_pb_row .et_pb_column .et_pb_row_inner .et_pb_column .et_pb_module.et-last-child,.et_pb_section.et_section_specialty div.et_pb_row .et_pb_column .et_pb_row_inner .et_pb_column .et_pb_module:last-child,.et_pb_section div.et_pb_row .et_pb_column .et_pb_module.et-last-child,.et_pb_section div.et_pb_row .et_pb_column .et_pb_module:last-child{margin-bottom:0}}@media (max-width:980px){.et_overlay.et_pb_inline_icon_tablet:before,.et_pb_inline_icon_tablet:before{content:attr(data-icon-tablet)}.et_parallax_bg.et_parallax_bg_tablet_exist,.et_parallax_gradient.et_parallax_gradient_tablet_exist{display:none}.et_parallax_bg.et_parallax_bg_tablet,.et_parallax_gradient.et_parallax_gradient_tablet{display:block}.et_pb_column .et_pb_module{margin-bottom:30px}.et_pb_row .et_pb_column .et_pb_module.et-last-child,.et_pb_row .et_pb_column .et_pb_module:last-child,.et_section_specialty .et_pb_row .et_pb_column .et_pb_module.et-last-child,.et_section_specialty .et_pb_row .et_pb_column .et_pb_module:last-child{margin-bottom:0}.et_pb_more_button{display:inline-block!important}.et_pb_bg_layout_light_tablet.et_pb_button,.et_pb_bg_layout_light_tablet.et_pb_module.et_pb_button,.et_pb_bg_layout_light_tablet .et_pb_more_button{color:#2ea3f2}.et_pb_bg_layout_light_tablet .et_pb_forgot_password a{color:#666}.et_pb_bg_layout_light_tablet h1,.et_pb_bg_layout_light_tablet h2,.et_pb_bg_layout_light_tablet h3,.et_pb_bg_layout_light_tablet h4,.et_pb_bg_layout_light_tablet h5,.et_pb_bg_layout_light_tablet h6{color:#333!important}.et_pb_module .et_pb_bg_layout_light_tablet.et_pb_button{color:#2ea3f2!important}.et_pb_bg_layout_light_tablet{color:#666!important}.et_pb_bg_layout_dark_tablet,.et_pb_bg_layout_dark_tablet h1,.et_pb_bg_layout_dark_tablet h2,.et_pb_bg_layout_dark_tablet h3,.et_pb_bg_layout_dark_tablet h4,.et_pb_bg_layout_dark_tablet h5,.et_pb_bg_layout_dark_tablet h6{color:#fff!important}.et_pb_bg_layout_dark_tablet.et_pb_button,.et_pb_bg_layout_dark_tablet.et_pb_module.et_pb_button,.et_pb_bg_layout_dark_tablet .et_pb_more_button{color:inherit}.et_pb_bg_layout_dark_tablet .et_pb_forgot_password a{color:#fff}.et_pb_module.et_pb_text_align_left-tablet{text-align:left}.et_pb_module.et_pb_text_align_center-tablet{text-align:center}.et_pb_module.et_pb_text_align_right-tablet{text-align:right}.et_pb_module.et_pb_text_align_justified-tablet{text-align:justify}}@media (max-width:767px){.et_pb_more_button{display:inline-block!important}.et_overlay.et_pb_inline_icon_phone:before,.et_pb_inline_icon_phone:before{content:attr(data-icon-phone)}.et_parallax_bg.et_parallax_bg_phone_exist,.et_parallax_gradient.et_parallax_gradient_phone_exist{display:none}.et_parallax_bg.et_parallax_bg_phone,.et_parallax_gradient.et_parallax_gradient_phone{display:block}.et-hide-mobile{display:none!important}.et_pb_bg_layout_light_phone.et_pb_button,.et_pb_bg_layout_light_phone.et_pb_module.et_pb_button,.et_pb_bg_layout_light_phone .et_pb_more_button{color:#2ea3f2}.et_pb_bg_layout_light_phone .et_pb_forgot_password a{color:#666}.et_pb_bg_layout_light_phone h1,.et_pb_bg_layout_light_phone h2,.et_pb_bg_layout_light_phone h3,.et_pb_bg_layout_light_phone h4,.et_pb_bg_layout_light_phone h5,.et_pb_bg_layout_light_phone h6{color:#333!important}.et_pb_module .et_pb_bg_layout_light_phone.et_pb_button{color:#2ea3f2!important}.et_pb_bg_layout_light_phone{color:#666!important}.et_pb_bg_layout_dark_phone,.et_pb_bg_layout_dark_phone h1,.et_pb_bg_layout_dark_phone h2,.et_pb_bg_layout_dark_phone h3,.et_pb_bg_layout_dark_phone h4,.et_pb_bg_layout_dark_phone h5,.et_pb_bg_layout_dark_phone h6{color:#fff!important}.et_pb_bg_layout_dark_phone.et_pb_button,.et_pb_bg_layout_dark_phone.et_pb_module.et_pb_button,.et_pb_bg_layout_dark_phone .et_pb_more_button{color:inherit}.et_pb_module .et_pb_bg_layout_dark_phone.et_pb_button{color:#fff!important}.et_pb_bg_layout_dark_phone .et_pb_forgot_password a{color:#fff}.et_pb_module.et_pb_text_align_left-phone{text-align:left}.et_pb_module.et_pb_text_align_center-phone{text-align:center}.et_pb_module.et_pb_text_align_right-phone{text-align:right}.et_pb_module.et_pb_text_align_justified-phone{text-align:justify}}@media (max-width:479px){a.et_pb_more_button{display:block}}@media (min-width:768px) and (max-width:980px){[data-et-multi-view-load-tablet-hidden=true]:not(.et_multi_view_swapped){display:none!important}}@media (max-width:767px){[data-et-multi-view-load-phone-hidden=true]:not(.et_multi_view_swapped){display:none!important}}.et_pb_menu.et_pb_menu--style-inline_centered_logo .et_pb_menu__menu nav ul{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}@-webkit-keyframes multi-view-image-fade{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}50%{-webkit-transform:scale(1.01);transform:scale(1.01);opacity:1}to{-webkit-transform:scale(1);transform:scale(1);opacity:1}}
+</style>
+<link rel='stylesheet' id='divi-dynamic-late-css' href='https://www.hamsikwinery.com/wp-content/et-cache/notfound/et-divi-dynamic-tb-1410-late.css?ver=1774735112' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-dynamic-css' href='https://www.hamsikwinery.com/wp-content/et-cache/notfound/et-divi-dynamic-tb-1410.css?ver=1774735112' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-pixel-styles-css' href='https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/styles/style.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='revslider-divi-styles-css' href='https://www.hamsikwinery.com/wp-content/plugins/revslider/admin/includes/shortcode_generator/divi/styles/style.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='supreme-modules-pro-for-divi-styles-css' href='https://www.hamsikwinery.com/wp-content/plugins/supreme-modules-pro-for-divi/styles/style.min.css?ver=4.9.71' type='text/css' media='all' />
+<link rel='stylesheet' id='dsm-magnific-popup-css' href='https://www.hamsikwinery.com/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/css/magnific_popup.css?ver=4.9.71' type='text/css' media='all' />
+<link rel='stylesheet' id='dsm-swiper-css' href='https://www.hamsikwinery.com/wp-content/plugins/supreme-modules-pro-for-divi/public/css/swiper.css?ver=4.9.71' type='text/css' media='all' />
+<link rel='stylesheet' id='dsm-popup-css' href='https://www.hamsikwinery.com/wp-content/plugins/supreme-modules-pro-for-divi/public/css/popup.css?ver=4.9.71' type='text/css' media='all' />
+<link rel='stylesheet' id='dsm-animate-css' href='https://www.hamsikwinery.com/wp-content/plugins/supreme-modules-pro-for-divi/public/css/animate.css?ver=4.9.71' type='text/css' media='all' />
+<link rel='stylesheet' id='dsm-readmore-css' href='https://www.hamsikwinery.com/wp-content/plugins/supreme-modules-pro-for-divi/public/css/readmore.css?ver=4.9.71' type='text/css' media='all' />
+<link rel='stylesheet' id='boxzilla-css' href='https://www.hamsikwinery.com/wp-content/plugins/boxzilla/assets/css/styles.css?ver=3.4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wqpmb-style-css' href='https://www.hamsikwinery.com/wp-content/plugins/wc-quantity-plus-minus-button/assets/css/style.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-css' href='https://www.hamsikwinery.com/wp-content/themes/Divi%20Child/style.css?ver=4.25.1' type='text/css' media='all' />
+<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p role="alert">Ospravedlňujeme sa, tento produkt nie je dostupný. Prosím vyberte inú kombináciu.</p>
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="jquery-js-after">
+/* <![CDATA[ */
+jqueryParams.length&&$.each(jqueryParams,function(e,r){if("function"==typeof r){var n=String(r);n.replace("$","jQuery");var a=new Function("return "+n)();$(document).ready(a)}});
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/dist/public/js/public.min.js?ver=2.29.2" id="dipi_public_js-js"></script>
+<script type="text/javascript" id="dipi_particles_js-js-extra">
+/* <![CDATA[ */
+var dipi_particles_vars = {"particles_count":"80","particles_color":"rgba(201,177,98,0.4)","particle_shape":"circle","particles_size":"3","particles_speed":"5","particles_width":"1","particle_move_direction":"top","link_color":"rgba(0,0,0,0.4)","link_distance":"150","particle_interactivity":"bubble","particles_count_2":"135","particles_color_2":"rgba(201,177,98,0.4)","particle_shape_2":"circle","particles_size_2":"5","particles_speed_2":"7","particles_width_2":"0","particle_move_direction_2":"top","link_color_2":"rgba(0,0,0,0.4)","link_distance_2":"0","particle_interactivity_2":"bubble"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/dist/vendor/js/particles.js?ver=2.29.2" id="dipi_particles_js-js"></script>
+<script type="text/javascript" id="wpml-cookie-js-extra">
+/* <![CDATA[ */
+var wpml_cookies = {"wp-wpml_current_language":{"value":"sk","expires":1,"path":"\/"}};
+var wpml_cookies = {"wp-wpml_current_language":{"value":"sk","expires":1,"path":"\/"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js?ver=4.6.10" id="wpml-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="xtfw-inline-js-after">
+/* <![CDATA[ */
+                    window.XT = (typeof window.XT !== "undefined") ? window.XT : {};
+        
+                    XT.isTouchDevice = function () {
+                        return ("ontouchstart" in document.documentElement);
+                    };
+                    
+                    (function( $ ) {
+                        if (XT.isTouchDevice()) {
+                            $("html").addClass("xtfw-touchevents");
+                        }else{        
+                            $("html").addClass("xtfw-no-touchevents");
+                        }
+                    })( jQuery );
+                
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/xt-woo-floating-cart/xt-framework/assets/js/jquery.ajaxqueue-min.js?ver=2.4.0" id="xt-jquery-ajaxqueue-js"></script>
+<script type="text/javascript" id="xt_framework_add-to-cart-js-extra">
+/* <![CDATA[ */
+var XT_ATC = {"customizerConfigId":"xt_framework_add-to-cart","ajaxUrl":"https:\/\/www.hamsikwinery.com\/?wc-ajax=%%endpoint%%","ajaxAddToCart":"","ajaxSinglePageAddToCart":"1","singleRefreshFragments":"","singleScrollToNotice":"1","singleScrollToNoticeTimeout":"650","isProductPage":"","overrideSpinner":"","spinnerIcon":"","checkmarkIcon":"","redirectionEnabled":"","redirectionTo":"https:\/\/www.hamsikwinery.com\/kosik\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/xt-woo-floating-cart/xt-framework/includes/modules/add-to-cart/assets/js/add-to-cart-min.js?ver=2.4.0" id="xt_framework_add-to-cart-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/dist/public/js/hamburger.min.js?ver=2.29.2" id="dipi_hamburgers_js-js"></script>
+<script type="text/javascript" id="cookie-law-info-js-extra">
+/* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":[],"non_necessary_cookies":[],"cookielist":[],"ajax_url":"https:\/\/www.hamsikwinery.com\/wp-admin\/admin-ajax.php","current_lang":"sk","security":"b7c9d433dc","eu_countries":["GB"],"geoIP":"disabled","use_custom_geolocation_api":"","custom_geolocation_api":"https:\/\/geoip.cookieyes.com\/geoip\/checker\/result.php","consentVersion":"1","strictlyEnabled":["necessary","obligatoire"],"cookieDomain":"","privacy_length":"250","ccpaEnabled":"","ccpaRegionBased":"","ccpaBarEnabled":"","ccpaType":"gdpr","triggerDomRefresh":"","secure_cookies":""};
+var log_object = {"ajax_url":"https:\/\/www.hamsikwinery.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/js/cookie-law-info-public.js?ver=2.5.3" id="cookie-law-info-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.5.3" id="wc-jquery-blockui-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.10.5.3" id="wc-js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_password_show":"Zobrazi\u0165 heslo","i18n_password_hide":"Skry\u0165 heslo"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=10.5.3" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/xt-woo-floating-cart/public/assets/vendors/bodyScrollLock-min.js?ver=2.7.5" id="xt-body-scroll-lock-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/xt-woo-floating-cart/xt-framework/assets/js/jquery.touch-min.js?ver=2.4.0" id="xt-jquery-touch-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/xt-woo-floating-cart/public/assets/vendors/lightslider/js/lightslider-min.js?ver=2.7.5" id="xt-lightslider-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-includes/js/underscore.min.js?ver=1.13.7" id="underscore-js"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-includes/js/wp-util.min.js?ver=6.8.5" id="wp-util-js"></script>
+<link rel="https://api.w.org/" href="https://www.hamsikwinery.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.hamsikwinery.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.5" />
+<meta name="generator" content="WooCommerce 10.5.3" />
+<meta name="generator" content="WPML ver:4.6.10 stt:1,10;" />
+<style>
+/*#main-header .logo_container img,
+header.et-l--header .et_pb_menu__logo > img {
+    display: none;
+}*/
+</style>
+<script type="text/javascript" id="dipi-logo-js">
+jQuery(document).ready(function($) {
+
+    var currentLogoMode = '';
+
+
+    let $mainHeader = $('header#main-header');
+    let $tbHeader = $('header.et-l--header');
+        function dipi_update_logo($logo, $is_tb_logo) {
+        // Clone $logo so we can replace it rather than just change src attr (because this causes a bug in Safari browser) 
+        let $mainLogo = $logo.clone();
+        let $tbLogoContainer = $logo.closest(".et_pb_menu__logo")
+        let $tbLogoContainer_a = $logo.closest(".et_pb_menu__logo a")
+        let $tbLogoWrapper = $tbLogoContainer_a.length ? $tbLogoContainer_a : $tbLogoContainer
+        if($mainLogo.length) {
+            $mainLogo.attr("data-logo-type", "main");
+            $mainLogo.attr("data-actual-width", $mainLogo[0].naturalWidth);
+            $mainLogo.attr("data-actual-height", $mainLogo[0].naturalHeight);
+        }
+        // Clone $logo to use in fixed header. If fixed header logo is not enabled, we simple use the original logo
+                    let $fixedLogo = $logo.clone();
+                if($fixedLogo.length) {
+            $fixedLogo.attr("data-actual-width", $fixedLogo[0].naturalWidth);
+            $fixedLogo.attr("data-actual-height", $fixedLogo[0].naturalHeight);
+        }
+        
+        // Clone $logo to use in mobile. If mobile logo is not enabled, we simple use the original logo
+        let $use_mobile_logo = false;
+                let $mobileLogo = $logo.clone();
+                
+        if($use_mobile_logo && ($(window).width() <= 980)){
+            setTimeout( function(){
+                $mobileLogo.show();
+            }, 500)
+        } else {
+            setTimeout( function(){
+                $fixedLogo.show();
+                $mainLogo.show();
+            }, 500)
+        }
+
+        $fixedLogo.removeAttr("srcset")
+        $mobileLogo.removeAttr("srcset")
+        function callback(mutationList, observer) {
+            mutationList.forEach(function(mutation){
+                if('attributes' != mutation.type || 'class' !== mutation.attributeName){
+                    return;
+                }
+                if($is_tb_logo) {
+                    dipi_tb_header_change();
+                } else {
+                    dipi_default_logo_change();
+                }
+            });
+        }
+
+        var targetNode = document.querySelector("#main-header,header.et-l--header > .et_builder_inner_content");
+        var observerOptions = {
+            childList: false,
+            attributes: true,
+            subtree: false
+        }
+
+        if(targetNode){
+            var observer = new MutationObserver(callback);
+            observer.observe(targetNode, observerOptions);
+        }
+
+        
+        if($is_tb_logo) {
+            // Observe resize events to switch between mobile/fixed logos
+            $(window).resize(dipi_tb_header_change);
+            // finally call the callback manually once to get started
+            dipi_tb_header_change(true);
+        } else {
+            // Observe resize events to switch between mobile/fixed logos
+            $(window).resize(dipi_default_logo_change);
+            // finally call the callback manually once to get started
+            dipi_default_logo_change(true);
+        }
+
+        
+        function dipi_tb_header_change(first_loading = false) {
+            if($mainLogo.length)
+                $mainLogo.attr("data-actual-width", $mainLogo[0].naturalWidth);
+            
+            
+            if($use_mobile_logo && $(window).width() <= 980 && currentLogoMode != 'mobile'){
+                currentLogoMode = 'mobile';
+                $tbLogoWrapper.find("img").remove();
+                $tbLogoWrapper.append($mobileLogo);
+            } else if ($(window).width() > 980) {
+                if ($tbHeader.find('.has_et_pb_sticky').length !== 0  && currentLogoMode != 'desktop-fixed'){
+                    currentLogoMode = 'desktop-fixed';
+                    $tbLogoWrapper.find("img").remove();
+                    $tbLogoWrapper.append($fixedLogo);
+                                    } else if($tbHeader.find('.has_et_pb_sticky').length == 0 && currentLogoMode != 'desktop-normal' ){
+                    currentLogoMode = 'desktop-normal';
+                    $tbLogoWrapper.find("img").remove();
+                    $tbLogoWrapper.append($mainLogo);
+                                    }
+            }
+        }
+
+        // Callback to fire when window is resized or scrolled
+        function dipi_default_logo_change(first_loading = false) {
+            if($mainLogo.length){
+                $mainLogo.attr("data-actual-width", $mainLogo[0].naturalWidth);
+            }
+
+            if($use_mobile_logo && $(window).width() <= 980 && currentLogoMode != 'mobile'){
+                currentLogoMode = 'mobile';
+                let $a = $(".logo_container a");
+                $a.find("#logo").remove();    
+                $a.append($mobileLogo);
+            } else if($(window).width() > 980) {                
+                if ($mainHeader.hasClass('et-fixed-header') && currentLogoMode != 'desktop-fixed'){
+                    currentLogoMode = 'desktop-fixed';
+                    let $a = $(".logo_container a");
+                    $a.find("#logo").remove();    
+                    $a.append($fixedLogo);
+                                    } else if(!$mainHeader.hasClass('et-fixed-header') && currentLogoMode != 'desktop-normal') {
+                    currentLogoMode = 'desktop-normal';
+                    let $a = $(".logo_container a");
+                    $a.find("#logo").remove(); 
+                    $a.append($mainLogo);
+                                    }
+            }
+        }
+    }
+
+});
+</script>
+<style type="text/css" id="dipi-footer-styles">
+
+  
+  
+	.bottom-nav li {
+		font-family: 'none', sans-serif;		font-weight: 500;
+    	padding-right: 20px;
+  	}
+
+  	.bottom-nav li:last-child{
+    	padding-right: 0px;
+	}
+
+	.dipi-hover-underline-animation::after {
+		background-color: 0|0|0|0;
+	}
+
+	.bottom-nav a:hover {
+		color: 0|0|0|0;
+	}
+</style>
+<style type="text/css" id="dipi-footer-dont-hide-bottom-bar-styles">
+	#footer-bottom {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	#footer-info {
+		font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;		letter-spacing: 0px;
+		font-weight: 500;
+	}
+
+	#footer-info a {
+    color: 0|0|0|0;
+  }
+
+  #footer-info a:hover {
+    color: 0|0|0|0;
+  }
+
+			@media (min-width: 981px) {
+			#footer-info {
+				display: flex;
+				align-items: center;
+				padding-bottom: 0;
+			}
+		}
+	</style>
+
+<style type="text/css">
+
+body::-webkit-scrollbar {
+	width: 10px;
+	background-color: #ffffff;
+	outline: none;
+}
+
+body::-webkit-scrollbar-thumb {
+	border-radius: 15px;
+	background-color: #c9b162;
+}
+
+body::-webkit-scrollbar-track {
+	background-color: #ffffff;
+	border-radius: 0px;
+}
+
+</style><style type="text/css" id="primary-menu-position">
+
+@media screen and (min-width: 981px) {
+    body.dipi-cta-button #et_top_search{
+        margin: 15px 0 0 22px;
+    }
+    
+    .et_header_style_split div#et-top-navigation,
+    .et_header_style_left div#et-top-navigation{
+        align-items: flex-start !important;
+    }
+
+    .et_header_style_left #et-top-navigation nav > ul > li > a,
+    .et_header_style_split #et-top-navigation nav > ul > li > a {
+        padding-bottom: 15px !important;
+    }
+
+            /* .et_header_style_left #et-top-navigation nav > ul > li > a,
+        .et_header_style_split #et-top-navigation nav > ul > li > a,
+        .et_header_style_centered #et-top-navigation nav > ul > li > a {
+            line-height: 2.5em;
+        } */
+    
+    .et_header_style_left div#et-top-navigation {
+        display: flex;
+        align-items: center;
+        
+        /* With social icons enabled, we remove the bottom padding below the li elements so we need to add it to the container */
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+    
+    .et_header_style_split div#et-top-navigation {
+        align-items: center;
+
+        /* With social icons enabled, we remove the bottom padding below the li elements so we need to add it to the container */
+        padding-top: 15px !important;
+        padding-bottom: 0px !important;
+    }
+    
+    .et_header_style_fullscreen #et-top-navigation {  
+        padding-bottom: 0px !important;   
+    }
+
+    /* Vertical Navigation Styles */
+    .et_vertical_nav #main-header #top-menu>li>a {
+        padding-bottom: 19px !important;
+        line-height: inherit;
+    }
+    .et_vertical_nav #main-header #et-top-navigation {
+        display: block;
+    }
+    .et_vertical_nav #top-header {
+        position: initial;
+    }
+    .et_vertical_fixed.admin-bar #page-container #main-header {
+        top:32px !important;
+    }
+    .et_vertical_nav.et_vertical_fixed.et_header_style_left #et-top-navigation {
+        padding-top:33px !important;
+    }
+    .et_vertical_fixed.admin-bar #page-container #main-header {
+        transform: translateY(0) !important;
+    }
+    .et_vertical_nav #page-container #main-header {
+        top: 0 !important;
+    }
+
+    /* With do-not-shrink functionality enabeld, we also must apply padding to fixed menu */
+            .et_header_style_left .et-fixed-header #et-top-navigation,
+        .et_header_style_split .et-fixed-header #et-top-navigation {
+            padding-top: 15px !important;
+            padding-bottom: 0px !important;
+        }
+
+        .et_header_style_centered .et-fixed-header #et-top-navigation {
+            padding-top: 15px;
+            padding-bottom: 0px !important; 
+        }
+
+        .et_header_style_left .et-fixed-header #et-top-navigation nav > ul > li > a,
+        .et_header_style_split .et-fixed-header #et-top-navigation nav > ul > li > a{
+            padding-bottom: 15px !important;
+        }
+    
+    .et-menu li:not(.mega-menu) ul,
+    #top-menu li:not(.mega-menu) ul{width: 240px !important;}
+    .et-menu li li a,
+    #top-menu li li a{width:100% !important;}
+    #top-menu li li,
+    .et-menu li li{width: 100%;}
+}
+</style><style>
+@media all and (max-width: 980px) {
+    .et_header_style_centered.et_header_style_centered header#main-header.et-fixed-header .logo_container {
+        height: auto;
+    }
+
+    .et_header_style_split #et_mobile_nav_menu,
+    .et_header_style_centered #et_mobile_nav_menu{
+		    flex: 1;
+    }
+
+    #et-top-navigation {
+        display: flex !important;
+    }
+}
+
+@media all and (min-width: 981px) {
+    .et_header_style_centered #et-top-navigation {
+        justify-content: center;
+    }
+
+    .et_header_style_centered #et_search_icon#et_search_icon:before {
+        position: relative;
+        top: 0;
+    }
+}
+</style>
+
+<style type="text/css" id="mobile-menu-hamburger-css">
+.dipi_hamburger.hamburger {
+	background-color: #c9b162 !important;
+	border-radius: 15px !important;
+	padding-top: 16px !important;
+	padding-bottom: 15px !important;
+	padding-left: 14px !important;
+	padding-right: 14px !important;
+}
+.dipi_hamburger.hamburger.is-active {
+	background-color: #c9b162 !important;
+}
+
+
+.dipi_hamburger .hamburger-inner, 
+.dipi_hamburger .hamburger-inner:after, 
+.dipi_hamburger .hamburger-inner:before {
+	background-color: #ffffff !important;
+}
+
+.dipi_hamburger.hamburger.is-active .hamburger-inner, 
+.dipi_hamburger.hamburger.is-active .hamburger-inner:after, 
+.dipi_hamburger.hamburger.is-active .hamburger-inner:before {
+	background-color: #ffffff !important;
+}
+.dipi_hamburger.hamburger.hamburger--spring.is-active .hamburger-inner,
+.dipi_hamburger.hamburger.hamburger--stand.is-active .hamburger-inner{
+	background-color: transparent !important;
+}
+
+@media (max-width: 980px) {
+	.et_pb_module.et_pb_fullwidth_menu div.et_pb_menu__wrap,
+	.et_pb_module.et_pb_menu div.et_pb_menu__wrap {
+		margin: 0;
+	}
+
+	.et_pb_module.et_pb_fullwidth_menu div.et_pb_menu__wrap .et_mobile_nav_menu,
+	.et_pb_module.et_pb_menu div.et_pb_menu__wrap .et_mobile_nav_menu {
+		margin-right: 0;
+	}
+
+	.et_pb_fullwidth_menu .et_mobile_menu ul, 
+	.et_pb_menu .et_mobile_menu ul {
+		padding: 0;
+	}
+
+	.et_pb_fullwidth_menu .mobile_menu_bar, 
+	.et_pb_menu .mobile_menu_bar {
+		display: inline;
+	}	
+}
+</style>
+<style type="text/css" id="mobile-menu-styles-css">
+
+@media screen and (max-width: 980px) {
+
+	#main-header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 76px !important;
+		background: #ffffff !important;
+				box-shadow: 0px 1px 6px 0|0|0|0 !important;
+			}
+
+	.et_header_style_left .et-fixed-header #et-top-navigation, .et_header_style_left #et-top-navigation,
+	.et_header_style_fullscreen #et-top-navigation, .et_header_style_fullscreen #et-top-navigation {
+		padding-top:0 !important;
+	}
+	.et_header_style_split #et-top-navigation .mobile_menu_bar, .et_header_style_left #et-top-navigation .mobile_menu_bar,
+	.et_header_style_fullscreen #et-top-navigation, .et_header_style_fullscreen #et-top-navigation {
+		padding-bottom:0 !important;
+	}
+
+	#main-header #et_top_search {
+		margin: 0 35px 0 0;
+	}
+
+	#main-header #et_top_search #et_search_icon:before {
+		top: 7px;
+	}
+
+	#top-header .container #et-info {
+		width: 100% !important;
+    	text-align: center;
+	}
+
+	.et-l--header {
+		height: 76px !important;
+		background: #ffffff !important;
+				box-shadow: 0px 1px 6px 0|0|0|0 !important;
+			}
+
+		.et_header_style_left #logo {
+		max-height: 36px !important;
+		height: auto !important;
+	}
+
+	.et_header_style_split header#main-header #dipi_logo,
+	.et_header_style_centered header#main-header #logo {
+		max-height: 36px !important;
+		height: auto !important;
+		margin: 0 auto !important;
+		width: auto;
+	}
+			.et_header_style_left #logo,
+	.et_header_style_split header#main-header #dipi_logo,
+	.et_header_style_centered header#main-header #logo
+	{
+		width: px !important;
+	}
+		body.dipi-mobile-menu-fullscreen #mobile_menu,
+	body.dipi-mobile-menu-fullscreen .et-l--header .et_mobile_nav_menu .et_mobile_menu,
+	.et_mobile_menu {
+		background: #ffffff !important;
+		/*padding-top: 0px !important;*/
+		padding-right: 0px !important;
+		/*padding-bottom: 0px !important;*/
+		padding-left: 0px !important;
+	}
+	body.dipi-mobile-menu-fullscreen #mobile_menu:before,
+	body.dipi-mobile-menu-fullscreen .et-l--header .et_mobile_nav_menu .et_mobile_menu:before,
+	.et_mobile_menu:before {
+		content:'';
+		display: block;
+		height: 20px !important;
+			}
+	body.dipi-mobile-menu-fullscreen #mobile_menu:after,
+	body.dipi-mobile-menu-fullscreen .et-l--header .et_mobile_nav_menu .et_mobile_menu:after,
+	.et_mobile_menu:after {
+		content:'';display:block;
+		height: 10px !important;
+	}
+
+	.et_mobile_menu li:not(:last-child) a{
+		margin-bottom: 10px !important;
+	}
+
+	.et_mobile_menu li > a + ul {
+		/* margin-top: 10px !important; */
+	}
+
+	.et_mobile_menu > li > a{
+		text-align: left !important;
+	}
+
+	.et-menu li {
+		margin-bottom: 10px !important;
+		text-align: left !important;
+	}
+
+	.et_mobile_menu > li > a,
+	.et-menu > li > a {
+		font-family: 'none', sans-serif;				background-color: rgba(44,61,73,0.03) !important;
+		padding-top: 15px !important;
+        padding-right: 10px !important;
+        padding-bottom: 15px !important;
+        padding-left: 10px !important;
+		font-size:16px !important;
+		color:#2c3d49 !important;
+		letter-spacing: 0px !important;
+		font-weight: 500;
+		border-top-left-radius:15px;
+		border-top-right-radius:15px;
+		border-bottom-left-radius:15px;
+		border-bottom-right-radius:15px;
+		border-width: 0px !important;
+		border-style: solid !important;
+		border-color: #c9b162 !important;
+			}
+
+	.et-l--header .et_mobile_menu li > ul.sub-menu > li > a,
+	.et_mobile_menu li > ul.sub-menu > li > a {
+			}
+
+	.et_mobile_menu li.menu-item-has-children > a,
+	.et-menu li.menu-item-has-children > a {
+		font-weight: 500 !important;
+	}
+
+	
+	
+	.et_header_style_centered header#main-header.et-fixed-header .logo_container.logo_container {
+		height: auto !important;
+	}
+
+	#main-header .et_mobile_menu li li,
+	#main-header .et_mobile_menu li ul.sub-menu {
+		padding-left: 0;
+	}
+}
+</style><style id="mobile-submenu-styles-partial">
+.et_mobile_menu li > .sub-menu > li {
+    margin-bottom: 5px !important;
+}
+body.dipi-collapse-submenu-mobile .et-l--header .et_mobile_menu li .sub-menu,
+.et_mobile_menu li > .sub-menu{
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+body.dipi-collapse-submenu-mobile .et-l--header .et_mobile_menu li .sub-menu:before,
+.et_mobile_menu li > .sub-menu:before {
+    content:'';
+    display:block;
+    height: 10px !important;
+}
+body.dipi-collapse-submenu-mobile .et-l--header .et_mobile_menu li .sub-menu:after,
+.et_mobile_menu li > .sub-menu:after {
+    content:'';
+    display:block;
+    height: 10px !important;
+}
+.et_mobile_menu li > .sub-menu > li > a {
+    padding-top: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+    border-width:  0px !important;
+    border-radius: 15px 15px 15px 15px !important;
+    border-color: #c9b162 !important;
+    background-color: #ffffff !important;
+        text-align: center;
+    font-family: none;
+    font-weight: 500;
+    font-size: 16px !important;
+    letter-spacing: 1px !important;
+    color: rgba(44,61,73,0.6) !important;
+}
+</style><style type='text/css' id='wqpmb_internal_css'>.qib-button-wrapper button.qib-button,.qib-button-wrapper .quantity input.input-text.qty.text{
+border-color: #c9b162;
+color: #c9b162;
+border-width: 1px;
+border-radius: 15px;
+}</style><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<script>(()=>{var o=[],i={};["on","off","toggle","show"].forEach(l=>{i[l]=function(){o.push([l,arguments])}}),window.Boxzilla=i,window.boxzilla_queue=o})();</script><meta name="generator" content="Powered by Slider Revolution 6.6.12 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script>
+jQuery( document ).ready(function() {
+jQuery('.gt-bar-counter .et_pb_counter_amount_number_inner').each(function(){
+let thisMeta = jQuery(this).html();
+thisMeta = thisMeta.replace(/%/,'');
+jQuery(this).html(thisMeta);
+});
+});
+</script>
+<script>
+window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+});
+</script><link rel="icon" href="https://www.hamsikwinery.com/wp-content/uploads/2023/09/cropped-fav-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://www.hamsikwinery.com/wp-content/uploads/2023/09/cropped-fav-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.hamsikwinery.com/wp-content/uploads/2023/09/cropped-fav-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://www.hamsikwinery.com/wp-content/uploads/2023/09/cropped-fav-270x270.jpg" />
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+<link rel="stylesheet" id="et-divi-customizer-global-cached-inline-styles" href="https://www.hamsikwinery.com/wp-content/et-cache/global/et-divi-customizer-global.min.css?ver=1774113395" /><style id="et-critical-inline-css">@font-face{font-family:"Amalfi";font-display:swap;src:url("https://www.hamsikwinery.com/wp-content/uploads/et-fonts/Amalfi-Coast.ttf") format("truetype")}</style>
+<link rel="preload" as="style" id="et-core-unified-cpt-deferred-1410-cached-inline-styles" href="https://www.hamsikwinery.com/wp-content/et-cache/1410/et-core-unified-cpt-deferred-1410.min.css?ver=1774113894" onload="this.onload=null;this.rel='stylesheet';" /><style id="xirki-inline-styles">:root{--xt-woofc-spinner-color:#c9b162;--xt-woofc-spinner-overlay-color:rgba(255,255,255,0.5);--xt-woofc-bg-color:#ffffff;--xt-woofc-color:#000000;--xt-woofc-primary-color:#c9b162;--xt-woofc-accent-color:#c9b162;--xt-woofc-link-color:#c9b162;--xt-woofc-link-hover-color:#c9b162;--xt-woofc-error-color:#dd3333;--xt-woofc-success-color:#4b9b12;--xt-woofc-overlay-color:rgba(201,177,98,0.5);--xt-woofc-counter-bg-color:#e94b35;--xt-woofc-counter-color:#ffffff;--xt-woofc-product-image-border-radius:15px;--xt-woofc-product-image-padding:0px;--xt-woofc-product-image-border-width:0px;--xt-woofc-product-image-border-color:#81d742;--xt-woofc-product-title-wrap:nowrap;--xt-woofc-product-qty-icon-size:10px;--xt-woofc-product-qty-input-size:16px;--xt-woofc-product-qty-input-radius:0px;--xt-woofc-notice-font-size:13px;--xt-woofc-sp-arrow-size:20px;}.xt_woofc-trigger.xt_woofc-icontype-image .xt_woofc-trigger-cart-icon{background-image:url("https://www.hamsikwinery.com/wp-content/plugins/xt-woo-floating-cart/public/assets/img/open.svg");}.xt_woofc-trigger.xt_woofc-icontype-image .xt_woofc-trigger-close-icon{background-image:url("https://www.hamsikwinery.com/wp-content/plugins/xt-woo-floating-cart/public/assets/img/close.svg");}.xt_woofc.xt_woofc-icon-actions .xt_woofc-actions a span{display:none;}.xt_woofc:not(.xt_woofc-icon-actions) .xt_woofc-actions a i{display:none;}.xt_woofc-inner .xt_woofc-count{font-family:Source Sans Pro;font-weight:700;}.xt_woofc-inner .xt_woofc-title{font-family:Source Sans Pro;font-size:16px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;}.xt_woofc-inner .xt_woofc-coupon,.xt_woofc-inner .xt_woofc-notice{font-family:Source Sans Pro;font-size:10px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;}.xt_woofc-inner .xt_woofc-notice-error{font-family:Source Sans Pro;font-size:10px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;}.xt_woofc-inner .xt_woofc-header-message{font-family:Source Sans Pro;font-size:16px;font-weight:600;letter-spacing:1px;text-align:center;text-transform:none;}.xt_woofc-empty .xt_woofc-inner .xt_woofc-no-product{font-family:Source Sans Pro;font-size:14px;font-weight:400;letter-spacing:1.4px;text-transform:none;}.xt_woofc-inner .xt_woofc-price,.xt_woofc-inner .xt_woofc-price del,.xt_woofc-inner .xt_woofc-price ins,.xt_woofc-inner .xt_woofc-product-title{font-family:Source Sans Pro;font-size:16px;font-weight:700;text-transform:capitalize;}.xt_woofc-inner .xt_woofc-subscription .xt_woofc-price{font-size:calc(16px * 0.8);}.xt_woofc-inner .xt_woofc-product-attributes dl dt,.xt_woofc-inner .xt_woofc-product-variations dl dt,.xt_woofc-inner .xt_woofc-sku dl dt{font-family:Source Sans Pro;font-size:10px;font-weight:600;text-transform:capitalize;}.xt_woofc-inner .xt_woofc-product-attributes dl dd,.xt_woofc-inner .xt_woofc-product-variations dl dd,.xt_woofc-inner .xt_woofc-sku dl dd{font-family:Source Sans Pro;font-size:10px;font-weight:400;text-transform:capitalize;}.xt_woofc-inner .xt_woofc-actions{font-family:Source Sans Pro;font-size:14px;font-weight:400;text-transform:capitalize;}.xt_woofc-inner .xt_woofc-quantity input{font-family:Source Sans Pro;font-size:14px;font-weight:400;letter-spacing:1.2px;}.xt_woofc-inner a.xt_woofc-checkout{font-family:Source Sans Pro;font-size:24px;font-weight:600;font-style:italic;text-transform:none;}@media screen and (min-width: 783px){:root{--xt-woofc-hoffset:20px;--xt-woofc-voffset:20px;--xt-woofc-width:460px;--xt-woofc-trigger-size:72px;--xt-woofc-counter-size:25px;--xt-woofc-product-image-width:80px;--xt-woofc-zindex:90198;}.xt_woofc-cart-open{--xt-woofc-radius:15px;}.xt_woofc:not(.xt_woofc-cart-open){--xt-woofc-radius:6px;}}@media screen and (max-width: 782px){:root{--xt-woofc-hoffset:20px;--xt-woofc-voffset:20px;--xt-woofc-width:440px;--xt-woofc-trigger-size:72px;--xt-woofc-counter-size:25px;--xt-woofc-product-image-width:50px;--xt-woofc-zindex:90200;}.xt_woofc-cart-open{--xt-woofc-radius:6px;}.xt_woofc:not(.xt_woofc-cart-open){--xt-woofc-radius:6px;}}@media screen and (max-width: 480px){:root{--xt-woofc-hoffset:16px;--xt-woofc-voffset:15px;--xt-woofc-width:440px;--xt-woofc-trigger-size:72px;--xt-woofc-counter-size:20px;--xt-woofc-product-image-width:50px;--xt-woofc-zindex:90200;}.xt_woofc-cart-open{--xt-woofc-radius:15px;}.xt_woofc:not(.xt_woofc-cart-open){--xt-woofc-radius:16px;}.xt_woofc-inner .xt_woofc-actions{font-size:calc(14px * 0.85);}.xt_woofc-inner .xt_woofc-quantity input{font-size:calc(14px * 0.85);}.xt_woofc-inner a.xt_woofc-checkout{font-size:calc(24px * 0.75);}}@font-face{font-display:swap;font-family:'Source Sans Pro';font-style:italic;font-weight:600;src:url(//fonts.gstatic.com/l/font?kit=6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lBdo&skey=1ddbb15c8706f8a1&v=v23) format('woff');}@font-face{font-display:swap;font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:url(//fonts.gstatic.com/l/font?kit=6xK3dSBYKcSV-LCoeQqfX1RYOo3aPA&skey=1e026b1c27170b9b&v=v23) format('woff');}@font-face{font-display:swap;font-family:'Source Sans Pro';font-style:normal;font-weight:600;src:url(//fonts.gstatic.com/l/font?kit=6xKydSBYKcSV-LCoeQqfX1RYOo3i54rAkw&skey=227a890402fab339&v=v23) format('woff');}@font-face{font-display:swap;font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:url(//fonts.gstatic.com/l/font?kit=6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vAkw&skey=84e1cdfb74260b1d&v=v23) format('woff');}</style></head>
+<body class="error404 wp-theme-Divi wp-child-theme-DiviChild theme-Divi xt_atc_hide_view_cart dipi-custom-archive-page dipi-archive- dipi-fix-search-icon dipi-anim-preload et-tb-has-template et-tb-has-footer woocommerce-no-js xt_woofc-is-light et_button_no_icon et_pb_button_helper_class et_fullwidth_nav et_fullwidth_secondary_nav et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_split et_cover_background et_pb_gutter et_pb_gutters3 et_right_sidebar et_divi_theme et-db">
+	<div id="page-container">
+<div id="et-boc" class="et-boc">
+			
+		
+
+	<header id="main-header" data-height-onload="30">
+		<div class="container clearfix et_menu_container">
+					<div class="logo_container">
+				<span class="logo_helper"></span>
+				<a href="https://www.hamsikwinery.com/">
+				<img src="https://www.hamsikwinery.com/wp-content/uploads/2022/10/HAMSIK-NEW-LOGO-v5.png" width="398" height="241" alt="HAMSIK®" id="logo" data-height-percentage="100" />
+				</a>
+			</div>
+					<div id="et-top-navigation" data-height="30" data-fixed-height="30">
+									<nav id="top-menu-nav">
+					<ul id="top-menu" class="nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-421"><a href="https://www.hamsikwinery.com/prosecco/">Prosecco</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-422"><a href="https://www.hamsikwinery.com/sampanske/">Šampanské</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1171"><a href="https://www.hamsikwinery.com/vino/">Víno</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1172"><a href="https://www.hamsikwinery.com/spritz/">Spritz</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1173"><a href="https://www.hamsikwinery.com/aqua-4/">Voda</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1170"><a href="https://www.hamsikwinery.com/kava-caje/">Káva &#038; Čaje</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1974"><a href="https://www.hamsikwinery.com/retail/">Retail</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="https://www.hamsikwinery.com/fashion/">Fashion</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2036"><a href="https://www.hamsikwinery.com/#kontakt">Kontakt</a></li>
+<li class="menu-item wpml-ls-slot-17 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-first-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-17-en"><a href="https://www.hamsikwinery.com/en/"><img
+            class="wpml-ls-flag"
+            src="https://www.hamsikwinery.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+            alt="Angličtina"
+            
+            
+    /></a></li>
+</ul>					</nav>
+				
+				<a href="https://www.hamsikwinery.com/kosik/" class="et-cart-info">
+				<span></span>
+			</a>
+				
+									<div id="et_top_search">
+						<span id="et_search_icon"></span>
+					</div>
+				
+				<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Vyberte stranu</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>			</div> <!-- #et-top-navigation -->
+		</div> <!-- .container -->
+				<div class="et_search_outer">
+			<div class="container et_search_form_container">
+				<form role="search" method="get" class="et-search-form" action="https://www.hamsikwinery.com/">
+				<input type="search" class="et-search-field" placeholder="Vyhľadávanie &hellip;" value="" name="s" title="Hľadať:" /><input type='hidden' name='lang' value='sk' />				</form>
+				<span class="et_close_search_field"></span>
+			</div>
+		</div>
+			</header> <!-- #main-header -->
+<div id="et-main-area">
+	
+<div id="main-content">
+	<div class="container">
+		<div id="content-area" class="clearfix">
+			<div id="left-area">
+				<article id="post-0" class="et_pb_post not_found post-1 post type-post status-publish format-standard hentry category-uncategorized-sk">
+					<div class="entry">
+	<h1 class="not-found-title">Neboli nájdené žiadne výsledky</h1>
+	<p>Požadovaná stránka nebola nájdená. Skúste spresniť vaše hľadanie, alebo použite navigáciu na vrchu stránky.</p>
+</div>
+				</article>
+			</div>
+
+				<div id="sidebar">
+		<div id="block-2" class="et_pb_widget widget_block widget_search"><form role="search" method="get" action="https://www.hamsikwinery.com/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search"    ><label class="wp-block-search__label" for="wp-block-search__input-1" >Hľadať</label><div class="wp-block-search__inside-wrapper " ><input class="wp-block-search__input" id="wp-block-search__input-1" placeholder="" value="" type="search" name="s" required /><button aria-label="Hľadať" class="wp-block-search__button wp-element-button" type="submit" >Hľadať</button></div></form></div><div id="block-3" class="et_pb_widget widget_block"><div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Najnovšie články</h2><ul class="wp-block-latest-posts__list wp-block-latest-posts"><li><a class="wp-block-latest-posts__post-title" href="https://www.hamsikwinery.com/ahoj-svet/">Ahoj svet!</a></li>
+</ul></div></div><div id="block-4" class="et_pb_widget widget_block"><div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Najnovšie komentáre</h2><ol class="wp-block-latest-comments"><li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><span class="wp-block-latest-comments__comment-author">FobertTwive</span> na <a class="wp-block-latest-comments__comment-link" href="https://www.hamsikwinery.com/ahoj-svet/#comment-1418">Ahoj svet!</a></footer></article></li><li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><span class="wp-block-latest-comments__comment-author">FobertTwive</span> na <a class="wp-block-latest-comments__comment-link" href="https://www.hamsikwinery.com/ahoj-svet/#comment-1196">Ahoj svet!</a></footer></article></li><li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><a class="wp-block-latest-comments__comment-author" href="https://super-manipulyator.ru/">Charlesrhync</a> na <a class="wp-block-latest-comments__comment-link" href="https://www.hamsikwinery.com/ahoj-svet/#comment-937">Ahoj svet!</a></footer></article></li><li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><a class="wp-block-latest-comments__comment-author" href="https://nafta.ru/">DerrickTeasp</a> na <a class="wp-block-latest-comments__comment-link" href="https://www.hamsikwinery.com/ahoj-svet/#comment-936">Ahoj svet!</a></footer></article></li><li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><a class="wp-block-latest-comments__comment-author" href="https://setki-okna.ru/moskitnye-polotna/standartnye-moskitnye-setki">RobertSwazY</a> na <a class="wp-block-latest-comments__comment-link" href="https://www.hamsikwinery.com/ahoj-svet/#comment-935">Ahoj svet!</a></footer></article></li></ol></div></div>	</div>
+		</div>
+	</div>
+</div>
+
+	<footer class="et-l et-l--footer">
+			<div class="et_builder_inner_content et_pb_gutters3"><div id="kontakt" class="et_pb_section et_pb_section_0_tb_footer ps2id et_pb_with_background et_pb_section_parallax et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0_tb_footer et_pb_gutters2">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2 style="text-align: center;">Kontakt</h2></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_1_tb_footer et_pb_gutters2">
+				<div class="et_pb_column et_pb_column_1_5 et_pb_column_1_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_1_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p>Prevádzkovateľ:<br /><strong>HAMSIK Corporation s.r.o.</strong><br />Zvolenská cesta 46<br />974 05 Banská Bystrica</p>
+<p>IČO: 51581213<br />DIČ: 2120736376<br />IČ DPH: SK2120736376</p></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_5 et_pb_column_2_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_2_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner">Recepcia:<br />
+Sme tu pre Vás každý pracovný deň v čase od 9.00 do  15.30 hod.</p>
+<h1><span style="color: #ffffff;"><a href="tel:+421917510359" style="color: #ffffff;">0917 510 359</a></span></h1></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_3_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><span><strong>Dušan Hamšík</strong></span><br /><span>Sales director</span><br /><span>0919 170 133</span><br /><span>dusan@hamsikcorp.com</span></p></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_5 et_pb_column_3_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module dsm_menu dsm_menu_0_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_module_inner">
+					<h4 class="dsm-menu-title et_pb_module_header">Hamsik®</h4><nav class="dsm-menu-container" role=navigation itemscope itemtype=http://schema.org/SiteNavigationElement><ul id="menu-main-menu-sk" class="dsm-menu dsm-menu-style-type-none dsm-menu-layout-vertical"><li class="et_pb_menu_page_id-415 menu-item menu-item-type-post_type menu-item-object-page menu-item-421"><a href="https://www.hamsikwinery.com/prosecco/" itemprop="url"><span itemprop="name">Prosecco</span></a></li>
+<li class="et_pb_menu_page_id-418 menu-item menu-item-type-post_type menu-item-object-page menu-item-422"><a href="https://www.hamsikwinery.com/sampanske/" itemprop="url"><span itemprop="name">Šampanské</span></a></li>
+<li class="et_pb_menu_page_id-1166 menu-item menu-item-type-post_type menu-item-object-page menu-item-1171"><a href="https://www.hamsikwinery.com/vino/" itemprop="url"><span itemprop="name">Víno</span></a></li>
+<li class="et_pb_menu_page_id-1164 menu-item menu-item-type-post_type menu-item-object-page menu-item-1172"><a href="https://www.hamsikwinery.com/spritz/" itemprop="url"><span itemprop="name">Spritz</span></a></li>
+<li class="et_pb_menu_page_id-1161 menu-item menu-item-type-post_type menu-item-object-page menu-item-1173"><a href="https://www.hamsikwinery.com/aqua-4/" itemprop="url"><span itemprop="name">Voda</span></a></li>
+<li class="et_pb_menu_page_id-1168 menu-item menu-item-type-post_type menu-item-object-page menu-item-1170"><a href="https://www.hamsikwinery.com/kava-caje/" itemprop="url"><span itemprop="name">Káva &#038; Čaje</span></a></li>
+<li class="et_pb_menu_page_id-1906 menu-item menu-item-type-post_type menu-item-object-page menu-item-1974"><a href="https://www.hamsikwinery.com/retail/" itemprop="url"><span itemprop="name">Retail</span></a></li>
+<li class="et_pb_menu_page_id-1543 menu-item menu-item-type-post_type menu-item-object-page menu-item-1600"><a href="https://www.hamsikwinery.com/fashion/" itemprop="url"><span itemprop="name">Fashion</span></a></li>
+<li class="et_pb_menu_page_id-2036 menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2036"><a href="https://www.hamsikwinery.com/#kontakt" itemprop="url"><span itemprop="name">Kontakt</span></a></li>
+<li class="menu-item wpml-ls-slot-17 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-first-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-17-en"><a href="https://www.hamsikwinery.com/en/" itemprop="url"><span itemprop="name"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://www.hamsikwinery.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+            alt="Angličtina"
+            
+            
+    /></span></a></li>
+</ul></nav>
+				</div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_5 et_pb_column_4_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module dsm_menu dsm_menu_1_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_module_inner">
+					<h4 class="dsm-menu-title et_pb_module_header">Navigácia úvodnej stránky</h4><nav class="dsm-menu-container" role=navigation itemscope itemtype=http://schema.org/SiteNavigationElement><ul id="menu-home-menu" class="dsm-menu dsm-menu-style-type-none dsm-menu-layout-vertical"><li id="menu-item-2088" class="et_pb_menu_page_id-2088 menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2088"><a href="https://www.hamsikwinery.com/#onas" itemprop="url"><span itemprop="name">O nás</span></a></li>
+<li id="menu-item-2089" class="et_pb_menu_page_id-2089 menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2089"><a href="https://www.hamsikwinery.com/#produkty" itemprop="url"><span itemprop="name">Produkty</span></a></li>
+<li id="menu-item-2090" class="et_pb_menu_page_id-2090 menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2090"><a href="https://www.hamsikwinery.com/#pribeh" itemprop="url"><span itemprop="name">Príbeh prosecca</span></a></li>
+<li id="menu-item-2091" class="et_pb_menu_page_id-2091 menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2091"><a href="https://www.hamsikwinery.com/#vyroba" itemprop="url"><span itemprop="name">Výroba prosecca</span></a></li>
+</ul></nav>
+				</div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_5 et_pb_column_5_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module dsm_menu dsm_menu_2_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_module_inner">
+					<h4 class="dsm-menu-title et_pb_module_header">Právne informácie</h4><nav class="dsm-menu-container" role=navigation itemscope itemtype=http://schema.org/SiteNavigationElement><ul id="menu-legal-info-sk" class="dsm-menu dsm-menu-style-type-none dsm-menu-layout-vertical"><li id="menu-item-1466" class="et_pb_menu_page_id-1427 menu-item menu-item-type-post_type menu-item-object-page menu-item-1466"><a href="https://www.hamsikwinery.com/vseobecne-obchodne-podmienky/" itemprop="url"><span itemprop="name">Všeobecné obchodné podmienky</span></a></li>
+<li id="menu-item-1467" class="et_pb_menu_page_id-3 menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-1467"><a rel="privacy-policy" href="https://www.hamsikwinery.com/ochrana-sukromia/" itemprop="url"><span itemprop="name">Zásady ochrany osobných údajov GDPR</span></a></li>
+<li id="menu-item-1465" class="et_pb_menu_page_id-1439 menu-item menu-item-type-post_type menu-item-object-page menu-item-1465"><a href="https://www.hamsikwinery.com/reklamacny-poriadok/" itemprop="url"><span itemprop="name">Reklamačný poriadok</span></a></li>
+<li id="menu-item-1464" class="et_pb_menu_page_id-1451 menu-item menu-item-type-post_type menu-item-object-page menu-item-1464"><a href="https://www.hamsikwinery.com/poucenie-o-uplatneni-prava-spotrebitela-na-odstupenie-od-zmluvy/" itemprop="url"><span itemprop="name">Poučenie o uplatnení práva spotrebiteľa na odstúpenie od zmluvy</span></a></li>
+<li id="menu-item-1463" class="et_pb_menu_page_id-1457 menu-item menu-item-type-post_type menu-item-object-page menu-item-1463"><a href="https://www.hamsikwinery.com/cookies/" itemprop="url"><span itemprop="name">Cookies</span></a></li>
+</ul></nav>
+				</div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_2_tb_footer">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_6_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_4_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><div data-uniq='69cc51e18c7e6' class='uniq-69cc51e18c7e6 formcraft-css form-live align-left'><script> window.formcraftLogic = window.formcraftLogic || {}; window.formcraftLogic[1] = [[[["field6","contains","Other"]],[["show_fields","field8"]],"and"]]; </script><div class="fc-pagination-cover fc-pagination-1">
+				<div class="fc-pagination width-100">
+					<!-- ngRepeat: page in Builder.FormElements track by $index --><div class="pagination-trigger " data-index="0">
+						<span class="page-number"><span >1</span></span>
+						<span class="page-name ">Step 1</span>
+						
+					</div><!-- end ngRepeat: page in Builder.FormElements track by $index -->
+				</div>
+			</div>
+			
+			<style scoped="scoped" >
+			@media (max-width : 480px) {
+				.fc_modal-dialog-1 .fc-pagination-cover .fc-pagination
+				{
+					background-color: none !important;
+				}
+			}
+						.formcraft-css .fc-form.fc-form-1 .form-element .submit-cover .submit-button,
+			.formcraft-css .fc-form.fc-form-1 .form-element .fileupload-cover .button-file,
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover .button,
+			.formcraft-datepicker .ui-datepicker-header,
+			.formcraft-datepicker .ui-datepicker-title
+			{
+				background: #8c8c8c;
+				color: #f9f6f0;
+			}
+			.formcraft-datepicker td .ui-state-active,
+			.formcraft-datepicker td .ui-state-hover,
+			.formcraft-css .fc-form.fc-form-1 .form-element .slider-cover .ui-slider-range
+			{
+				background: #8c8c8c;
+			}
+			#ui-datepicker-div.formcraft-datepicker .ui-datepicker-header,
+			.formcraft-css .fc-form .field-cover>div.full hr
+			{
+				border-color: #7b7b7b;
+			}
+			#ui-datepicker-div.formcraft-datepicker .ui-datepicker-prev:hover,
+			#ui-datepicker-div.formcraft-datepicker .ui-datepicker-next:hover,
+			#ui-datepicker-div.formcraft-datepicker select.ui-datepicker-month:hover,
+			#ui-datepicker-div.formcraft-datepicker select.ui-datepicker-year:hover
+			{
+				background-color: #7b7b7b;
+			}
+			.formcraft-css .fc-pagination>div.active .page-number,
+			.formcraft-css .form-cover-builder .fc-pagination>div:first-child .page-number
+			{
+				background-color: #828282;
+				color: #f9f6f0;
+			}
+			#ui-datepicker-div.formcraft-datepicker table.ui-datepicker-calendar th,
+			#ui-datepicker-div.formcraft-datepicker table.ui-datepicker-calendar td.ui-datepicker-today a,
+			.formcraft-css .fc-form.fc-form-1 .form-element .star-cover label,
+			html .formcraft-css .fc-form.label-floating .form-element .field-cover.has-focus>span,
+			.formcraft-css .fc-form.fc-form-1 .form-element .customText-cover a,
+			.formcraft-css .prev-next>div span:hover
+			{
+				color: #8c8c8c;
+			}
+			.formcraft-css .fc-form.fc-form-1 .form-element .customText-cover a:hover
+			{
+				color: #7b7b7b;
+			}
+			html .formcraft-css .fc-form.fc-form-1.label-floating .form-element .field-cover > span
+			{
+				color: #282828;
+			}
+			html .formcraft-css .fc-form .final-success .final-success-check {
+				border: 2px solid #282828;
+			}
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover input[type="text"],
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover input[type="email"],
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover input[type="password"],
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover input[type="tel"],
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover textarea,
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover select,
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover .time-fields-cover,
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover .awesomplete ul
+			{
+				color: #777;
+			}
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover input[type="text"],
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover input[type="password"],
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover input[type="email"],
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover input[type="radio"],
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover input[type="checkbox"],
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover input[type="tel"],
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover select,
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover textarea
+			{
+				background-color: #fafafa;
+			}
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover input[type="radio"]:checked,
+			.formcraft-css .fc-form.fc-form-1 .form-element .field-cover input[type="checkbox"]:checked {
+				border-color: #7b7b7b;
+				background: #8c8c8c;				
+			}
+			.formcraft-css .fc-form.fc-form-1 .form-element .star-cover label .star
+			{
+				text-shadow: 0px 1px 0px #7b7b7b;
+			}
+			.formcraft-css .fc-form.fc-form-1 .form-element .slider-cover .ui-slider-range
+			{
+				box-shadow: 0px 1px 1px #7b7b7b inset;
+			}
+			.formcraft-css .fc-form.fc-form-1 .form-element .fileupload-cover .button-file
+			{
+				border-color: #7b7b7b;
+			}
+			.formcraft-css .fc-form.fc-form-1 .form-element .form-element-html input[type="password"]:focus,
+			.formcraft-css .fc-form.fc-form-1 .form-element .form-element-html input[type="email"]:focus,
+			.formcraft-css .fc-form.fc-form-1 .form-element .form-element-html input[type="tel"]:focus,
+			.formcraft-css .fc-form.fc-form-1 .form-element .form-element-html input[type="text"]:focus,
+			.formcraft-css .fc-form.fc-form-1 .form-element .form-element-html textarea:focus,
+			.formcraft-css .fc-form.fc-form-1 .form-element .form-element-html select:focus
+			{
+				border-color: #8c8c8c;
+			}
+			.formcraft-css .fc-form.fc-form-1 .form-element .form-element-html .field-cover .is-read-only:focus {
+				border-color: #ccc;
+			}
+			.formcraft-css .fc-form.fc-form-1			{
+				font-family: Cabin;
+			}
+			@media (max-width : 480px) {
+				html .dedicated-page,
+				html .dedicated-page .formcraft-css .fc-pagination > div.active
+				{
+					background: none;
+				}
+			}
+		</style>
+		<div class="form-cover">
+			<form data-auto-scroll="" data-no-message-redirect="" data-thousand="" data-decimal="." data-delay="" data-id="1" class="fc-form fc-form-1 align- fc-temp-class save-form- dont-submit-hidden- icons-hide- disable-enter- label-placeholder field-border-hidden frame-hidden remove-asterisk-true field-alignment-left" style="width: 100%; color: #282828; font-size: 115%; background: none">
+				<!-- ngRepeat: page in Builder.FormElements track by $index --><div class="form-page form-page-0" data-index="0">
+					
+					<div class="form-page-content      ng-not-empty">
+						<div data-identifier="field11" data-index="0" style="width: 100%" class=" form-element form-element-field11 options-false form-element-0 default-false form-element-type-textarea is-required-false odd -handle">
+							<div class="form-element-html"><div ><label class="textarea-cover field-cover "><span class="sub-label-true"><span class="main-label"><span >Vaša správa</span></span><span class="sub-label"><span >more details</span></span></span><div><span class="error"></span><textarea data-field-id="field11" placeholder="Vaša správa" class="validation-lenient" name="field11" value="" rows="2" data-min-char="" data-max-char="" data-is-required="false" data-placement="right" data-toggle="tooltip" tooltip="" data-trigger="focus" data-html="true" data-original-title="" style="min-height: 64.2969px"></textarea><div class="count-"><span class="current-count">0</span> / <span class="max-count "></span></div></div></label></div></div>
+							
+						</div><div data-identifier="field3" data-index="1" style="width: 33%" class=" even form-element form-element-field3 options-false form-element-1 default-false form-element-type-email is-required-true -handle">
+							<div class="form-element-html"><div ><label class="email-cover field-cover "><span class="sub-label-true"><span class="main-label"><span >Email</span></span><span class="sub-label"><span >a valid email</span></span></span><div><span class="error"></span><input placeholder="Email" data-field-id="field3" type="text" data-val-type="email" make-read-only="" data-is-required="true" name="field3" class="validation-lenient" data-placement="right" data-toggle="tooltip" tooltip="" data-trigger="focus" data-html="true" data-original-title=""><i class="formcraft-icon">email</i></div></label></div></div>
+							
+						</div><div data-identifier="field1" data-index="2" style="width: 33%" class=" form-element form-element-field1 options-false form-element-2 default-false form-element-type-oneLineText is-required-true odd -handle">
+							<div class="form-element-html"><div ><label class="oneLineText-cover field-cover "><span class="sub-label-false"><span class="main-label"><span >Meno</span></span><span class="sub-label"></span></span><div><span class="error"></span><input type="text" placeholder="Meno" make-read-only="false" data-field-id="field1" name="field1[]" data-min-char="" data-max-char="" data-val-type="" data-regexp="" data-is-required="true" data-allow-spaces="" class="validation-lenient" data-placement="right" data-toggle="tooltip" tooltip="" data-trigger="focus" data-html="true" data-input-mask="" data-mask-placeholder="" data-original-title=""><i class="formcraft-icon formcraft-icon-type-"></i></div></label></div></div>
+							
+						</div><div data-identifier="field10" data-index="3" style="width: 33%" class=" even form-element form-element-field10 options-false form-element-3 default-false form-element-type-submit is-required-false -handle">
+							<div class="form-element-html"><div ><div class="align-right wide-true submit-cover field-cover"><button type="submit" class="button submit-button"><span class="text ">Odoslať</span><span class="spin-cover"><i style="color:" class="loading-icon icon-cog animate-spin"></i></span></button></div><div class="submit-response "></div><label ><input type="text" class="required_field" name="website" autocomplete="maple-syrup-pot"></label></div></div>
+							
+						</div>
+					</div>
+				</div><!-- end ngRepeat: page in Builder.FormElements track by $index -->
+			</form>
+			<div class="prev-next prev-next-1" style="width: 100%; color: #282828; font-size: 115%; background: none">
+				<div>
+					
+					<span class="inactive page-prev "><i class="formcraft-icon">keyboard_arrow_left</i>Previous</span></div>
+				<div>
+					
+					<span class="page-next ">Next<i class="formcraft-icon">keyboard_arrow_right</i></span></div>
+			</div>
+		</div><a class="powered-by" target="_blank" href="http://formcraft-wp.com?source=pb"/>FormCraft - WordPress form builder</a></div></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_3_tb_footer">
+				<div class="et_pb_column et_pb_column_1_4 et_pb_column_7_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_5_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p style="text-align: center;">Exkluzívny partner</p></div>
+			</div><div class="et_pb_module et_pb_image et_pb_image_0_tb_footer">
+				
+				
+				
+				
+				<a href="https://jpauto.sk/" target="_blank"><span class="et_pb_image_wrap "><img loading="lazy" decoding="async" width="469" height="192" src="https://www.hamsikwinery.com/wp-content/uploads/2023/10/jp-auto-logo2.jpg" alt="" title="jp auto logo2" srcset="https://www.hamsikwinery.com/wp-content/uploads/2023/10/jp-auto-logo2.jpg 469w, https://www.hamsikwinery.com/wp-content/uploads/2023/10/jp-auto-logo2-300x123.jpg 300w" sizes="auto, (max-width: 469px) 100vw, 469px" class="wp-image-2111" /></span></a>
+			</div>
+			</div><div class="et_pb_column et_pb_column_3_4 et_pb_column_8_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_6_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p style="text-align: center;">Partneri</p></div>
+			</div><div class="et_pb_module dipi_carousel dipi_carousel_0_tb_footer">
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_module_inner">
+					
+            <div class="dipi-carousel-main dipi_loading hide_lightbox hide_lightbox_tablet hide_lightbox_phone" data-columnsdesktop='4' data-columnstablet='2' data-columnsphone='1' data-spacebetween='30' data-spacebetween_tablet='30' data-spacebetween_phone='30' data-speed='500|500|500' data-navigation='off' data-navigation_t='off' data-navigation_m='off' data-pagination='off' data-pagination_t='off' data-pagination_m='off' data-autoplay_settigns='{"loop_wide":"off","autoplay_wide":"off","continues_wide":"off","autoplay_reverse_wide":"off","pause_on_hover_wide":"off","autoplay_speed_wide":"5000","loop_mid":"off","autoplay_mid":"off","continues_mid":"off","autoplay_reverse_mid":"off","pause_on_hover_mid":"off","autoplay_speed_mid":"5000","loop_small":"off","autoplay_small":"off","continues_small":"off","autoplay_reverse_small":"off","pause_on_hover_small":"off","autoplay_speed_small":"5000"}' data-effect='slide' data-rotate='50' data-dynamicbullets='on' data-ordernumber='0tbfooter' data-centered='off' data-shadow='on' data-continues='off' style="display:none;">
+                <div class="swiper-container">
+                    <div class="dipi-carousel-wrapper">
+                        <div class="et_pb_module dipi_carousel_child dipi_carousel_child_0_tb_footer et_clickable swiper-slide">
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_module_inner">
+					
+            <div class="dipi-carousel-child-wrapper">
+                <a href="https://www.forbes.sk/" target="blank">
+                <div class="dipi-image-wrap"><span class="dipi-carousel-image  "   >
+                        <img loading="lazy" decoding="async" width="469" height="192" src="https://www.hamsikwinery.com/wp-content/uploads/2023/10/forbes.jpg" alt="" class="wp-image-2073 dipi-c-img" srcset="https://www.hamsikwinery.com/wp-content/uploads/2023/10/forbes.jpg 469w, https://www.hamsikwinery.com/wp-content/uploads/2023/10/forbes-300x123.jpg 300w" sizes="auto, (max-width: 469px) 100vw, 469px" />
+                        
+                    </span></div>
+                </a>
+                
+                    <a href="https://www.forbes.sk/" target="blank">
+                    
+                    
+                    </a>
+                    
+                
+            </div>
+				</div>
+			</div><div class="et_pb_module dipi_carousel_child dipi_carousel_child_1_tb_footer et_clickable swiper-slide">
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_module_inner">
+					
+            <div class="dipi-carousel-child-wrapper">
+                <a href="https://slovnaft.sk/sk/" target="blank">
+                <div class="dipi-image-wrap"><span class="dipi-carousel-image  "   >
+                        <img loading="lazy" decoding="async" width="469" height="192" src="https://www.hamsikwinery.com/wp-content/uploads/2023/10/slovnaft.jpg" alt="" class="wp-image-2079 dipi-c-img" srcset="https://www.hamsikwinery.com/wp-content/uploads/2023/10/slovnaft.jpg 469w, https://www.hamsikwinery.com/wp-content/uploads/2023/10/slovnaft-300x123.jpg 300w" sizes="auto, (max-width: 469px) 100vw, 469px" />
+                        
+                    </span></div>
+                </a>
+                
+                    <a href="https://slovnaft.sk/sk/" target="blank">
+                    
+                    
+                    </a>
+                    
+                
+            </div>
+				</div>
+			</div><div class="et_pb_module dipi_carousel_child dipi_carousel_child_2_tb_footer et_clickable swiper-slide">
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_module_inner">
+					
+            <div class="dipi-carousel-child-wrapper">
+                <a href="https://www.metro.sk/" target="blank">
+                <div class="dipi-image-wrap"><span class="dipi-carousel-image  "   >
+                        <img loading="lazy" decoding="async" width="469" height="192" src="https://www.hamsikwinery.com/wp-content/uploads/2023/10/metro.jpg" alt="" class="wp-image-2075 dipi-c-img" srcset="https://www.hamsikwinery.com/wp-content/uploads/2023/10/metro.jpg 469w, https://www.hamsikwinery.com/wp-content/uploads/2023/10/metro-300x123.jpg 300w" sizes="auto, (max-width: 469px) 100vw, 469px" />
+                        
+                    </span></div>
+                </a>
+                
+                    <a href="https://www.metro.sk/" target="blank">
+                    
+                    
+                    </a>
+                    
+                
+            </div>
+				</div>
+			</div><div class="et_pb_module dipi_carousel_child dipi_carousel_child_3_tb_footer et_clickable swiper-slide">
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_module_inner">
+					
+            <div class="dipi-carousel-child-wrapper">
+                <a href="https://www.omv.sk/sk-sk" target="blank">
+                <div class="dipi-image-wrap"><span class="dipi-carousel-image  "   >
+                        <img loading="lazy" decoding="async" width="469" height="192" src="https://www.hamsikwinery.com/wp-content/uploads/2023/10/OMW.jpg" alt="" class="wp-image-2077 dipi-c-img" srcset="https://www.hamsikwinery.com/wp-content/uploads/2023/10/OMW.jpg 469w, https://www.hamsikwinery.com/wp-content/uploads/2023/10/OMW-300x123.jpg 300w" sizes="auto, (max-width: 469px) 100vw, 469px" />
+                        
+                    </span></div>
+                </a>
+                
+                    <a href="https://www.omv.sk/sk-sk" target="blank">
+                    
+                    
+                    </a>
+                    
+                
+            </div>
+				</div>
+			</div><div class="et_pb_module dipi_carousel_child dipi_carousel_child_4_tb_footer et_clickable swiper-slide">
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_module_inner">
+					
+            <div class="dipi-carousel-child-wrapper">
+                <a href="https://tesco.sk/" target="blank">
+                <div class="dipi-image-wrap"><span class="dipi-carousel-image  "   >
+                        <img loading="lazy" decoding="async" width="469" height="192" src="https://www.hamsikwinery.com/wp-content/uploads/2023/10/tesco.jpg" alt="" class="wp-image-2081 dipi-c-img" srcset="https://www.hamsikwinery.com/wp-content/uploads/2023/10/tesco.jpg 469w, https://www.hamsikwinery.com/wp-content/uploads/2023/10/tesco-300x123.jpg 300w" sizes="auto, (max-width: 469px) 100vw, 469px" />
+                        
+                    </span></div>
+                </a>
+                
+                    <a href="https://tesco.sk/" target="blank">
+                    
+                    
+                    </a>
+                    
+                
+            </div>
+				</div>
+			</div><div class="et_pb_module dipi_carousel_child dipi_carousel_child_5_tb_footer et_clickable swiper-slide">
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_module_inner">
+					
+            <div class="dipi-carousel-child-wrapper">
+                <a href="https://www.billa.sk/" target="blank">
+                <div class="dipi-image-wrap"><span class="dipi-carousel-image  "   >
+                        <img loading="lazy" decoding="async" width="469" height="192" src="https://www.hamsikwinery.com/wp-content/uploads/2023/10/billa.jpg" alt="" class="wp-image-2083 dipi-c-img" srcset="https://www.hamsikwinery.com/wp-content/uploads/2023/10/billa.jpg 469w, https://www.hamsikwinery.com/wp-content/uploads/2023/10/billa-300x123.jpg 300w" sizes="auto, (max-width: 469px) 100vw, 469px" />
+                        
+                    </span></div>
+                </a>
+                
+                    <a href="https://www.billa.sk/" target="blank">
+                    
+                    
+                    </a>
+                    
+                
+            </div>
+				</div>
+			</div><div class="et_pb_module dipi_carousel_child dipi_carousel_child_6_tb_footer et_clickable swiper-slide">
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_module_inner">
+					
+            <div class="dipi-carousel-child-wrapper">
+                <a href="https://www.coop.sk/" target="blank">
+                <div class="dipi-image-wrap"><span class="dipi-carousel-image  "   >
+                        <img loading="lazy" decoding="async" width="469" height="192" src="https://www.hamsikwinery.com/wp-content/uploads/2023/10/coop-jednota.jpg" alt="" class="wp-image-2085 dipi-c-img" srcset="https://www.hamsikwinery.com/wp-content/uploads/2023/10/coop-jednota.jpg 469w, https://www.hamsikwinery.com/wp-content/uploads/2023/10/coop-jednota-300x123.jpg 300w" sizes="auto, (max-width: 469px) 100vw, 469px" />
+                        
+                    </span></div>
+                </a>
+                
+                    <a href="https://www.coop.sk/" target="blank">
+                    
+                    
+                    </a>
+                    
+                
+            </div>
+				</div>
+			</div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-arrow-button dipi-sbn0tbfooter " data-icon="9"></div>
+                <div class="swiper-button-prev swiper-arrow-button dipi-sbp0tbfooter " data-icon="8"></div>
+                
+                <div class="swiper-container-horizontal">
+                    <div class="swiper-pagination dipi-sp0tbfooter"></div>
+                </div>
+            </div>
+				</div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_4_tb_footer">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_9_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_7_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p style="text-align: center;"><span>HAMSIK corporation s.r.o.© 2023. All rights reserved. </span><a href="https://visualfresh.eu/">Design by VisualFresh</a><span>.</span></p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</footer>
+		</div>
+
+			
+		</div>
+		</div>
+
+			<div style="display: none;"><div id="boxzilla-box-2830-content"><div class="valentyn-popup">
+  <a href="https://www.hamsikwinery.com/valentin/"><br />
+    <img src="https://www.hamsikwinery.com/wp-content/uploads/2026/02/Hamsik-valentin-2026-popup.jpg" alt="Valentínska akcia"><br />
+  </a><br />
+  <a href="https://www.hamsikwinery.com/valentin/" class="btn-valentyn">Nakupovať</a>
+</div>
+</div></div>
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = true;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		<template id="tmpl-age-gate"  class="">        
+<div class="age-gate__wrapper">            <div class="age-gate__loader">    
+        <svg version="1.1" id="L5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+            <circle fill="currentColor" stroke="none" cx="6" cy="50" r="6">
+                <animateTransform attributeName="transform" dur="1s" type="translate" values="0 15 ; 0 -15; 0 15" repeatCount="indefinite" begin="0.1"/>
+            </circle>
+            <circle fill="currentColor" stroke="none" cx="30" cy="50" r="6">
+                <animateTransform attributeName="transform" dur="1s" type="translate" values="0 10 ; 0 -10; 0 10" repeatCount="indefinite" begin="0.2"/>
+            </circle>
+            <circle fill="currentColor" stroke="none" cx="54" cy="50" r="6">
+                <animateTransform attributeName="transform" dur="1s" type="translate" values="0 5 ; 0 -5; 0 5" repeatCount="indefinite" begin="0.3"/>
+            </circle>
+        </svg>
+    </div>
+        <div class="age-gate__background-color"></div>    <div class="age-gate__background">            </div>
+    
+    <div class="age-gate" role="dialog" aria-modal="true" aria-label="">    <form method="post" class="age-gate__form">
+<div class="age-gate__heading">            <img src="https://www.hamsikwinery.com/wp-content/uploads/2022/10/HAMSIK-NEW-LOGO-v5.png" width="398" height="241" alt="HAMSIK®"class="age-gate__heading-title age-gate__heading-title--logo" />    </div>
+    <h2 class="age-gate__headline">        Máte viac ako 18 rokov?
+    </h2>
+<p class="age-gate__subheadline">    </p>
+<div class="age-gate__fields">        
+<p class="age-gate__challenge">    </p>
+<div class="age-gate__buttons">            <button class="age-gate__submit age-gate__submit--no" data-submit="no" value="0" name="age_gate[confirm]" type="submit">Nie</button>        <button type="submit" class="age-gate__submit age-gate__submit--yes" data-submit="yes" value="1" name="age_gate[confirm]">Áno</button>    </div>
+    </div>
+
+<input type="hidden" name="age_gate[age]" value="9MRd26N84fSy3NwprhoXtg==" />
+<input type="hidden" name="age_gate[nonce]" value="db06aa2413" /><input type="hidden" name="_wp_http_referer" value="/wp-content/uploads/2023/11/Hamsik-winery-piu-frizzante-300x300.png" /><input type="hidden" name="age_gate[lang]" value="sk" />
+    <input type="hidden" name="age_gate[confirm]" />
+    <div class="age-gate__remember-wrapper">        <label class="age-gate__remember">            <input type="checkbox" class="age-gate__remember-field" name="age_gate[remember]" value="1"  /> <span type="checkbox" class="age-gate__remember-text">Zapamätať si moju voľbu</span>        </label>
+    </div>
+    <div class="age-gate__errors"></div></form>
+    </div>
+    </div>
+    </template>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/Divi%20Child\/*","\/wp-content\/themes\/Divi\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div id="dipi-popup-maker-container"></div>	<script type="text/javascript">
+    var ajaxurl = "https://www.hamsikwinery.com/wp-admin/admin-ajax.php";
+																					 
+    </script>
+	
+<script type="text/javascript">
+
+jQuery(document).ready(function ($) {
+	if( $('body').hasClass('et_is_customize_preview') ){
+		return;
+	}
+
+	if( !$('body').hasClass('admin-bar') ){
+		return;
+	}
+
+	let admin_bar_visible = false;
+	let admin_bar_hiding = false;
+	let timeout_show_admin_bar = null;
+	let timeout_hide_admin_bar = null;
+
+	function show_admin_bar(animated = true){
+		animation_duration = animated ? 200 : 0;
+		
+		$('#wpadminbar').stop().animate({'top': '0px'}, animation_duration);
+		$('body').stop().animate({'margin-top': '0px'}, animation_duration);
+
+		// Fix for reading progress bar module
+		$(' .dipi-reading-progress-top').stop().animate({'top': '30px'}, animation_duration);
+
+		if($('body').hasClass('et_secondary_nav_enabled') || $('body').hasClass('dipi_secondary_nav_enabled')) {
+			$('#top-header').stop().animate({'top': '32px'}, animation_duration);
+			var topHeaderHeight = $('#top-header').innerHeight();
+			var totalSpace = topHeaderHeight+32;
+			$('#main-header').stop().animate({'top': totalSpace+'px'}, animation_duration);
+		} else {
+			$('#main-header').stop().animate({'top': '32px'}, animation_duration);
+		}
+	}
+
+	function hide_admin_bar(animated = true){
+		admin_bar_hiding = true;
+		animation_duration = animated ? 200 : 0;
+		
+		$('#wpadminbar').stop().animate({'top': '-32px'}, animation_duration);
+		$('body').stop().animate({'margin-top': '-32px'}, animation_duration);
+		
+		// Fix for reading progress bar module 
+		$(' .dipi-reading-progress-top').stop().animate({'top': '0px'}, animation_duration);
+
+		if($('body').hasClass('et_secondary_nav_enabled') || $('body').hasClass('dipi_secondary_nav_enabled')) {
+			$('#top-header').stop().animate({'top': '0px'}, animation_duration);
+			var topHeaderHeight = $('#top-header').innerHeight();
+			$('#main-header').stop().animate({'top': topHeaderHeight+'px'}, animation_duration);
+		} else {
+			$('#main-header').stop().animate({'top': '0px'}, animation_duration);
+		}
+
+		setTimeout(function(){
+			admin_bar_visible = false;
+			admin_bar_hiding = false;
+		}, animation_duration);
+	}
+
+	function bodyMousemove(e){
+		if($("#wpadminbar:hover").length != 0){
+			return;
+		}
+
+		if( e.clientY < 35 && !admin_bar_visible && !timeout_show_admin_bar){
+			timeout_show_admin_bar = setTimeout(function(){
+				admin_bar_visible = true;
+				show_admin_bar();
+			}, 500);
+		} 
+		
+		if (e.clientY >= 35 && admin_bar_visible && !admin_bar_hiding && !timeout_hide_admin_bar){
+			timeout_hide_admin_bar = setTimeout(function(){
+				hide_admin_bar();
+			}, 500);
+		} 
+		
+		if(e.clientY < 35 && timeout_hide_admin_bar){
+			clearTimeout(timeout_hide_admin_bar);
+			timeout_hide_admin_bar = null;
+		}
+
+		if(e.clientY >= 35 && timeout_show_admin_bar){
+			clearTimeout(timeout_show_admin_bar);
+			timeout_show_admin_bar = null;
+		}
+	}
+
+	$(window).resize(function(){
+		$("body").off('mousemove', bodyMousemove);
+
+		if ($(window).width() <= 980) {
+			admin_bar_visible = true;
+			show_admin_bar(false);
+			return;
+		} 
+
+		$("body").on('mousemove', bodyMousemove);
+		
+		hide_admin_bar(false);
+	});
+});
+
+</script>
+<!-- Custom Feeds for Instagram JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://www.hamsikwinery.com/wp-admin/admin-ajax.php";
+
+</script>
+        <div id="xt_woofc" class="xt_woofc woocommerce xt_woofc-override-woo-notices xt_woofc-success-notice-hide xt_woofc-info-notice-hide xt_woofc-animation-morph xt_woofc-dimensions-pixels xt_woofc-pos-bottom-right xt_woofc-tablet-pos-bottom-right xt_woofc-mobile-pos-bottom-right xt_woofc-counter-pos-top-right xt_woofc-counter-tablet-pos-top-left xt_woofc-counter-mobile-pos-bottom-left xt_woofc-show-on-all xt_woofc-empty xt_woofc-force-visible xt_woofc-premium xt_woofc-show-thumbs xt_woofc-squared-thumbnail"  data-ajax-init="" data-position="bottom-right" data-tablet-position="bottom-right" data-mobile-position="bottom-right" data-trigger-event="vclick" data-hoverdelay="200" data-loadingtimeout="300" data-animation="morph" data-flytocart="1" data-flyduration="650" data-shaketrigger="vertical" data-opencart-onadd="">
+
+                        <form class="cart xt_woofc-hide"></form>
+            
+            
+            
+<div class="xt_woofc-inner">
+
+    <div class="xt_woofc-wrapper">
+    
+<div class="xt_woofc-header">
+
+    <span class="xt_woofc-header-left">
+        <span class="xt_woofc-title">
+            Košík        </span>
+    </span>
+
+    <span class="xt_woofc-header-right">
+        <span class="xt_woofc-notice xt_woofc-notice-na"></span>
+
+        
+        
+            </span>
+
+</div>
+
+<div class="xt_woofc-body">
+
+	
+	<div class="xt_woofc-body-header">        <div class="xt_woofc-wc-notices">
+                    </div>
+        </div>
+
+	
+	
+<div class="xt_woofc-list-wrap">
+
+	
+    <ul class="xt_woofc-list">
+		
+<li class="xt_woofc-no-product">
+	Košík je prázdny!    <a href="https://www.hamsikwinery.com/obchod/">
+        Do obchodu    </a>
+</li>    </ul>
+
+	
+</div>
+
+	
+	<div class="xt_woofc-body-footer">
+<div class="xt_woofc-sp xt_woofc-sp-slider xt_woofc-sp-empty">
+
+    
+</div>
+
+</div>
+
+	
+</div> <!-- .xt_woofc-body -->
+
+<div class="xt_woofc-footer">
+
+    <a href="https://www.hamsikwinery.com/kontrola-objednavky/" class="xt_woofc-checkout xt_woofc-btn">
+        <em>
+            <span class="xt_woofc-footer-label">Pokladňa</span>
+            <span class="xt_woofc-dash">-</span>
+            <span class="amount">0,00&nbsp;&euro;</span>
+            <svg class="xt_woofc-checkout-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve"><line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="3" y1="12" x2="21" y2="12"/><polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="15,6 21,12 15,18 "/></svg>
+        </em>
+    </a>
+
+    
+<a href="#" class="xt_woofc-trigger xt_woofc-icontype-image">
+
+    <span class="xt_woofc-trigger-cart-icon"></span>
+
+    <ul class="xt_woofc-count"> <!-- cart items count -->
+        <li>0</li>
+        <li>1</li>
+    </ul> <!-- .count -->
+
+    <span class="xt_woofc-trigger-close-icon"></span>
+
+</a>
+</div>
+<div class="xt_woofc-payment-btns"></div><div class="xt_woofc-spinner-wrap"><div class="xt_woofc-spinner-inner"><div class="xt_woofc-spinner xt_woofc-spinner-spinner-pulse"></div></div></div>    </div> <!-- .xt_woofc-wrapper -->
+</div> <!-- .xt_woofc-inner -->
+            
+        </div>
+        		<script type="application/javascript">
+			(function() {
+				var file     = ["https:\/\/www.hamsikwinery.com\/wp-content\/et-cache\/notfound\/et-divi-dynamic-tb-1410-late.css"];
+				var handle   = document.getElementById('divi-style-parent-inline-inline-css');
+				var location = handle.parentNode;
+
+				if (0===document.querySelectorAll('link[href="' + file + '"]').length) {
+					var link  = document.createElement('link');
+					link.rel  = 'stylesheet';
+					link.id   = 'et-dynamic-late-css';
+					link.href = file;
+
+					location.insertBefore(link, handle.nextSibling);
+				}
+			})();
+		</script>
+		<style id="et-builder-googlefonts-inline">/* Original: https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic|Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&#038;subset=cyrillic,cyrillic-ext,greek,greek-ext,hebrew,latin,latin-ext,vietnamese&#038;display=swap *//* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16aX8.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w-.ttf) format('truetype');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w-.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk_RkaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjr0C4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4n.ttf) format('truetype');}/* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16aXw&skey=2d3c1187d5eede0f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w9&skey=7bc19f711c0de8f&v=v31) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVQ&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVQ&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk_RkaVQ&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVQ&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVQ&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVQ&skey=743457fe2cc29280&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4k&skey=62c1cbfccc78b4b2&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4k&skey=62c1cbfccc78b4b2&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjr0C4k&skey=62c1cbfccc78b4b2&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4k&skey=62c1cbfccc78b4b2&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4k&skey=62c1cbfccc78b4b2&v=v44) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/l/font?kit=memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4k&skey=62c1cbfccc78b4b2&v=v44) format('woff');}/* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16aXo.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Uw7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 200;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Ew7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu170w7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr70w7.woff2) format('woff2');}@font-face {font-family: 'Montserrat';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w7.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk_RkaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 500;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjr0C4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4i.woff2) format('woff2');}</style>	<script type="text/javascript">
+				var et_link_options_data = [{"class":"dipi_carousel_child_0_tb_footer","url":"https:\/\/www.forbes.sk\/","target":"_blank"},{"class":"dipi_carousel_child_1_tb_footer","url":"https:\/\/slovnaft.sk\/sk\/","target":"_blank"},{"class":"dipi_carousel_child_2_tb_footer","url":"https:\/\/www.metro.sk\/","target":"_blank"},{"class":"dipi_carousel_child_3_tb_footer","url":"https:\/\/www.omv.sk\/sk-sk","target":"_blank"},{"class":"dipi_carousel_child_4_tb_footer","url":"https:\/\/tesco.sk\/","target":"_blank"},{"class":"dipi_carousel_child_5_tb_footer","url":"https:\/\/www.billa.sk\/","target":"_blank"},{"class":"dipi_carousel_child_6_tb_footer","url":"https:\/\/www.coop.sk\/","target":"_blank"}];
+			</script>
+	<div class="wt-cli-cookie-bar-container" data-nosnippet="true"><!--googleoff: all--><div id="cookie-law-info-bar" role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="wt-cli-cookie-banner" data-cli-geo-loc="0" style="text-align:left; padding:15px 30px;" class="wt-cli-cookie-bar"><div class="cli-wrapper"><span id="wt-cli-cookie-banner"><div class="cli-bar-container cli-style-v2"><div class="cli-bar-message">Na našej webovej stránke používame súbory cookie, aby sme vám poskytli čo najrelevantnejšie skúsenosti tým, že si zapamätáme vaše preferencie a opakované návštevy. Kliknutím na „Prijať“ súhlasíte s používaním VŠETKÝCH cookies. Môžete však navštíviť Nastavenia súborov cookie a poskytnúť riadený súhlas.</div><div class="cli-bar-btn_container"><a id="wt-cli-settings-btn" tabindex="0" role='button' style="border-bottom:1px solid; text-decoration:none; text-decoration:none;"class="wt-cli-element cli_settings_button"  >Nastavenia</a><a id="wt-cli-accept-btn" tabindex="0" role='button' style="margin:5px 5px 5px 30px; border-radius:0; padding:8px 25px 8px 25px;" data-cli_action="accept"  class="wt-cli-element medium cli-plugin-button cli-plugin-main-button cookie_action_close_header cli_action_button" >PRIJAŤ</a></div></div></span></div></div><div tabindex="0" id="cookie-law-info-again" style="display:none;"><span id="cookie_hdr_showagain">Spravovať súhlas</span></div><div class="cli-modal" id="cliSettingsPopup" role="dialog" aria-labelledby="wt-cli-privacy-title" tabindex="-1" aria-hidden="true">
+  <div class="cli-modal-dialog" role="document">
+    <div class="cli-modal-content cli-bar-popup">
+      <button aria-label="Zatvoriť" type="button" class="cli-modal-close" id="cliModalClose">
+      <svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path><path d="M0 0h24v24h-24z" fill="none"></path></svg>
+      <span class="wt-cli-sr-only">Zatvoriť</span>
+      </button>
+        <div class="cli-modal-body">
+
+    <div class="wt-cli-element cli-container-fluid cli-tab-container">
+        <div class="cli-row">
+                            <div class="cli-col-12 cli-align-items-stretch cli-px-0">
+                    <div class="cli-privacy-overview">
+                        <h4 id='wt-cli-privacy-title'>Prehľad ochrany osobných údajov</h4>                        <div class="cli-privacy-content">
+                            <div class="cli-privacy-content-text">Táto webová stránka používa súbory cookie na zlepšenie vášho zážitku pri prechádzaní webom. Z týchto súborov cookie sa vo vašom prehliadači ukladajú súbory cookie, ktoré sú kategorizované podľa potreby, pretože sú nevyhnutné pre fungovanie základných funkcií webovej stránky. Používame aj cookies tretích strán, ktoré nám pomáhajú analyzovať a pochopiť, ako používate túto webovú stránku. Tieto cookies budú uložené vo vašom prehliadači iba s vaším súhlasom. Máte tiež možnosť zrušiť tieto cookies. Zrušenie niektorých z týchto súborov cookie však môže mať vplyv na váš zážitok z prehliadania.</div>
+                        </div>
+                        <a id="wt-cli-privacy-readmore"  tabindex="0" role="button" class="cli-privacy-readmore" data-readmore-text="Zobraziť viac" data-readless-text="Zobraziť menej"></a>                    </div>
+                </div>
+                        <div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container" role="tablist">
+
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="cli-modal-footer">
+    <div class="wt-cli-element cli-container-fluid cli-tab-container">
+        <div class="cli-row">
+            <div class="cli-col-12 cli-align-items-stretch cli-px-0">
+                <div class="cli-tab-footer wt-cli-privacy-overview-actions">
+                    
+                        
+                                                    <a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept" class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">Uložiť a prijať</a>
+                                                                    
+                </div>
+                            </div>
+        </div>
+    </div>
+</div>
+    </div>
+  </div>
+</div>
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<!--googleon: all--></div>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			cli_cookiebar_settings='{"animate_speed_hide":"500","animate_speed_show":"500","background":"#fffffff7","border":"#b1a6a6c2","border_on":false,"button_1_button_colour":"#c9b162","button_1_button_hover":"#a18e4e","button_1_link_colour":"#fff","button_1_as_button":true,"button_1_new_win":false,"button_2_button_colour":"#ffffff","button_2_button_hover":"#cccccc","button_2_link_colour":"#898888","button_2_as_button":false,"button_2_hidebar":false,"button_2_nofollow":false,"button_3_button_colour":"#61a229","button_3_button_hover":"#4e8221","button_3_link_colour":"#fff","button_3_as_button":true,"button_3_new_win":false,"button_4_button_colour":"#ffffff","button_4_button_hover":"#cccccc","button_4_link_colour":"#898888","button_4_as_button":false,"button_7_button_colour":"#61a229","button_7_button_hover":"#4e8221","button_7_link_colour":"#fff","button_7_as_button":true,"button_7_new_win":false,"font_family":"inherit","header_fix":false,"notify_animate_hide":true,"notify_animate_show":false,"notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":false,"scroll_close_reload":false,"accept_close_reload":false,"reject_close_reload":false,"showagain_tab":false,"showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#333","show_once_yn":false,"show_once":"10000","logging_on":false,"as_popup":false,"popup_overlay":true,"bar_heading_text":"","cookie_bar_as":"banner","cookie_setting_popup":true,"accept_all":true,"js_script_blocker":false,"popup_showagain_position":"bottom-right","widget_position":"left","button_1_style":[["margin","5px 5px 5px 30px"],["border-radius","0"],["padding","8px 25px 8px 25px"]],"button_2_style":[],"button_3_style":[["margin","5px 5px 5px 5px"],["border-radius","0"],["padding","8px 25px 8px 25px"]],"button_4_style":[["border-bottom","1px solid"],["text-decoration","none"],["text-decoration","none"]],"button_5_style":[["float","right"],["text-decoration","none"],["color","#333"]],"button_7_style":[["margin","5px 5px 5px 30px"],["border-radius","0"],["padding","8px 25px 8px 25px"]],"accept_close_page_navigation":false}';
+		/* ]]> */
+		</script>
+			<script type='text/javascript'>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	
+<div class="dipi_hamburger hamburger hamburger--spin" style="display:none; float: right; margin-bottom: 24px; line-height: 1em;">
+    <div class="hamburger-box">
+        <div class="hamburger-inner"></div>
+    </div>
+</div><div class="loader">
+<img src="#" alt="Loading..."></div><link rel='stylesheet' id='wc-blocks-style-css' href='https://www.hamsikwinery.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-10.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-Cabin-css' href='https://fonts.googleapis.com/css?family=Cabin:400,600,700' type='text/css' media='all' />
+<link rel='stylesheet' id='dipi_swiper-css' href='https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/dist/vendor/css/swiper.5.3.8.min.css?ver=2.29.2' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css' href='https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/dist/vendor/css/magnific-popup.css?ver=2.29.2' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='https://www.hamsikwinery.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.6.12' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<script type="text/javascript" id="age-gate-all-js-extra">
+/* <![CDATA[ */
+var age_gate_common = {"cookies":"V\u00e1\u0161 prehliada\u010d nepodporuje cookies, m\u00f4\u017eu sa vyskytn\u00fa\u0165 probl\u00e9my so vstupom na t\u00fato str\u00e1nku","simple":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/age-gate/dist/all.js?ver=3.7.2" id="age-gate-all-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/dist/vendor/js/modernizr.custom.js?ver=1.0.0" id="dipi-popup-maker-modernizr-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/dist/public/js/popup_effect.min.js?ver=1.0.0" id="dipi-popup-maker-popup-effect-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.12" defer async id="tp-tools-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.12" defer async id="revmin-js"></script>
+<script type="text/javascript" id="xt-woo-floating-cart-js-extra">
+/* <![CDATA[ */
+var XT_WOOFC = {"home_url":"https:\/\/www.hamsikwinery.com","is_customize_preview":"","wc_ajax_url":"https:\/\/www.hamsikwinery.com\/?wc-ajax=%%endpoint%%","layouts":{"XS":350,"S":480,"M":782,"L":1024},"body_lock_scroll":"1","lang":{"loading":"Loading","min_qty_required":"Min quantity required","max_stock_reached":"Stock limit reached","title":"Ko\u0161\u00edk","checkout":"Poklad\u0148a","wait":"Na\u010d\u00edtavam...","coupons":"Coupons","back_to_cart":"Back to cart","clear_confirm":"Want to clear the cart? <a href=\"#\" class=\"xt_woofc-header-clear-confirm\">Yes<\/a>&nbsp; | &nbsp;<a href=\"#\" class=\"xt_woofc-header-clear-cancel\">No<\/a>"},"premium":"1","sp_slider_enabled":"1","sp_slider_arrow":"xt_wooqvicon-arrows-28","cart_autoheight_enabled":"1","enable_totals":"","enable_coupon_form":"","enable_coupon_list":"","cart_menu_enabled":"","cart_menu_click_action":"toggle","cart_shortcode_enabled":"","cart_shortcode_click_action":"toggle","cart_shipping_bar_enabled":"","custom_payments":"","trigger_selectors":[]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/xt-woo-floating-cart/public/assets/js/frontend-min.js?ver=2.7.5" id="xt-woo-floating-cart-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/xt-woo-floating-cart/public/assets/vendors/xt-gsap.min.js?ver=2.7.5" id="xt-gsap-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.3" id="jquery-ui-mouse-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.3" id="jquery-ui-draggable-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.3" id="jquery-ui-slider-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-includes/js/jquery/jquery.ui.touch-punch.js?ver=0.2.2" id="jquery-touch-punch-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-admin/js/iris.min.js?ver=6.8.5" id="iris-js"></script>
+<script type="text/javascript" id="wp-color-picker-js-extra">
+/* <![CDATA[ */
+var wpColorPickerL10n = {"clear":"Odstr\u00e1ni\u0165","defaultString":"Predvolen\u00e9","pick":"Vybra\u0165 farbu"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-admin/js/color-picker.min.js?ver=6.8.5" id="wp-color-picker-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3" id="jquery-ui-datepicker-js"></script>
+<script type="text/javascript" id="jquery-ui-datepicker-js-after">
+/* <![CDATA[ */
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Zatvori\u0165","currentText":"Dnes","monthNames":["janu\u00e1r","febru\u00e1r","marec","apr\u00edl","m\u00e1j","j\u00fan","j\u00fal","august","september","okt\u00f3ber","november","december"],"monthNamesShort":["jan","feb","mar","apr","m\u00e1j","j\u00fan","j\u00fal","aug","sep","okt","nov","dec"],"nextText":"\u010ealej","prevText":"Predch\u00e1dzaj\u00face","dayNames":["nede\u013ea","pondelok","utorok","streda","\u0161tvrtok","piatok","sobota"],"dayNamesShort":["Ne","Po","Ut","St","\u0160t","Pi","So"],"dayNamesMin":["Ne","Po","Ut","St","\u0160t","Pi","So"],"dateFormat":"d. MM yy","firstDay":1,"isRTL":false});});
+/* ]]> */
+</script>
+<script type="text/javascript" id="wc-add-to-cart-variation-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"\u013dutujeme, \u017eiadne produkty sa nezhoduj\u00fa s va\u0161im v\u00fdberom. Pros\u00edm zvo\u013ete in\u00fa kombin\u00e1ciu.","i18n_make_a_selection_text":"Pred pridan\u00edm produktu do ko\u0161\u00edka si pros\u00edm zvo\u013ete variant.","i18n_unavailable_text":"Ospravedl\u0148ujeme sa, tento produkt nie je dostupn\u00fd. Pros\u00edm vyberte in\u00fa kombin\u00e1ciu.","i18n_reset_alert_text":"V\u00e1\u0161 v\u00fdber bol resetovan\u00fd. Pred pridan\u00edm tohto produktu do ko\u0161\u00edka si pros\u00edm vyberte nejak\u00e9 mo\u017enosti produktu."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=10.5.3" id="wc-add-to-cart-variation-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="yith_wapo_front-js-extra">
+/* <![CDATA[ */
+var yith_wapo = {"dom":{"single_add_to_cart_button":".single_add_to_cart_button"},"ajaxurl":"https:\/\/www.hamsikwinery.com\/wp-admin\/admin-ajax.php","replace_image_path":".woocommerce-product-gallery .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image:first-child img.zoomImg,\n\t\t\t\t\t.woocommerce-product-gallery .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image:first-child source,\n\t\t\t\t\t.yith_magnifier_zoom img, .yith_magnifier_zoom_magnifier,\n\t\t\t\t\t.owl-carousel .woocommerce-main-image,\n\t\t\t\t\t.woocommerce-product-gallery__image .wp-post-image,\n\t\t\t\t\t.dt-sc-product-image-gallery-container .wp-post-image","upload_allowed_file_types":".jpg, .jpeg, .pdf, .png, .rar, .zip","upload_max_file_size":"5","total_price_box_option":"only_final","replace_product_price":"yes","woocommerce_currency_symbol":"\u20ac","woocommerce_currency_pos":"right_space","total_thousand_sep":" ","decimal_sep":",","num_decimal":"2","price_suffix":"","replace_product_price_class":".product .entry-summary .price .amount,\n\t\t\t\t\t\tdiv.elementor.product .elementor-widget-woocommerce-product-price .price .amount","hide_button_required":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/yith-woocommerce-advanced-product-options-premium/assets/js/front.min.js?ver=3.2.1" id="yith_wapo_front-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/yith-woocommerce-advanced-product-options-premium/assets/js/_new_jquery-ui-timepicker-addon.js?ver=3.2.1" id="yith_wapo_jquery-ui-timepicker-js"></script>
+<script type="text/javascript" id="divi-custom-script-js-extra">
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d polo\u017eka","items_count":"%d polo\u017eiek"};
+var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"};
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https:\/\/www.hamsikwinery.com\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/www.hamsikwinery.com\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/www.hamsikwinery.com\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"e05165873c","subscription_failed":"Pros\u00edm, skontrolujte polia ni\u017e\u0161ie skontrolujte, \u010di ste zadali spr\u00e1vne inform\u00e1cie.","et_ab_log_nonce":"b5802287c1","fill_message":"Pros\u00edm, vypl\u0148te v nasledovn\u00fdch oblastiach:","contact_error_message":"Opravte, pros\u00edm, nasleduj\u00face chyby:","invalid":"Neplatn\u00e1 e-mailov\u00e1 adresa","captcha":"Captcha","prev":"Predch\u00e1dzaj\u00faca strana","previous":"Predch\u00e1dzaj\u00face","next":"\u010ealej","wrong_captcha":"Zadali ste nespr\u00e1vne \u00e8\u00edslo Captcha(n\u00e1hodn\u00e9 alfanumerick\u00e9 znaky a obr\u00e1zky pou\u017e\u00edvan\u00e9 na zachytenie spamerov v kontaktn\u00fdch formul\u00e1roch).","wrong_checkbox":"za\u010diarkavacie pol\u00ed\u010dko","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"1","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":"https:\/\/www.hamsikwinery.com\/wp-content\/themes\/Divi\/includes\/builder\/frontend-builder\/assets\/vendors","accent_color":"#c9b162","waypoints_options":[]};
+var et_pb_box_shadow_elements = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/themes/Divi/js/scripts.min.js?ver=4.25.1" id="divi-custom-script-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.25.1" id="fitvids-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/scripts/frontend-bundle.min.js?ver=1.0.0" id="divi-pixel-frontend-bundle-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/revslider/admin/includes/shortcode_generator/divi/scripts/frontend-bundle.min.js?ver=1.0.0" id="revslider-divi-frontend-bundle-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/woocommerce-multilingual/res/js/front-scripts.min.js?ver=5.2.1" id="wcml-front-scripts-js"></script>
+<script type="text/javascript" id="cart-widget-js-extra">
+/* <![CDATA[ */
+var actions = {"is_lang_switched":"0","force_reset":"0"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/woocommerce-multilingual/res/js/cart_widget.min.js?ver=5.2.1" id="cart-widget-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.5.3" id="sourcebuster-js-js"></script>
+<script type="text/javascript" id="wc-order-attribution-js-extra">
+/* <![CDATA[ */
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https:\/\/www.hamsikwinery.com\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.5.3" id="wc-order-attribution-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/themes/Divi/core/admin/js/common.js?ver=4.25.1" id="et-core-common-js"></script>
+<script type="text/javascript" id="boxzilla-js-extra">
+/* <![CDATA[ */
+var boxzilla_options = {"testMode":"","boxes":[{"id":2830,"icon":"&times;","content":"","css":{"background_color":"#edf9ff","width":650,"border_color":"#dd7575","position":"center"},"trigger":{"method":"time_on_page","value":"15"},"animation":"fade","cookie":{"triggered":0,"dismissed":0},"rehide":false,"position":"center","screenWidthCondition":null,"closable":true,"post":{"id":2830,"title":"Valentin 2026","slug":"valentin-2026"}}]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/boxzilla/assets/js/script.js?ver=3.4.6" id="boxzilla-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/wc-quantity-plus-minus-button/assets/js/scripts.js?ver=1.0.0" id="wqpmb-script-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/formcraft3/assets/js/src/fc_modal.js?ver=3.9.7" id="fc-modal-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/formcraft3/assets/js/vendor/tooltip.min.js?ver=6.8.5" id="tooltip-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/formcraft3/lib/awesomplete.min.js?ver=6.8.5" id="awesomplete-js"></script>
+<script type="text/javascript" id="fc-form-js-extra">
+/* <![CDATA[ */
+var FC = {"ajaxurl":"https:\/\/www.hamsikwinery.com\/wp-admin\/admin-ajax.php","fct":{"1w":"1w","1m":"1m","1y":"1y","Form Name":"Form Name","Set Width Option":"Set the widths of two fields to 50% each to fit them in one row.<br>You can have any number of fields in the same row, as long as the sum of widths is 100%","Alt Label":"The field label \/ key to use when sending data via a webhook","Dropdown One":"You can set the value of the options different from the text, using this pattern","Dropdown Two":"Here, 100 would be the value, and Apple would be the text.","keepdata":"Keep Data When Deleting Plugin","exportall":"Export All Data","needAPIKey":"You need to enter the Google API Key when editing the field to make the autocomplete address field work","Form:":"Form:","Embed Type:":"Embed Type:","Add a FormCraft form":"Add a FormCraft form","Inline":"Inline","Popup":"Popup","Slide In":"Slide In","Button Text:":"Button Text:","Alignment:":"Alignment:","Left":"Left","Center":"Center","Right":"Right","Placement:":"Placement:","Bottom Right":"Bottom Right","Bind:":"Bind:","bind form popup action to a CSS selector":"bind form popup action to a CSS selector","Class:":"Class:","add a custom class to the popup button":"add a custom class to the popup button","Font Color:":"Font Color:","font color of the button":"font color of the button","Button Color:":"Button Color:","color of the button":"color of the button","Auto Popup:":"Auto Popup:","auto popup the form on page load after x seconds":"auto popup the form on page load after x seconds","loseChanges":"You will lose any un-saved changes.","Free AddOns":"Free AddOns","Purchased AddOns":"Purchased AddOns","Paid AddOns":"Paid AddOns","read more":"read more","Nothing Left To Install":"Nothing Left To Install","Please check your internet connection":"Please check your internet connection","back":"back","Help Topics":"Help Topics","Sorry, nothing here":"Sorry, nothing here","Contact Support":"Contact Support","Unknown Error.":"Unknown Error.","Failed Saving.":"Failed Saving.","Failed Saving. Please try disabing your firewall, or security plugin.":"Failed Saving. Please try disabing your firewall, or security plugin.","Debug Info":"Debug Info","Invalid":"Invalid","Min [x] characters required":"Min [x] characters required","Max [x] characters allowed":"Max [x] characters allowed","Max [x] file(s) allowed":"test","Files bigger than [x] MB not allowed":"Files bigger than [x] MB not allowed","Invalid Email":"Invalid Email","Invalid URL":"Invalid URL","Invalid Expression":"Invalid Expression","Only alphabets":"Only alphabets","Only numbers":"Only numbers","Should be alphanumeric":"Should be alphanumeric","Please correct the errors and try again":"Please correct the errors and try again","Message received":"Message received","Email Content Autoresponder":"<p>Hello [Name],<\/p><p><br><\/p><p>We have received your submission. Here are the details you have submitted to us:<\/p><p>[Form Content]<\/p><p><br><\/p><p>Regards,<\/p><p>Nishant<\/p>","Thank you for your submission":"Thank you for your submission","<p>Hello,<\/p><p><br><\/p><p>You have received a new form submission for the form [Form Name]. Here are the details:<\/p><p>[Form Content]<\/p><p><br><\/p><p>Page: [URL]<br>Unique ID: #[Entry ID]<br>Date: [Date]<br>Time: [Time]<\/p>":"<p>Hello,<\/p><p><br><\/p><p>You have received a new form submission for the form [Form Name]. Here are the details:<\/p><p>[Form Content]<\/p><p><br><\/p><p>Page: [URL]<br>Unique ID: #[Entry ID]<br>Date: [Date]<br>Time: [Time]<\/p>","New Form Submission":"New Form Submission","Heading":"Heading","Some Title":"Some Title","Name":"Name","your full name":"your full name","Password":"Password","check your caps":"check your caps","Email":"Email","a valid email":"a valid email","Comments":"Comments","more details":"more details","Favorite Fruits":"Favorite Fruits","pick one!":"pick one!","Language":"Language","Date":"Date","of appointment":"of appointment","Add some text or <strong>HTML<\/strong> here":"Add some text or HTML here","Text Field":"Text Field","Submit Form":"Submit Form","File":"File","upload":"upload","Slider":"Slider","take your pick":"take your pick","Time":"Time","Address":"Address","your home \/ office":"your home \/ office","Rate":"Rate","our support":"our support","Liked the food?":"Liked the food?","let us know":"let us know","Survey":"Survey","How Was the Food?":"How Was the Food?","How Was the Service?":"How Was the Service?","Poor":"Poor","Average":"Average","Good":"Good","Bad":"Bad","Could be better":"Could be better","So so":"So so","Excellent":"Excellent","Blank":"Blank","Template":"Template","Duplicate":"Duplicate","Import":"Import","(blank form)":"(blank form)","80% Zoom":"80% Zoom","Select Form Template To View":"Select Form Template To View","Select Form":"Select Form","Create Form":"Create Form","No Forms Found":"No Forms Found","Forms":"Forms","New Form":"New Form","ID":"ID","Last Edit":"Last Edit","Sure? This action can't be reversed.":"Sure? This action can&#039;t be reversed.","Form Analytics":"Form Analytics","reset analytics data":"reset analytics data","Custom":"Custom","All Forms":"All Forms","form views":"form views","submissions":"submissions","conversion":"conversion","charges":"charges","No Entries Found":"No Entries Found","Select Form to Export":"Select Form to Export","Separator:":"Separator:","Comma (CSV format)":"Comma (CSV format)","Semicolon":"Semicolon","Export":"Export","Entries":"Entries","(All Forms)":"(All Forms)","Created":"Created","Hide Empty Fields":"Hide Empty Fields","Save Changes":"Save Changes","Edit Entry":"Edit Entry","Print":"Print","Referer":"Referer","Insights":"Insights","Get Insights":"Get Insights","Period":"Period","All":"All","From":"From","To":"To","Max Entries":"Max Entries","Entries Analyzed":"Entries Analyzed","No Insights Available":"No Insights Available","learn more":"learn more","License Key verified":"License Key verified","Verified":"Verified","Update Key Info":"Update Key Info","Verify Key":"Verify Key","Purchased On":"Purchased On","Last Check":"Last Check","Expires On":"Expires On","More Info":"More Info","days too late":"days too late","days left":"days left","Renew License Key":"Renew License Key","renewing the license key gives you access to auto plugin updates and free customer support":"renewing the license key gives you access to auto plugin updates and free customer support","No Files Found":"No Files Found","File Uploads":"File Uploads","Trash":"Trash","Type":"Type","Size":"Size","Disable Analytics":"Disable Analytics","Search":"Search","Loading":"Loading","Entry View":"Entry View","Your License Key":"Your License Key","Your Email":"Your Email"},"datepickerLang":"https:\/\/www.hamsikwinery.com\/wp-content\/plugins\/formcraft3\/assets\/js\/datepicker-lang\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/formcraft3/dist/form.min.js?ver=3.9.7" id="fc-form-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/dist/vendor/js/swiper.5.3.8.min.js?ver=2.29.2" id="dipi_swiper-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/dist/vendor/js/magnific-popup.min.js?ver=2.29.2" id="magnific-popup-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/dist/public/js/Carousel.min.js?ver=2.29.2" id="dipi_carousel_public-js"></script>
+<script type="text/javascript" src="https://www.hamsikwinery.com/wp-content/plugins/divi-pixel/dist/vendor/js/jquery.exitintent.min.js?ver=1.0.0" id="exit-intent-js"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var FC_Validation_1 = {"is_required":"Povinn\u00e9 pole","is_invalid":"Neplatn\u00fd \u00fadaj","min_char":"Min [x] characters required","max_char":"Max [x] characters allowed","min_files":"Min [x] file(s) required","max_files":"Max [x] file(s) allowed","max_file_size":"Files bigger than [x] MB not allowed","allow_email":"Neplatn\u00e1 emailov\u00e1 adresa","allow_url":"Invalid URL","allow_regexp":"Invalid Expression","allow_alphabets":"Only alphabets","allow_numbers":"Only numbers","allow_alphanumeric":"Should be alphanumeric","failed":"Opravte chyby a sk\u00faste to znova"};
+/* ]]> */
+</script>
+    <script>
+    jQuery(document).ready(function() {
+      
+    });
+    </script>
+    	
+			<span class="et_pb_scroll_top et-pb-icon"></span>
+	</body>
+</html>
