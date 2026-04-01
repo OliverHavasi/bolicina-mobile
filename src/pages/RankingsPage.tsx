@@ -11,15 +11,14 @@ const RankingsPage = () => {
   const tabs = [t('overall'), t('byRegion'), t('byStyle'), t('thisYear'), t('allTime')];
 
   return (
-    <div>
-      <div className="bg-selce flex items-end justify-center" style={{ height: `calc(100px + env(safe-area-inset-top, 0px))`, paddingTop: 'env(safe-area-inset-top, 0px)' }}>
-        <h1 className="font-heading font-bold text-[20px] text-white pb-3">{t('topProsecco')}</h1>
-      </div>
+    <div style={{ paddingTop: 'calc(52px + env(safe-area-inset-top, 0px))' }}>
+      <TopAppBar title={t('topProsecco')} />
 
-      <div className="sticky top-0 z-40 bg-parchment overflow-x-auto no-scrollbar flex gap-2 px-4 py-2" style={{ borderBottom: '0.5px solid hsl(var(--c-stone))' }}>
+      <div className="sticky z-40 bg-parchment overflow-x-auto no-scrollbar flex gap-2 px-4 py-2" style={{ top: 'calc(52px + env(safe-area-inset-top, 0px))', borderBottom: '0.5px solid hsl(var(--c-stone))' }}>
         {tabs.map((tab, i) => (
           <button
             key={tab}
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className={`shrink-0 px-4 py-1.5 rounded-full font-body text-[13px] press ${
               i === 0 ? 'text-selce font-semibold' : 'text-ink-3'
             }`}
