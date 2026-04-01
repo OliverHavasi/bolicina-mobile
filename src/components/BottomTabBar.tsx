@@ -21,7 +21,7 @@ const BottomTabBar = () => {
       style={{
         height: `calc(56px + env(safe-area-inset-bottom, 0px))`,
         paddingBottom: 'env(safe-area-inset-bottom, 0px)',
-        background: '#1B2D22',
+        background: '#3D2B1F',
         maxWidth: '390px',
         width: '100%',
         left: '50%',
