@@ -53,9 +53,9 @@ const HomePage = () => {
       <section className="relative overflow-hidden" style={{ height: '100dvh', width: '100%' }}>
         <img src={heroImage} alt="Prosecco" className="absolute inset-0 w-full h-full object-cover" style={{ objectPosition: '50% 30%' }} />
         {/* Top scrim for icon legibility */}
-        <div className="absolute inset-x-0 top-0 z-[1]" style={{ height: 120, background: 'linear-gradient(to bottom, rgba(4,22,10,0.50) 0%, rgba(4,22,10,0) 100%)' }} />
+        <div className="absolute inset-x-0 top-0 z-[1]" style={{ height: 100, background: 'linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, transparent 100%)' }} />
         {/* Bottom scrim — neutral black */}
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, transparent 0%, transparent 40%, rgba(0,0,0,0.35) 65%, rgba(0,0,0,0.60) 100%)' }} />
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 25%, transparent 60%)' }} />
 
         {/* Top bar */}
         <div

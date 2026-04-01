@@ -17,8 +17,11 @@ const BottomTabBar = () => {
 
   return (
     <nav
-      className="fixed bottom-0 z-[100] flex items-end justify-around"
+      className="fixed bottom-0 z-[100]"
       style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(5, 1fr)',
+        alignItems: 'end',
         height: `calc(49px + env(safe-area-inset-bottom, 0px))`,
         paddingBottom: 'env(safe-area-inset-bottom, 0px)',
         background: 'rgba(255, 248, 221, 0.85)',
@@ -39,19 +42,20 @@ const BottomTabBar = () => {
 
         if (tab.center) {
           return (
-            <button
-              key={tab.label}
-              onClick={() => navigate(tab.href)}
-              className="press flex items-center justify-center -mt-[14px]"
-              style={{
-                background: 'hsl(var(--c-oro))',
-                borderRadius: '14px',
-                padding: '13px 20px',
-                boxShadow: '0 4px 16px rgba(200,168,76,0.4)',
-              }}
-            >
-              <Icon size={24} strokeWidth={1.5} style={{ color: '#2C1810' }} />
-            </button>
+            <div key={tab.label} className="flex items-center justify-center">
+              <button
+                onClick={() => navigate(tab.href)}
+                className="press flex items-center justify-center -mt-[14px]"
+                style={{
+                  background: 'hsl(var(--c-oro))',
+                  borderRadius: '14px',
+                  padding: '13px 20px',
+                  boxShadow: '0 4px 16px rgba(200,168,76,0.4)',
+                }}
+              >
+                <Icon size={24} strokeWidth={1.5} style={{ color: '#2C1810' }} />
+              </button>
+            </div>
           );
         }
 
@@ -59,11 +63,8 @@ const BottomTabBar = () => {
           <Link
             key={tab.label}
             to={tab.href}
-            className="press flex flex-col items-center gap-[3px] py-[6px] px-3 relative"
+            className="press flex flex-col items-center justify-center gap-[3px] py-[6px]"
           >
-            {isActive && (
-              <div className="absolute top-0 w-1 h-1 rounded-full" style={{ background: 'hsl(var(--c-oro))' }} />
-            )}
             <Icon
               size={22}
               strokeWidth={1.5}
