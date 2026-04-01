@@ -103,8 +103,8 @@ const ProseccoCard = memo(({ prosecco, variant = 'grid' }: ProseccoCardProps) =>
           alt={prosecco.name}
           loading="lazy"
           style={{
-            maxHeight: 168,
-            maxWidth: 100,
+            maxHeight: 193,
+            maxWidth: 115,
             width: 'auto',
             height: 'auto',
             objectFit: 'contain',
