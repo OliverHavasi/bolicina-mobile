@@ -96,10 +96,10 @@ const HomePage = () => {
             onClick={() => navigate('/hladat')}
             className="w-full h-12 rounded-full flex items-center px-4 gap-3 press"
             style={{
-              background: 'rgba(247, 244, 238, 0.14)',
-              backdropFilter: 'blur(32px)',
-              WebkitBackdropFilter: 'blur(32px)',
-              border: '0.5px solid rgba(247, 244, 238, 0.4)',
+              background: 'rgba(255, 255, 255, 0.2)',
+              backdropFilter: 'blur(12px)',
+              WebkitBackdropFilter: 'blur(12px)',
+              border: '0.5px solid rgba(255, 255, 255, 0.20)',
               maxWidth: 340,
             }}
           >

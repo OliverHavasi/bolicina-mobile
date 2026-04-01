@@ -18,6 +18,7 @@ const RankingsPage = () => {
         {tabs.map((tab, i) => (
           <button
             key={tab}
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className={`shrink-0 px-4 py-1.5 rounded-full font-body text-[13px] press ${
               i === 0 ? 'text-selce font-semibold' : 'text-ink-3'
             }`}
