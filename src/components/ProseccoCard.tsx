@@ -94,7 +94,7 @@ const ProseccoCard = memo(({ prosecco, variant = 'grid' }: ProseccoCardProps) =>
           alignItems: 'center',
           justifyContent: 'center',
           overflow: 'hidden',
-          padding: '16px 24px',
+          padding: '8px 16px',
           boxSizing: 'border-box',
         }}
       >
