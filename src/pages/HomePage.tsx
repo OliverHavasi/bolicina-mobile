@@ -119,7 +119,7 @@ const HomePage = () => {
                 style={
                   activeFilter === f
                     ? { background: '#1a1a1a', color: 'white', border: '1px solid rgba(200,168,76,0.8)' }
-                    : { background: 'rgba(247,244,238,0.15)', color: 'white', border: '0.5px solid rgba(247,244,238,0.35)' }
+                    : { background: 'rgba(247,244,238,0.15)', color: 'white', border: '1px solid rgba(200,168,76,0.4)' }
                 }
               >
                 {f}
