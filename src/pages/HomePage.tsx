@@ -54,8 +54,8 @@ const HomePage = () => {
         <img src={heroImage} alt="Prosecco" className="absolute inset-0 w-full h-full object-cover" style={{ objectPosition: 'center top' }} />
         {/* Top scrim for icon legibility */}
         <div className="absolute inset-x-0 top-0 z-[1]" style={{ height: 120, background: 'linear-gradient(to bottom, rgba(4,22,10,0.50) 0%, rgba(4,22,10,0) 100%)' }} />
-        {/* Bottom gradient — deep bottle green */}
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, transparent 0%, transparent 45%, rgba(4,22,10,0.55) 70%, rgba(4,22,10,0.90) 100%)' }} />
+        {/* Bottom scrim — neutral black */}
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, transparent 0%, transparent 40%, rgba(0,0,0,0.35) 65%, rgba(0,0,0,0.60) 100%)' }} />
 
         {/* Top bar */}
         <div
