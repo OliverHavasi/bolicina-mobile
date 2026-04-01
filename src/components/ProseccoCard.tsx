@@ -144,7 +144,7 @@ const ProseccoCard = memo(({ prosecco, variant = 'grid' }: ProseccoCardProps) =>
       </div>
 
       {/* Content */}
-      <div style={{ padding: 12, display: 'flex', flexDirection: 'column', flex: 1 }}>
+      <div style={{ padding: 12, display: 'flex', flexDirection: 'column', flex: 1, background: 'hsl(var(--c-cream-deep))' }}>
         {/* Producer */}
         <p style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: 10, letterSpacing: '.12em', textTransform: 'uppercase', color: 'hsl(var(--c-oro))', marginBottom: 3, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', margin: '0 0 3px 0' }}>
           {prosecco.producer}

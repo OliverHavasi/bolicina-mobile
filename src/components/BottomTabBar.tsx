@@ -17,11 +17,11 @@ const BottomTabBar = () => {
 
   return (
     <nav
-      className="fixed bottom-0 z-[100] flex items-end justify-around"
+      className="fixed bottom-0 z-[100] flex items-center justify-around"
       style={{
-        height: `calc(49px + env(safe-area-inset-bottom, 0px))`,
+        height: `calc(56px + env(safe-area-inset-bottom, 0px))`,
         paddingBottom: 'env(safe-area-inset-bottom, 0px)',
-        background: 'hsl(var(--c-selce))',
+        background: '#1B2D22',
         maxWidth: '390px',
         width: '100%',
         left: '50%',
@@ -36,19 +36,21 @@ const BottomTabBar = () => {
 
         if (tab.center) {
           return (
-            <button
-              key={tab.label}
-              onClick={() => navigate(tab.href)}
-              className="press flex items-center justify-center -mt-[14px]"
-              style={{
-                background: 'hsl(var(--c-oro))',
-                borderRadius: '14px',
-                padding: '13px 20px',
-                boxShadow: '0 4px 16px rgba(200,168,76,0.4)',
-              }}
-            >
-              <Icon size={24} strokeWidth={1.5} className="text-selce" />
-            </button>
+            <div key={tab.label} className="flex-1 flex items-center justify-center">
+              <button
+                onClick={() => navigate(tab.href)}
+                className="press flex items-center justify-center relative -mt-5"
+                style={{
+                  background: '#C8A84C',
+                  borderRadius: '50%',
+                  width: 52,
+                  height: 52,
+                  boxShadow: '0 -2px 12px rgba(200,168,76,0.35)',
+                }}
+              >
+                <Icon size={24} strokeWidth={1.5} style={{ color: '#1B2D22' }} />
+              </button>
+            </div>
           );
         }
 
@@ -56,19 +58,19 @@ const BottomTabBar = () => {
           <Link
             key={tab.label}
             to={tab.href}
-            className="press flex flex-col items-center gap-[3px] py-[6px] px-3 relative"
+            className="press flex-1 flex flex-col items-center gap-[2px] py-[6px] relative"
           >
             {isActive && (
-              <div className="absolute top-0 w-1 h-1 rounded-full" style={{ background: 'hsl(var(--c-oro))' }} />
+              <div className="absolute top-0 w-1 h-1 rounded-full" style={{ background: '#C8A84C' }} />
             )}
             <Icon
               size={22}
               strokeWidth={1.5}
-              style={{ color: isActive ? 'hsl(var(--c-oro))' : 'rgba(247,244,238,0.5)' }}
+              style={{ color: isActive ? '#C8A84C' : '#F7F4EE' }}
             />
             <span
-              className="font-body font-medium text-[10px] tracking-[0.06em] uppercase"
-              style={{ color: isActive ? 'hsl(var(--c-oro))' : 'rgba(247,244,238,0.5)' }}
+              className="font-body font-medium text-[10px] tracking-[0.06em] uppercase text-center"
+              style={{ color: isActive ? '#C8A84C' : '#F7F4EE', marginTop: 2 }}
             >
               {tab.label}
             </span>

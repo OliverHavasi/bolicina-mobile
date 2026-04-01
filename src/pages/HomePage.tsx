@@ -131,8 +131,8 @@ const HomePage = () => {
 
         {/* Bouncing chevron */}
         <motion.div
-          className="absolute bottom-8 left-1/2 z-[3]"
-          style={{ transform: 'translateX(-50%)' }}
+          className="absolute z-[3]"
+          style={{ bottom: 90, left: '50%', transform: 'translateX(-50%)' }}
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 1.8, ease: 'easeInOut' }}
         >
