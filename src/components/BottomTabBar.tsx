@@ -21,7 +21,7 @@ const BottomTabBar = () => {
       style={{
         height: `calc(49px + env(safe-area-inset-bottom, 0px))`,
         paddingBottom: 'env(safe-area-inset-bottom, 0px)',
-        background: 'hsl(var(--c-selce))',
+        background: '#F9F7F2',
         maxWidth: '390px',
         width: '100%',
         left: '50%',
@@ -47,7 +47,7 @@ const BottomTabBar = () => {
                 boxShadow: '0 4px 16px rgba(200,168,76,0.4)',
               }}
             >
-              <Icon size={24} strokeWidth={1.5} className="text-selce" />
+              <Icon size={24} strokeWidth={1.5} style={{ color: '#2C1810' }} />
             </button>
           );
         }
@@ -64,11 +64,11 @@ const BottomTabBar = () => {
             <Icon
               size={22}
               strokeWidth={1.5}
-              style={{ color: isActive ? 'hsl(var(--c-oro))' : 'rgba(247,244,238,0.5)' }}
+              style={{ color: isActive ? 'hsl(var(--c-oro))' : '#2C1810' }}
             />
             <span
               className="font-body font-medium text-[10px] tracking-[0.06em] uppercase"
-              style={{ color: isActive ? 'hsl(var(--c-oro))' : 'rgba(247,244,238,0.5)' }}
+              style={{ color: isActive ? 'hsl(var(--c-oro))' : '#2C1810' }}
             >
               {tab.label}
             </span>

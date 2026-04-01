@@ -52,8 +52,10 @@ const HomePage = () => {
       {/* HERO — full viewport */}
       <section className="relative overflow-hidden" style={{ height: '100dvh', width: '100%' }}>
         <img src={heroImage} alt="Prosecco" className="absolute inset-0 w-full h-full object-cover" style={{ objectPosition: 'center top' }} />
-        {/* Dark gradient overlay on bottom 40% */}
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(44,24,16,.1) 0%, rgba(44,24,16,.15) 40%, rgba(44,24,16,.75) 75%, rgba(44,24,16,.9) 100%)' }} />
+        {/* Top scrim for icon legibility */}
+        <div className="absolute inset-x-0 top-0 z-[1]" style={{ height: 120, background: 'linear-gradient(to bottom, rgba(4,22,10,0.50) 0%, rgba(4,22,10,0) 100%)' }} />
+        {/* Bottom gradient — deep bottle green */}
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, transparent 0%, transparent 45%, rgba(4,22,10,0.55) 70%, rgba(4,22,10,0.90) 100%)' }} />
 
         {/* Top bar */}
         <div
@@ -126,15 +128,15 @@ const HomePage = () => {
           </div>
         </div>
 
-        {/* Bouncing chevron */}
-        <motion.div
-          className="absolute bottom-8 left-1/2 z-[3]"
-          style={{ transform: 'translateX(-50%)' }}
-          animate={{ y: [0, 8, 0] }}
-          transition={{ repeat: Infinity, duration: 1.8, ease: 'easeInOut' }}
-        >
-          <ChevronDown size={28} strokeWidth={1.5} className="text-white/60" />
-        </motion.div>
+        {/* Bouncing chevron — centered below chips */}
+        <div className="absolute bottom-8 left-0 right-0 z-[3] flex justify-center">
+          <motion.div
+            animate={{ y: [0, 8, 0] }}
+            transition={{ repeat: Infinity, duration: 1.8, ease: 'easeInOut' }}
+          >
+            <ChevronDown size={28} strokeWidth={1.5} className="text-white/60" />
+          </motion.div>
+        </div>
       </section>
 
       {/* FEED SECTIONS */}
