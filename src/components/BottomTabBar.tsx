@@ -47,7 +47,7 @@ const BottomTabBar = () => {
                 boxShadow: '0 4px 16px rgba(200,168,76,0.4)',
               }}
             >
-              <Icon size={24} strokeWidth={1.5} className="text-selce" />
+              <Icon size={24} strokeWidth={1.5} style={{ color: '#2C1810' }} />
             </button>
           );
         }
