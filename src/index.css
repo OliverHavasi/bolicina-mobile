@@ -23,9 +23,9 @@
     --c-cream-deep: 28 22% 86%;
     --c-stone: 30 18% 84%;
     --c-stone-mid: 30 16% 69%;
-    --c-ink: 16 45% 12%;
-    --c-ink-2: 24 12% 35%;
-    --c-ink-3: 24 10% 56%;
+    --c-ink: 30 10% 10%;
+    --c-ink-2: 30 8% 35%;
+    --c-ink-3: 30 6% 48%;
 
     /* Map to shadcn tokens */
     --background: var(--c-parchment);
