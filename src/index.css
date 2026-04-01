@@ -4,9 +4,12 @@
 
 @layer base {
   :root {
-    --c-selce: 16 45% 12%;
-    --c-cotto: 16 32% 24%;
-    --c-cotto-light: 16 32% 33%;
+    --c-selce: 150 24% 15%;
+    --c-cotto: 150 24% 24%;
+    --c-cotto-light: 150 22% 33%;
+    --c-forest: 150 24% 15%;
+    --c-forest-mid: 150 24% 24%;
+    --c-forest-light: 150 24% 33%;
     --c-oro: 42 52% 54%;
     --c-oro-light: 42 55% 68%;
     --c-oro-deep: 42 52% 44%;
@@ -20,9 +23,9 @@
     --c-cream-deep: 28 22% 86%;
     --c-stone: 30 18% 84%;
     --c-stone-mid: 30 16% 69%;
-    --c-ink: 16 45% 12%;
-    --c-ink-2: 24 12% 35%;
-    --c-ink-3: 24 10% 56%;
+    --c-ink: 30 10% 10%;
+    --c-ink-2: 30 8% 35%;
+    --c-ink-3: 30 6% 48%;
 
     /* Map to shadcn tokens */
     --background: var(--c-parchment);
@@ -58,7 +61,7 @@
   }
 
   body {
-    background: #1A1410;
+    background: #0F1F16;
     display: flex;
     justify-content: center;
     min-height: 100vh;
@@ -189,9 +192,10 @@
 }
 
 @keyframes float-bubble {
-  0% { transform: translateY(0); opacity: 0; }
-  20% { opacity: 0.4; }
-  100% { transform: translateY(-80px); opacity: 0; }
+  0% { transform: translateY(0); opacity: 0.3; }
+  20% { opacity: 0.7; }
+  80% { opacity: 0.55; }
+  100% { transform: translateY(-80px); opacity: 0.3; }
 }
 
 @keyframes scan-line {

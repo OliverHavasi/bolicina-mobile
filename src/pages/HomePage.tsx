@@ -53,7 +53,10 @@ const HomePage = () => {
       <section className="relative overflow-hidden" style={{ height: '100dvh', width: '100%' }}>
         <img src={heroImage} alt="Prosecco" className="absolute inset-0 w-full h-full object-cover" style={{ objectPosition: 'center top' }} />
         {/* Dark gradient overlay on bottom 40% */}
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(44,24,16,.1) 0%, rgba(44,24,16,.15) 40%, rgba(44,24,16,.75) 75%, rgba(44,24,16,.9) 100%)' }} />
+        {/* Top gradient for nav visibility */}
+        <div className="absolute inset-x-0 top-0 z-[1] pointer-events-none" style={{ height: 80, background: 'linear-gradient(to bottom, rgba(27,45,34,0.72) 0%, rgba(27,45,34,0) 100%)' }} />
+        {/* Bottom gradient for content legibility */}
+        <div className="absolute inset-x-0 bottom-0 z-[1] pointer-events-none" style={{ height: '45%', background: 'linear-gradient(to top, rgba(27,45,34,0.85) 0%, rgba(27,45,34,0.4) 50%, transparent 100%)' }} />
 
         {/* Top bar */}
         <div
@@ -128,8 +131,8 @@ const HomePage = () => {
 
         {/* Bouncing chevron */}
         <motion.div
-          className="absolute bottom-8 left-1/2 z-[3]"
-          style={{ transform: 'translateX(-50%)' }}
+          className="absolute z-[3]"
+          style={{ bottom: 90, left: '50%', transform: 'translateX(-50%)' }}
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 1.8, ease: 'easeInOut' }}
         >

@@ -62,7 +62,7 @@ const ProseccoDetailPage = () => {
             style={{
               width: `${3 + Math.random() * 3}px`,
               height: `${3 + Math.random() * 3}px`,
-              background: 'rgba(200,168,76,0.35)',
+              background: 'rgba(200,168,76,0.65)',
               left: `${30 + Math.random() * 40}%`,
               bottom: '20%',
               animation: `float-bubble ${2.5 + Math.random() * 1.5}s ease-out infinite`,

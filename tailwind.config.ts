@@ -53,6 +53,11 @@ export default {
         },
         // Bolicina mobile tokens
         selce: "hsl(var(--c-selce))",
+        forest: {
+          DEFAULT: "hsl(var(--c-forest))",
+          mid: "hsl(var(--c-forest-mid))",
+          light: "hsl(var(--c-forest-light))",
+        },
         cotto: {
           DEFAULT: "hsl(var(--c-cotto))",
           light: "hsl(var(--c-cotto-light))",
