@@ -41,14 +41,14 @@ const BottomTabBar = () => {
                 onClick={() => navigate(tab.href)}
                 className="press flex items-center justify-center relative -mt-5"
                 style={{
-                  background: '#3D2B1F',
-                  borderRadius: '16px',
+                  background: '#C8A84C',
+                  borderRadius: '50%',
                   width: 52,
                   height: 52,
-                  boxShadow: '0 -2px 12px rgba(61,43,31,0.35)',
+                  boxShadow: '0 -2px 12px rgba(200,168,76,0.35)',
                 }}
               >
-                <Icon size={24} strokeWidth={1.5} style={{ color: '#C8A84C' }} />
+                <Icon size={24} strokeWidth={1.5} style={{ color: '#1B2D22' }} />
               </button>
             </div>
           );
