@@ -42,7 +42,7 @@ const BottomTabBar = () => {
                 className="press flex items-center justify-center relative -mt-5"
                 style={{
                   background: '#C8A84C',
-                  borderRadius: '50%',
+                  borderRadius: '16px',
                   width: 52,
                   height: 52,
                   boxShadow: '0 -2px 12px rgba(200,168,76,0.35)',
