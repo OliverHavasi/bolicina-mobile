@@ -128,15 +128,15 @@ const HomePage = () => {
           </div>
         </div>
 
-        {/* Bouncing chevron */}
-        <motion.div
-          className="absolute bottom-8 left-1/2 z-[3]"
-          style={{ transform: 'translateX(-50%)' }}
-          animate={{ y: [0, 8, 0] }}
-          transition={{ repeat: Infinity, duration: 1.8, ease: 'easeInOut' }}
-        >
-          <ChevronDown size={28} strokeWidth={1.5} className="text-white/60" />
-        </motion.div>
+        {/* Bouncing chevron — centered below chips */}
+        <div className="absolute bottom-8 left-0 right-0 z-[3] flex justify-center">
+          <motion.div
+            animate={{ y: [0, 8, 0] }}
+            transition={{ repeat: Infinity, duration: 1.8, ease: 'easeInOut' }}
+          >
+            <ChevronDown size={28} strokeWidth={1.5} className="text-white/60" />
+          </motion.div>
+        </div>
       </section>
 
       {/* FEED SECTIONS */}

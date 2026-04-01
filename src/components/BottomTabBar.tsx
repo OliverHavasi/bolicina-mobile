@@ -64,11 +64,11 @@ const BottomTabBar = () => {
             <Icon
               size={22}
               strokeWidth={1.5}
-              style={{ color: isActive ? 'hsl(var(--c-oro))' : 'rgba(247,244,238,0.5)' }}
+              style={{ color: isActive ? 'hsl(var(--c-oro))' : '#2C1810' }}
             />
             <span
               className="font-body font-medium text-[10px] tracking-[0.06em] uppercase"
-              style={{ color: isActive ? 'hsl(var(--c-oro))' : 'rgba(247,244,238,0.5)' }}
+              style={{ color: isActive ? 'hsl(var(--c-oro))' : '#2C1810' }}
             >
               {tab.label}
             </span>
