@@ -4,9 +4,12 @@
 
 @layer base {
   :root {
-    --c-selce: 16 45% 12%;
-    --c-cotto: 16 32% 24%;
-    --c-cotto-light: 16 32% 33%;
+    --c-selce: 150 24% 15%;
+    --c-cotto: 150 24% 24%;
+    --c-cotto-light: 150 22% 33%;
+    --c-forest: 150 24% 15%;
+    --c-forest-mid: 150 24% 24%;
+    --c-forest-light: 150 24% 33%;
     --c-oro: 42 52% 54%;
     --c-oro-light: 42 55% 68%;
     --c-oro-deep: 42 52% 44%;
