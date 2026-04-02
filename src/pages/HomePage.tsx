@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import heroImage from '@/assets/hero-prosecco.jpg';
 import bolicinaLogo from '@/assets/bolicina-logo.png';
+import boliSLogo from '@/assets/boli-s-logo.png';
 import regionValdobbiadene from '@/assets/region-valdobbiadene.jpg';
 import regionConogliano from '@/assets/region-conegliano.jpg';
 import regionCartizze from '@/assets/region-cartizze.jpg';
@@ -67,13 +68,8 @@ const HomePage = () => {
             paddingTop: 'env(safe-area-inset-top, 0px)',
           }}
         >
-          <div className="flex items-center gap-1.5">
-            <svg width="14" height="14" viewBox="0 0 16 16" className="text-oro">
-              <circle cx="4" cy="12" r="2.5" fill="currentColor" opacity="0.6" />
-              <circle cx="9" cy="8" r="2" fill="currentColor" opacity="0.8" />
-              <circle cx="12" cy="4" r="1.5" fill="currentColor" />
-            </svg>
-            <span className="font-heading font-bold italic text-[22px] text-white">Bolicina</span>
+          <div className="flex items-center">
+            <img src={boliSLogo} alt="Bolicina" className="h-[22px] w-auto" />
           </div>
           <div className="flex items-center gap-2">
             <LanguageSwitcher />
