@@ -84,6 +84,8 @@ const HomePage = () => {
 
         {/* Hero content — positioned in lower portion */}
         <div className="absolute bottom-0 left-0 right-0 z-[2] flex flex-col items-center" style={{ padding: '0 24px 100px' }}>
+          {/* Centered Logo */}
+          <img src={bolicinaLogo} alt="Bolicina" className="w-[280px] mb-6" style={{ filter: 'drop-shadow(0 4px 24px rgba(0,0,0,0.35))' }} />
           {/* Tagline */}
           <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 500, fontSize: 10, letterSpacing: '.14em', textTransform: 'uppercase', color: 'rgba(200,168,76,0.95)', display: 'block', marginBottom: 10, textAlign: 'center' }}>
             {t('tagline')}
