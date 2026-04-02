@@ -2,6 +2,7 @@ import { Search, Bell, ChevronDown } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import heroImage from '@/assets/hero-prosecco.jpg';
+import bolicinaLogo from '@/assets/bolicina-logo.png';
 import regionValdobbiadene from '@/assets/region-valdobbiadene.jpg';
 import regionConogliano from '@/assets/region-conegliano.jpg';
 import regionCartizze from '@/assets/region-cartizze.jpg';
