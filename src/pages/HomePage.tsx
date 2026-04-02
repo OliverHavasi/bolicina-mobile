@@ -52,6 +52,7 @@ const HomePage = () => {
       {/* HERO — full viewport */}
       <section className="relative overflow-hidden" style={{ height: '100dvh', width: '100%' }}>
         <img src={heroImage} alt="Prosecco" className="absolute inset-0 w-full h-full object-cover scale-110 -translate-y-[25px]" />
+        <div className="absolute inset-0" style={{ background: 'rgba(43, 78, 55, 0.10)' }} />
         {/* Top scrim for icon legibility */}
         <div className="absolute inset-x-0 top-0 z-[1]" style={{ height: 100, background: 'linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, transparent 100%)' }} />
         {/* Bottom scrim — neutral black */}
